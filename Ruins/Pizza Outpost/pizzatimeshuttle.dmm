@@ -1,0 +1,222 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/space/basic,
+/area/template_noop)
+"b" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"e" = (
+/obj/structure/closet/crate/freezer,
+/obj/structure/closet/crate/freezer,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"f" = (
+/obj/machinery/door/airlock/external,
+/obj/docking_port/mobile{
+	callTime = 250;
+	dir = 2;
+	dwidth = 3;
+	height = 5;
+	id = "pizza_shuttle";
+	launch_status = 0;
+	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0);
+	name = "Pizza Delivery Shuttle";
+	port_direction = 4;
+	preferred_direction = 8;
+	width = 10
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"i" = (
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"l" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"p" = (
+/obj/item/radio/intercom{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_y = -27
+	},
+/obj/structure/table/reinforced,
+/obj/item/clothing/head/soft/red,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"r" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"s" = (
+/obj/structure/closet/crate/freezer,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"u" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"v" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"y" = (
+/obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"z" = (
+/obj/machinery/computer/shuttle/white_ship{
+	dir = 8;
+	name = "Pizza Delivery Shuttle Control Console";
+	possible_destinations = "pizza_home;pizza_custom;whiteship_home";
+	shuttleId = "pizza_shuttle"
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"K" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
+	dir = 8;
+	jumpto_ports = list("pizza_home" = 1);
+	name = "Pizza Delivery Shuttle Navigation Computer";
+	shuttleId = "pizza_shuttle";
+	shuttlePortId = "pizza_custom";
+	view_range = 14;
+	x_offset = 0;
+	y_offset = 0
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"M" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"N" = (
+/turf/open/floor/mineral/titanium,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"Q" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle{
+	name = "Pizza Delivery Shuttle"
+	})
+"U" = (
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle{
+	dynamic_lighting = 1;
+	name = "Pizza Delivery Shuttle"
+	})
+
+(1,1,1) = {"
+a
+l
+l
+l
+a
+"}
+(2,1,1) = {"
+M
+u
+u
+u
+M
+"}
+(3,1,1) = {"
+M
+M
+M
+M
+M
+"}
+(4,1,1) = {"
+M
+e
+s
+s
+M
+"}
+(5,1,1) = {"
+M
+N
+N
+N
+M
+"}
+(6,1,1) = {"
+M
+r
+N
+v
+M
+"}
+(7,1,1) = {"
+f
+U
+N
+i
+y
+"}
+(8,1,1) = {"
+M
+i
+Q
+i
+M
+"}
+(9,1,1) = {"
+M
+K
+z
+p
+M
+"}
+(10,1,1) = {"
+M
+b
+b
+b
+M
+"}
