@@ -9140,7 +9140,8 @@
 	id = "datboidetective";
 	name = "Privacy Shutters";
 	pixel_x = 2;
-	pixel_y = 26
+	pixel_y = 26;
+	req_access_txt = "4"
 	},
 /obj/machinery/light_switch{
 	pixel_x = -8;
@@ -13184,10 +13185,6 @@
 /turf/closed/wall,
 /area/service/kitchen)
 "aRO" = (
-/obj/machinery/light/small{
-	brightness = 3;
-	dir = 8
-	},
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance{
 	name = "Kitchen Maintenance";
@@ -14381,7 +14378,6 @@
 /turf/open/floor/iron,
 /area/cargo/sorting)
 "aWu" = (
-/obj/structure/table/reinforced,
 /obj/machinery/computer/cargo,
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -16239,6 +16235,9 @@
 "bdn" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/central)
@@ -24531,6 +24530,10 @@
 /obj/machinery/door/firedoor/heavy,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/obj/machinery/door/airlock/research{
+	name = "Toxins Launch Room";
+	req_access_txt = "8"
+	},
 /turf/open/floor/iron,
 /area/science/mixing)
 "bGB" = (
@@ -28566,8 +28569,14 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/obj/machinery/airalarm/directional/west,
 /obj/structure/cable,
+/obj/machinery/computer/security/telescreen{
+	desc = "Used for watching the engine containment area.";
+	dir = 4;
+	name = "Engine Monitor";
+	network = list("engine");
+	pixel_x = -32
+	},
 /turf/open/floor/iron,
 /area/security/checkpoint/engineering)
 "bUW" = (
@@ -28935,7 +28944,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/engineering/break_room)
 "bVV" = (
@@ -29139,13 +29150,6 @@
 /area/engineering/engine_smes)
 "bWz" = (
 /obj/structure/table,
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching the engine containment area.";
-	dir = 8;
-	name = "Engine Monitor";
-	network = list("engine");
-	pixel_x = 32
-	},
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/iron/fifty,
@@ -29172,13 +29176,6 @@
 /area/engineering/engine_smes)
 "bWA" = (
 /obj/structure/filingcabinet,
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching the engine containment area.";
-	dir = 4;
-	name = "Engine Monitor";
-	network = list("engine");
-	pixel_x = -32
-	},
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -29186,6 +29183,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron,
 /area/security/checkpoint/engineering)
 "bWB" = (
@@ -29985,6 +29983,7 @@
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/north,
+/obj/item/pipe_dispenser,
 /turf/open/floor/iron,
 /area/engineering/storage_shared)
 "bZE" = (
@@ -36594,6 +36593,8 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
+/obj/item/clothing/glasses/science,
+/obj/item/clothing/glasses/hud/health,
 /turf/open/floor/iron/white,
 /area/medical/virology)
 "esz" = (
@@ -36868,10 +36869,11 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/department/engine)
 "eHq" = (
-/obj/effect/landmark/start/hangover,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/iron,
-/area/hallway/primary/central)
+/area/commons/fitness/recreation)
 "eHY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -37718,10 +37720,10 @@
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
 "frC" = (
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /obj/machinery/atmospherics/pipe/bridge_pipe/green/visible{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/bridge_pipe/cyan/visible,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/atmos)
@@ -37947,18 +37949,13 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/disposal/incinerator)
 "fEj" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/purple{
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
 	},
-/obj/machinery/door/airlock/research{
-	name = "Toxins Launch Room";
-	req_access_txt = "8"
-	},
-/turf/open/floor/iron,
-/area/science/mixing)
+/obj/machinery/atmospherics/pipe/bridge_pipe/cyan/visible,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/engineering/atmos)
 "fEo" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -39871,7 +39868,7 @@
 "hDG" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Auxiliary Base Construction";
-	req_one_access_txt = "32;47;48"
+	req_access_txt = "72"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -39938,6 +39935,17 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"hGN" = (
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/machinery/power/rad_collector/anchored,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/camera{
+	c_tag = "Engineering Supermatter Chamber";
+	network = list("ss13","engine")
+	},
+/turf/open/floor/engine,
+/area/engineering/supermatter)
 "hGQ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
@@ -40533,10 +40541,11 @@
 /turf/closed/wall,
 /area/maintenance/department/engine)
 "inG" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/effect/landmark/start/hangover,
-/turf/open/floor/iron,
-/area/hallway/primary/central)
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/engineering/atmos)
 "ioj" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -42390,9 +42399,6 @@
 	},
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/turf_decal/delivery,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
 /obj/machinery/newscaster/directional/east,
 /turf/open/floor/iron,
 /area/engineering/break_room)
@@ -43519,6 +43525,18 @@
 	},
 /turf/open/floor/iron,
 /area/service/hydroponics)
+"lLL" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/displaycase/forsale/kitchen,
+/turf/open/floor/iron/dark,
+/area/service/bar)
 "lLS" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -44152,6 +44170,7 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet/directional/east,
+/obj/structure/closet/secure_closet/medical1,
 /turf/open/floor/iron/white,
 /area/medical/virology)
 "myc" = (
@@ -45486,7 +45505,6 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "nSc" = (
@@ -47634,17 +47652,17 @@
 /turf/open/floor/iron,
 /area/cargo/warehouse)
 "pVr" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/displaycase/forsale/kitchen,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
-/area/service/bar)
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/maintenance/department/crew_quarters/bar)
 "pVD" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -49982,8 +50000,7 @@
 "scp" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Auxiliary Base Maintenance";
-	req_access_txt = "12";
-	req_one_access_txt = "32;47;48"
+	req_access_txt = "72"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -52076,6 +52093,13 @@
 "uco" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
+/obj/machinery/computer/security/telescreen{
+	desc = "Used for watching the engine containment area.";
+	dir = 1;
+	name = "Engine Monitor";
+	network = list("engine");
+	pixel_y = -32
+	},
 /turf/open/floor/iron,
 /area/engineering/main)
 "ucA" = (
@@ -53098,6 +53122,13 @@
 /obj/item/pen/fountain,
 /obj/item/stamp/law,
 /obj/machinery/newscaster/directional/east,
+/obj/machinery/button/door{
+	id = "lawyer_shutters";
+	name = "Privacy Shutters";
+	pixel_x = 2;
+	pixel_y = -26;
+	req_access_txt = "38"
+	},
 /turf/open/floor/carpet,
 /area/service/lawoffice)
 "uVB" = (
@@ -84797,7 +84828,7 @@ aZW
 wxO
 pWT
 bcc
-inG
+eZv
 bem
 aDm
 aJN
@@ -85056,7 +85087,7 @@ bbe
 bcd
 jcT
 ttN
-jcT
+uYW
 aKa
 tWc
 xPQ
@@ -85299,7 +85330,7 @@ aLI
 aNg
 aKT
 aPB
-wbR
+pVr
 afu
 pMM
 aTZ
@@ -87684,7 +87715,7 @@ tlN
 fsA
 sWj
 tZU
-wXy
+hGN
 wXy
 wXy
 uRk
@@ -87885,9 +87916,9 @@ liQ
 bex
 bfr
 awg
-eHq
+eZv
 xPQ
-piM
+jcT
 bjg
 bki
 ufo
@@ -88142,9 +88173,9 @@ liQ
 bnb
 ajX
 aPT
-jcT
+oGZ
 xPQ
-jcT
+piM
 cQN
 mKE
 uKD
@@ -88647,7 +88678,7 @@ aUg
 tEB
 tEB
 beB
-aYg
+lLL
 qmm
 liQ
 lGq
@@ -89675,7 +89706,7 @@ aPE
 cpb
 wzu
 beB
-pVr
+aYg
 aZd
 liQ
 lTf
@@ -95883,15 +95914,15 @@ vzg
 xgG
 wWR
 pFG
-gQj
+fEj
 pFG
 wWR
 pFG
-gQj
+fEj
 bUz
 wWR
-pFG
-gQj
+inG
+fEj
 eGT
 fBp
 fBp
@@ -96407,7 +96438,7 @@ bLb
 bMi
 mkf
 bJP
-sQP
+bYw
 vLx
 apV
 gMk
@@ -96664,7 +96695,7 @@ bVn
 bWe
 bWT
 bJP
-sQP
+bYw
 ape
 yby
 rGD
@@ -96921,7 +96952,7 @@ bVo
 bWf
 bVo
 bJP
-sQP
+bYw
 apv
 apV
 pxE
@@ -97178,7 +97209,7 @@ bVo
 bWg
 bVo
 bJP
-sQP
+bYw
 tvr
 apV
 pxE
@@ -97435,7 +97466,7 @@ bJP
 bJP
 bJP
 bJP
-sQP
+bYw
 bYw
 aqm
 bZU
@@ -98126,7 +98157,7 @@ aiS
 sFK
 atn
 low
-ayu
+eHq
 wKP
 wRG
 awz
@@ -100241,7 +100272,7 @@ mSc
 sci
 jiD
 glf
-fEj
+bFr
 qtA
 khk
 bIN
