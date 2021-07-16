@@ -16779,7 +16779,13 @@
 /area/cargo/miningdock)
 "bfC" = (
 /obj/structure/table,
-/obj/item/stack/sheet/cardboard,
+/obj/item/clothing/gloves/cargo_gauntlet{
+	pixel_y = -7
+	},
+/obj/item/clothing/gloves/cargo_gauntlet,
+/obj/item/clothing/gloves/cargo_gauntlet{
+	pixel_y = 7
+	},
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
