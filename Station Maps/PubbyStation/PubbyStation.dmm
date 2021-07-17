@@ -8326,6 +8326,10 @@
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/east,
+/obj/machinery/camera{
+	c_tag = "HFR Room";
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "azu" = (
@@ -9041,13 +9045,12 @@
 /turf/open/floor/iron/grimy,
 /area/commons/dorms)
 "aBR" = (
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/machinery/camera{
-	c_tag = "HFR Room";
-	dir = 8
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
@@ -19057,8 +19060,7 @@
 "bou" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Morgue";
-	req_access = null;
-	req_access_txt = "6;5"
+	req_one_access_txt = "6;5"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -23331,7 +23333,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/medical/glass{
 	name = "Pharmacy";
-	req_access_txt = "5; 69"
+	req_one_access_txt = "5; 69"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
@@ -39935,12 +39937,9 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/department/engine)
 "hCg" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
-/turf/open/floor/iron,
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers,
+/turf/open/floor/plating,
 /area/engineering/atmos)
 "hCj" = (
 /obj/structure/cable,
@@ -40996,6 +40995,7 @@
 	},
 /obj/structure/table/glass,
 /obj/item/stack/medical/gauze,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/medical/medbay/central)
 "iIB" = (
@@ -42586,6 +42586,7 @@
 	dir = 1
 	},
 /obj/structure/disposalpipe/trunk,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/medical/medbay/central)
 "kDY" = (
@@ -44454,12 +44455,25 @@
 /turf/open/space,
 /area/space/nearstation)
 "mDN" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
+/obj/item/reagent_containers/glass/bottle/epinephrine,
+/obj/item/reagent_containers/glass/bottle/multiver{
+	pixel_x = 6
+	},
+/obj/item/reagent_containers/syringe,
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/engineering/atmos)
+/area/medical/medbay/central)
 "mDW" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -44796,8 +44810,8 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 4
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
@@ -49343,9 +49357,6 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "rsK" = (
@@ -50561,9 +50572,11 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "sxs" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers,
-/turf/open/floor/plating,
+/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/atmos_waste{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
 /area/engineering/atmos)
 "sxT" = (
 /obj/structure/cable,
@@ -51161,11 +51174,14 @@
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
 "taw" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/atmos_waste{
-	dir = 1
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
 	},
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/engineering/atmos)
 "taA" = (
 /obj/structure/chair/office/light,
@@ -51204,8 +51220,7 @@
 "tbS" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Morgue";
-	req_access = null;
-	req_access_txt = "6;5"
+	req_one_access_txt = "6;5"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -53244,8 +53259,7 @@
 "uPG" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Morgue";
-	req_access = null;
-	req_access_txt = "6;5"
+	req_one_access_txt = "6;5"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -55934,9 +55948,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "xdc" = (
@@ -78089,8 +78101,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-pDW
+fon
+aht
 aht
 aem
 czK
@@ -80662,16 +80674,16 @@ aaa
 aaa
 aaa
 aaa
-pDW
-pDW
-aht
-aht
-aht
-aht
-aht
-aht
-aht
 aaa
+pDW
+aht
+aht
+aht
+aht
+aht
+aht
+aht
+fon
 aaa
 aaa
 aaa
@@ -80920,7 +80932,7 @@ aaa
 aaa
 aaa
 aaa
-pDW
+aaa
 pDW
 pDW
 pDW
@@ -83314,7 +83326,7 @@ bjc
 bjR
 blc
 tgT
-bny
+mDN
 boB
 bpF
 xUU
@@ -93898,8 +93910,8 @@ auI
 auI
 auI
 auI
-auI
 fBp
+aaa
 aaa
 aaa
 pDW
@@ -94154,9 +94166,9 @@ awr
 ayY
 ayY
 ayY
-ayY
-rsy
+mZO
 auI
+aaa
 aaa
 aaa
 aaa
@@ -94411,9 +94423,9 @@ cqG
 ayc
 azi
 ayC
-bWO
-mDN
+rsy
 auI
+aaa
 aaa
 aaa
 aaa
@@ -94668,9 +94680,9 @@ cqG
 ayy
 azm
 azN
-bWO
-mDN
+rsy
 auI
+aaa
 aaa
 aaa
 aaa
@@ -94925,9 +94937,9 @@ cqG
 ayC
 azn
 ayc
-bWO
-mDN
+rsy
 auI
+aaa
 aaa
 aaa
 aaa
@@ -95182,9 +95194,9 @@ axl
 bWO
 bWO
 bWO
-bWO
-mZO
+taw
 auI
+aaa
 aaa
 aaa
 aaa
@@ -95439,10 +95451,10 @@ tlU
 ayG
 bWO
 bWO
-bWO
+xca
 hCg
 sxs
-taw
+aaa
 aaa
 aaa
 aaa
@@ -95696,9 +95708,9 @@ cqG
 bWO
 bWO
 bWO
-bWO
-mDN
+rsy
 auI
+aaa
 aaa
 aaa
 aaa
@@ -95954,8 +95966,8 @@ ayJ
 azt
 aAu
 aBR
-xca
 auI
+aaa
 aaa
 aaa
 aaa
@@ -96212,7 +96224,7 @@ fBp
 fBp
 fBp
 fBp
-fBp
+aaa
 aaa
 aaa
 aaa
