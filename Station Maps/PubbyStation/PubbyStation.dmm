@@ -5089,7 +5089,6 @@
 	dir = 4
 	},
 /obj/structure/table,
-/obj/item/stack/sheet/plasteel/fifty,
 /obj/item/stack/sheet/iron/fifty{
 	pixel_x = 2;
 	pixel_y = 2
@@ -52362,14 +52361,9 @@
 /area/service/chapel/main/monastery)
 "udE" = (
 /obj/structure/table,
-/obj/item/circuitboard/machine/HFR_core,
-/obj/item/circuitboard/machine/HFR_fuel_input,
-/obj/item/circuitboard/machine/HFR_interface,
-/obj/item/circuitboard/machine/HFR_moderator_input,
-/obj/item/circuitboard/machine/HFR_waste_output,
 /obj/item/stack/cable_coil{
-	pixel_x = -3;
-	pixel_y = 3
+	pixel_x = 3;
+	pixel_y = -7
 	},
 /turf/open/floor/iron/dark,
 /area/maintenance/disposal/incinerator)
@@ -57068,16 +57062,12 @@
 /area/medical/virology)
 "yby" = (
 /obj/structure/table,
-/obj/item/circuitboard/machine/HFR_corner,
-/obj/item/circuitboard/machine/HFR_corner,
-/obj/item/circuitboard/machine/HFR_corner,
-/obj/item/circuitboard/machine/HFR_corner,
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
+	dir = 10
+	},
 /obj/item/stack/cable_coil{
 	pixel_x = 3;
 	pixel_y = -7
-	},
-/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
-	dir = 10
 	},
 /turf/open/floor/iron/dark,
 /area/maintenance/disposal/incinerator)
