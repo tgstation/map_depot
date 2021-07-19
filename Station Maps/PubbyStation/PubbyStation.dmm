@@ -16618,7 +16618,6 @@
 	name = "bar shutters"
 	},
 /obj/effect/turf_decal/bot,
-/obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
 /area/service/bar/atrium)
 "bft" = (
@@ -16898,6 +16897,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Bar"
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/service/bar/atrium)
 "bgu" = (
@@ -16909,6 +16909,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/service/bar/atrium)
 "bgv" = (
@@ -17355,7 +17356,6 @@
 	name = "AI Core";
 	req_access_txt = "65"
 	},
-/obj/machinery/door/firedoor,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/ai_monitored/turret_protected/ai)
@@ -30847,11 +30847,10 @@
 /turf/closed/wall/mineral/iron,
 /area/service/chapel/main/monastery)
 "cfr" = (
-/obj/structure/transit_tube_pod,
-/obj/structure/transit_tube/station/reverse{
+/obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/line{
+/obj/structure/transit_tube/station/dispenser{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -31924,10 +31923,10 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "clP" = (
-/obj/structure/transit_tube/station/reverse/flipped{
-	dir = 8
-	},
 /obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/transit_tube/station/dispenser{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -39816,12 +39815,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
-"hHu" = (
-/obj/item/bedsheet,
-/obj/structure/bed,
-/obj/effect/spawner/lootdrop/prison_contraband,
-/turf/open/floor/iron,
-/area/security/prison/safe)
 "hHG" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
@@ -40960,6 +40953,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /turf/open/floor/plating,
 /area/engineering/atmos)
+"iRa" = (
+/obj/item/bedsheet,
+/obj/structure/bed,
+/obj/effect/spawner/lootdrop/prison_contraband,
+/turf/open/floor/iron,
+/area/security/prison/safe)
 "iRs" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -40987,14 +40986,6 @@
 /obj/effect/turf_decal/trimline/yellow/line,
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
-"iTR" = (
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 1
-	},
-/obj/structure/table/wood/fancy,
-/obj/effect/spawner/lootdrop/prison_contraband,
-/turf/open/floor/iron/dark,
-/area/security/prison)
 "iUX" = (
 /turf/closed/wall/r_wall,
 /area/science/mixing/chamber)
@@ -50362,7 +50353,6 @@
 	name = "bar shutters"
 	},
 /obj/effect/turf_decal/bot,
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
@@ -51902,6 +51892,14 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
+"tCe" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/obj/structure/table/wood/fancy,
+/obj/effect/spawner/lootdrop/prison_contraband,
+/turf/open/floor/iron/dark,
+/area/security/prison)
 "tCi" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/disposal/bin,
@@ -76433,7 +76431,7 @@ aaa
 aaa
 aaa
 adE
-iTR
+tCe
 aij
 lGp
 aij
@@ -79537,7 +79535,7 @@ agd
 agp
 ahp
 agM
-hHu
+iRa
 ahC
 ahL
 ahL
