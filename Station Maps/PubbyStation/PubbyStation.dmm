@@ -2014,6 +2014,7 @@
 "agX" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
+/obj/effect/spawner/lootdrop/prison_contraband,
 /turf/open/floor/iron,
 /area/security/prison/safe)
 "agZ" = (
@@ -35724,6 +35725,8 @@
 /obj/structure/sink{
 	pixel_y = 29
 	},
+/obj/structure/closet/crate/trashcart/laundry,
+/obj/effect/spawner/lootdrop/prison_contraband,
 /turf/open/floor/iron,
 /area/security/prison/safe)
 "dHc" = (
@@ -36947,6 +36950,8 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
 	},
+/obj/structure/closet/crate/trashcart,
+/obj/effect/spawner/lootdrop/prison_contraband,
 /turf/open/floor/iron,
 /area/security/prison/safe)
 "eTZ" = (
@@ -39811,6 +39816,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
+"hHu" = (
+/obj/item/bedsheet,
+/obj/structure/bed,
+/obj/effect/spawner/lootdrop/prison_contraband,
+/turf/open/floor/iron,
+/area/security/prison/safe)
 "hHG" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
@@ -40976,6 +40987,14 @@
 /obj/effect/turf_decal/trimline/yellow/line,
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
+"iTR" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/obj/structure/table/wood/fancy,
+/obj/effect/spawner/lootdrop/prison_contraband,
+/turf/open/floor/iron/dark,
+/area/security/prison)
 "iUX" = (
 /turf/closed/wall/r_wall,
 /area/science/mixing/chamber)
@@ -41756,6 +41775,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/red,
+/obj/effect/spawner/lootdrop/prison_contraband,
 /turf/open/floor/iron/white,
 /area/security/prison)
 "jUF" = (
@@ -53418,6 +53438,7 @@
 /obj/structure/toilet{
 	dir = 1
 	},
+/obj/effect/spawner/lootdrop/prison_contraband,
 /turf/open/floor/iron/freezer,
 /area/security/prison/toilet)
 "uUQ" = (
@@ -75397,7 +75418,7 @@ aaa
 aOn
 fzz
 fUJ
-lvq
+aOn
 aOn
 aOn
 afU
@@ -76412,7 +76433,7 @@ aaa
 aaa
 aaa
 adE
-aeT
+iTR
 aij
 lGp
 aij
@@ -79514,9 +79535,9 @@ nud
 aiF
 agd
 agp
-ahC
+ahp
 agM
-fRl
+hHu
 ahC
 ahL
 ahL
