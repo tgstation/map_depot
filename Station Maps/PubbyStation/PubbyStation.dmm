@@ -34818,13 +34818,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/maintenance/disposal)
-"cMZ" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/atmos_waste{
-	dir = 1
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/engineering/atmos)
 "cOv" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
@@ -36264,6 +36257,13 @@
 	icon_state = "wood-broken"
 	},
 /area/service/abandoned_gambling_den)
+"eru" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/atmos_waste{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/engineering/atmos)
 "ery" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -38387,6 +38387,10 @@
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/machinery/shower{
+	dir = 4;
+	name = "emergency shower"
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
@@ -95828,7 +95832,7 @@ bWO
 bWO
 wMm
 xdQ
-cMZ
+eru
 aaa
 aaa
 aaa
