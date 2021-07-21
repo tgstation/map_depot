@@ -7744,6 +7744,8 @@
 /obj/machinery/recharger,
 /obj/machinery/requests_console/directional/north{
 	announcementConsole = 1;
+	department = "Captain's Desk";
+	departmentType = 5;
 	name = "Captain's Requests Console"
 	},
 /turf/open/floor/carpet,
@@ -15996,12 +15998,11 @@
 /obj/item/cartridge/quartermaster,
 /obj/item/coin/silver,
 /obj/item/stamp/qm,
-/obj/machinery/requests_console/directional/east{
+/obj/machinery/requests_console/directional/west{
 	announcementConsole = 1;
 	department = "Quartermaster's Desk";
 	departmentType = 5;
-	name = "Quartermaster's Requests Console";
-	pixel_x = -30
+	name = "Quartermaster's Requests Console"
 	},
 /turf/open/floor/wood,
 /area/cargo/qm)
