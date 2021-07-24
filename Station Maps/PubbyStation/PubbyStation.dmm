@@ -24477,6 +24477,7 @@
 	dir = 8;
 	layer = 2.9
 	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2,
 /turf/open/floor/plating/airless,
 /area/service/chapel/dock)
 "bGH" = (
@@ -24965,6 +24966,9 @@
 /area/service/chapel/dock)
 "bIW" = (
 /obj/machinery/computer/shuttle/monastery_shuttle,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/service/chapel/dock)
 "bIX" = (
@@ -35763,6 +35767,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"dPk" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/service/chapel/dock)
 "dPO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -35871,12 +35881,6 @@
 "dUh" = (
 /obj/effect/turf_decal/sand,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
 /turf/open/floor/iron,
 /area/service/chapel/asteroid/monastery)
 "dUZ" = (
@@ -41387,6 +41391,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
+"jAx" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/machinery/door/airlock/grunge{
+	name = "Chapel"
+	},
+/turf/open/floor/iron/dark,
+/area/service/chapel/main/monastery)
 "jAy" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -41744,12 +41756,6 @@
 "jXz" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
 /turf/open/floor/iron/dark,
 /area/service/chapel/dock)
 "jXA" = (
@@ -45768,15 +45774,9 @@
 /turf/open/floor/iron,
 /area/cargo/sorting)
 "odF" = (
+/obj/structure/cable,
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel"
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
 	},
 /turf/open/floor/iron/dark,
 /area/service/chapel/dock)
@@ -48136,6 +48136,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/rd)
+"qny" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/service/chapel/dock)
 "qnJ" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Medbay Security Post";
@@ -56442,6 +56449,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/science/mixing)
+"xrO" = (
+/obj/structure/cable,
+/turf/open/floor/carpet,
+/area/service/chapel/main/monastery)
 "xsr" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -72185,9 +72196,9 @@ aaa
 aaa
 aaa
 bGG
-bHL
+qny
 bIW
-bMu
+tCV
 xlh
 eAP
 hCj
@@ -72202,12 +72213,12 @@ dUh
 dUh
 dUh
 dUh
-vsq
-yiF
-wEz
-wEz
-wEz
-wEz
+jAx
+qFp
+xrO
+xrO
+xrO
+xrO
 wEz
 wEz
 cbO
@@ -72444,7 +72455,7 @@ aaa
 bGH
 bHL
 bIX
-bMu
+dPk
 xlh
 dQg
 bNv
