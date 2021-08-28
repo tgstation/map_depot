@@ -22275,9 +22275,9 @@
 /turf/open/floor/iron/dark,
 /area/science/explab)
 "bzd" = (
-/obj/structure/table,
-/obj/item/stock_parts/cell/high,
-/obj/machinery/cell_charger,
+/obj/item/integrated_circuit/loaded/hello_world,
+/obj/item/integrated_circuit/loaded/speech_relay,
+/obj/structure/rack,
 /turf/open/floor/iron/dark,
 /area/science/explab)
 "bzg" = (
@@ -22300,6 +22300,7 @@
 	dir = 1;
 	network = list("ss13","rd")
 	},
+/obj/machinery/module_duplicator,
 /turf/open/floor/iron/dark,
 /area/science/explab)
 "bzi" = (
@@ -22308,8 +22309,8 @@
 /area/science/explab)
 "bzj" = (
 /obj/structure/table,
-/obj/item/paper_bin,
-/obj/item/pen,
+/obj/item/stock_parts/cell/high,
+/obj/machinery/cell_charger,
 /turf/open/floor/iron/dark,
 /area/science/explab)
 "bzk" = (
@@ -52020,9 +52021,9 @@
 /turf/open/floor/iron,
 /area/cargo/storage)
 "tAK" = (
-/obj/structure/rack,
-/obj/item/integrated_circuit/loaded/speech_relay,
-/obj/item/integrated_circuit/loaded/hello_world,
+/obj/machinery/modular_computer/console/preset/civilian{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/science/explab)
 "tBb" = (
