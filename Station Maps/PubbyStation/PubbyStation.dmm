@@ -9478,12 +9478,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai_upload)
-"aDL" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/circuit,
-/area/ai_monitored/turret_protected/ai_upload)
 "aDM" = (
 /obj/machinery/camera/motion{
 	c_tag = "AI Upload Center";
@@ -9491,12 +9485,6 @@
 	network = list("aiupload")
 	},
 /obj/machinery/holopad/secure,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
 /obj/machinery/power/apc/auto_name/south,
 /obj/structure/cable,
 /turf/open/floor/circuit,
@@ -31600,7 +31588,7 @@
 	width = 35
 	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/space)
 "cjC" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_y = 32
@@ -31977,7 +31965,7 @@
 "clU" = (
 /obj/item/wrench,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "clV" = (
@@ -31987,8 +31975,8 @@
 /area/tcommsat/computer)
 "clY" = (
 /obj/item/beacon,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "cma" = (
@@ -31996,8 +31984,8 @@
 /turf/open/floor/iron,
 /area/command/heads_quarters/ce)
 "cmb" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "cmc" = (
@@ -32049,8 +32037,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "cmj" = (
@@ -32065,8 +32053,8 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "cml" = (
@@ -34937,8 +34925,8 @@
 	name = "Permabrig Cell 2";
 	req_access_txt = "2"
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "perma-cell-2-passthrough"
 	},
 /turf/open/floor/iron,
 /area/security/prison/safe)
@@ -35459,8 +35447,8 @@
 /turf/open/floor/iron,
 /area/hallway/primary/aft)
 "dpV" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "dqw" = (
@@ -36320,12 +36308,14 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/poddoor/preopen{
 	id = "permashut3"
 	},
 /obj/machinery/door/airlock/glass{
 	name = "Cell 3"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "perma-cell-3-passthrough"
 	},
 /turf/open/floor/iron,
 /area/security/prison/safe)
@@ -36783,8 +36773,8 @@
 	name = "Permabrig Cell 1";
 	req_access_txt = "2"
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "perma-cell-1-passthrough"
 	},
 /turf/open/floor/iron,
 /area/security/prison/safe)
@@ -36837,12 +36827,14 @@
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/poddoor/preopen{
 	id = "permashut2"
 	},
 /obj/machinery/door/airlock/glass{
 	name = "cell 2"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "perma-cell-2-passthrough"
 	},
 /turf/open/floor/iron,
 /area/security/prison/safe)
@@ -37165,9 +37157,9 @@
 /turf/open/floor/iron,
 /area/maintenance/department/engine)
 "eXa" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "eXo" = (
@@ -38628,8 +38620,8 @@
 /area/science/mixing)
 "gmH" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "gmO" = (
@@ -43984,8 +43976,11 @@
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "lTW" = (
-/turf/closed/wall/r_wall,
-/area/space/nearstation)
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai_upload)
 "lUC" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -44492,9 +44487,11 @@
 /turf/closed/wall,
 /area/maintenance/department/security/brig)
 "mtB" = (
-/obj/structure/sign/warning/biohazard,
-/turf/closed/wall/r_wall,
-/area/space)
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai_upload)
 "mtC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -45890,8 +45887,8 @@
 	},
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/north,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "nNk" = (
@@ -47069,8 +47066,8 @@
 	name = "Permabrig Cell 3";
 	req_access_txt = "2"
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "perma-cell-3-passthrough"
 	},
 /turf/open/floor/iron,
 /area/security/prison/safe)
@@ -49352,7 +49349,7 @@
 	dir = 4
 	},
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "raF" = (
 /obj/machinery/power/apc/auto_name/east,
 /obj/structure/cable,
@@ -51343,9 +51340,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/command/bridge)
-"sQP" = (
-/turf/closed/wall/r_wall,
-/area/space)
 "sSj" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/item/radio/intercom/directional/south,
@@ -53362,12 +53356,14 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/poddoor/preopen{
 	id = "permashut1"
 	},
 /obj/machinery/door/airlock/glass{
 	name = "Cell 1"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "perma-cell-1-passthrough"
 	},
 /turf/open/floor/iron,
 /area/security/prison/safe)
@@ -53421,8 +53417,8 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "uzr" = (
@@ -55960,9 +55956,6 @@
 /turf/open/floor/carpet,
 /area/service/chapel/monastery)
 "wEJ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai_upload)
 "wFr" = (
@@ -56457,7 +56450,7 @@
 /area/engineering/atmos)
 "wYr" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "wYu" = (
@@ -85026,7 +85019,7 @@ aaa
 aaa
 aaa
 aaa
-afJ
+cFB
 aaa
 aaa
 abI
@@ -88392,8 +88385,8 @@ ayb
 juf
 aAB
 aLv
-aCK
-aDL
+lTW
+wEJ
 aEF
 aAB
 aGp
@@ -88906,7 +88899,7 @@ ayb
 azk
 aAB
 aBu
-aCK
+mtB
 wEJ
 aEH
 aAB
@@ -110531,15 +110524,15 @@ aaa
 aaa
 aaa
 aaa
-sQP
-lTW
-sQP
-mtB
-lTW
-mtB
-sQP
-lTW
-sQP
+bkF
+bkF
+bkF
+xKc
+bkF
+xKc
+bkF
+bkF
+bkF
 aaa
 aby
 aaa
