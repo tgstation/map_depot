@@ -13126,6 +13126,7 @@
 /area/medical/virology)
 "aSu" = (
 /obj/item/wirecutters,
+/obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
 "aSv" = (
@@ -23020,9 +23021,6 @@
 /turf/open/floor/iron/dark,
 /area/science/mixing)
 "bBM" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
@@ -23034,17 +23032,20 @@
 	},
 /obj/item/raw_anomaly_core/random,
 /obj/structure/table,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/science/mixing)
 "bBO" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
 /obj/structure/tank_holder/extinguisher,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/science/mixing)
 "bBP" = (
@@ -31658,9 +31659,9 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel/monastery)
 "ckk" = (
-/obj/item/stack/rods/fifty,
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /obj/structure/extinguisher_cabinet/directional/east,
+/obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel/monastery)
 "ckl" = (
@@ -40543,6 +40544,10 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/ai_monitored/turret_protected/aisat_interior)
+"ifO" = (
+/obj/item/stack/rods/fifty,
+/turf/open/floor/plating,
+/area/maintenance/department/chapel/monastery)
 "igj" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -43162,6 +43167,18 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/explab)
+"kWM" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance{
+	req_one_access_txt = "5; 12; 47"
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/engine)
 "kXe" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -45993,7 +46010,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/maintenance{
-	req_access_txt = "12"
+	req_one_access_txt = "5; 12; 47"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
@@ -48780,7 +48797,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/maintenance{
-	req_access_txt = "12"
+	req_one_access_txt = "5; 12; 47"
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
@@ -72289,7 +72306,7 @@ ykY
 cvI
 cwa
 clf
-cwA
+ifO
 bgc
 cwS
 cjm
@@ -84839,7 +84856,7 @@ voI
 bva
 xhT
 sWN
-iOl
+kWM
 iOl
 nqB
 ccN
@@ -102761,7 +102778,7 @@ aaa
 aiT
 sFK
 ato
-ajv
+aqZ
 ajv
 aiS
 eqf
