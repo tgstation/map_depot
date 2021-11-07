@@ -1914,6 +1914,7 @@
 "agM" = (
 /obj/structure/table,
 /obj/machinery/light/small/directional/north,
+/obj/item/radio/intercom/prison/directional/east,
 /turf/open/floor/iron,
 /area/security/prison/safe)
 "agP" = (
@@ -6442,7 +6443,7 @@
 /area/maintenance/department/security/brig)
 "aut" = (
 /obj/item/clothing/head/collectable/police,
-/turf/open/floor/mech_bay_recharge_floor,
+/turf/open/floor/iron/recharge_floor,
 /area/maintenance/department/security/brig)
 "auu" = (
 /obj/machinery/computer/mech_bay_power_console{
@@ -16532,7 +16533,7 @@
 /turf/open/floor/plating,
 /area/science/robotics/mechbay)
 "bfz" = (
-/turf/open/floor/mech_bay_recharge_floor,
+/turf/open/floor/iron/recharge_floor,
 /area/science/robotics/mechbay)
 "bfA" = (
 /obj/machinery/computer/mech_bay_power_console,
@@ -30074,6 +30075,13 @@
 "cby" = (
 /turf/open/floor/engine/air,
 /area/engineering/atmos)
+"cbB" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/obj/item/radio/intercom/prison/directional/east,
+/turf/open/floor/iron/dark,
+/area/security/prison)
 "cbC" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating/airless,
@@ -35467,11 +35475,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/red,
-/obj/item/radio/intercom/directional/north{
-	desc = "A station intercom. It looks like it has been modified to not broadcast.";
-	name = "prison intercom";
-	prison_radio = 1
-	},
+/obj/item/radio/intercom/prison/directional/north,
 /turf/open/floor/iron/white,
 /area/security/prison)
 "dtK" = (
@@ -38592,11 +38596,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 6
 	},
-/obj/item/radio/intercom/directional/north{
-	desc = "A station intercom. It looks like it has been modified to not broadcast.";
-	name = "prison intercom";
-	prison_radio = 1
-	},
+/obj/item/radio/intercom/prison/directional/north,
 /turf/open/floor/iron,
 /area/security/prison)
 "gnQ" = (
@@ -40122,7 +40122,7 @@
 	},
 /obj/machinery/atmospherics/components/trinary/filter/critical{
 	dir = 1;
-	filter_type = "n2"
+	filter_type = list(/datum/gas/nitrogen)
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
@@ -41893,12 +41893,8 @@
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
 	},
-/obj/item/radio/intercom/directional/north{
-	desc = "A station intercom. It looks like it has been modified to not broadcast.";
-	name = "prison intercom";
-	prison_radio = 1
-	},
 /obj/machinery/hydroponics/soil,
+/obj/item/radio/intercom/prison/directional/north,
 /turf/open/floor/iron,
 /area/security/prison)
 "jOe" = (
@@ -45625,6 +45621,7 @@
 	dir = 5
 	},
 /obj/machinery/plate_press,
+/obj/item/radio/intercom/prison/directional/north,
 /turf/open/floor/iron,
 /area/security/prison)
 "nwK" = (
@@ -50899,7 +50896,7 @@
 /turf/open/floor/iron/dark,
 /area/service/abandoned_gambling_den)
 "sqi" = (
-/obj/machinery/atmospherics/components/trinary/filter{
+/obj/machinery/atmospherics/components/trinary/filter/critical{
 	dir = 8
 	},
 /turf/open/floor/engine,
@@ -52019,7 +52016,6 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/stack/sheet/plasteel/fifty,
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#c1caff"
@@ -52028,6 +52024,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/item/stack/sheet/plasteel/twenty,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "tna" = (
@@ -53745,6 +53742,7 @@
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/machinery/light/no_nightlight/directional/south,
+/obj/item/radio/intercom/prison/directional/south,
 /turf/open/floor/iron/white,
 /area/security/prison)
 "uHJ" = (
@@ -78217,7 +78215,7 @@ aaa
 aaa
 adE
 afX
-sYW
+cbB
 sYW
 sYW
 bcn
@@ -103966,7 +103964,7 @@ aIp
 aJp
 qcR
 wvq
-aIp
+aEj
 aME
 aEj
 aht
