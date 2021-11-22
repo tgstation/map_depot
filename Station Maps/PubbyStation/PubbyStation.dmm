@@ -2454,14 +2454,12 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/structure/table/reinforced,
-/obj/effect/spawner/random/maintenance,
-/obj/machinery/door/window/westright{
-	base_state = "left";
+/obj/machinery/computer/cargo/request{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
 	dir = 4;
-	icon_state = "left";
-	name = "Cargo Desk";
-	req_access_txt = "50"
+	layer = 2.9
 	},
 /turf/open/floor/iron,
 /area/cargo/sorting)
