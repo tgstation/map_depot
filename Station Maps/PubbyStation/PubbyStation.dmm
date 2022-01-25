@@ -533,10 +533,6 @@
 /obj/machinery/ai_slipper{
 	uses = 8
 	},
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/ai_monitored/turret_protected/ai)
 "acs" = (
@@ -16842,6 +16838,10 @@
 	},
 /turf/open/floor/iron,
 /area/cargo/miningdock)
+"bht" = (
+/obj/machinery/light/directional/east,
+/turf/closed/wall,
+/area/cargo/storage)
 "bhu" = (
 /obj/machinery/light,
 /obj/structure/closet/secure_closet/miner,
@@ -43865,10 +43865,6 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/white,
 /area/medical/chemistry)
-"mqj" = (
-/obj/machinery/light/directional/east,
-/turf/closed/wall,
-/area/cargo/storage)
 "mql" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -52261,6 +52257,13 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/white,
 /area/medical/medbay/central)
+"uau" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "uaC" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -90177,7 +90180,7 @@ ace
 abO
 abO
 acF
-ace
+uau
 acq
 abO
 abO
@@ -100785,7 +100788,7 @@ cDa
 aTy
 iYH
 aTy
-mqj
+bht
 xEt
 idl
 aTy
