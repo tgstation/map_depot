@@ -12,15 +12,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so the job can access it
       - uses: actions/checkout@v2
 
-      #Parse the Codeowner file
-      - name: CodeOwnersParser
-        id: CodeOwnersParser
-        uses: tgstation/CodeOwnersParser@v1
+      # Recognizes and assigns reviewers and codeowners
+      - name: Auto Reviewers
+      - uses: zattoo/reviewers@4.0.1
 
-      #Request reviews
-      - name: Request reviews
-        if: steps.CodeOwnersParser.outputs.owners != ''
-        uses: tgstation/RequestReviewFromUser@v1
-        with:
-          separator: ' '
-          users: ${{ steps.CodeOwnersParser.outputs.owners }}
