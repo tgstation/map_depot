@@ -1,18 +1,24 @@
 name: Codeowner Reviews
 
-# Controls when the workflow will run
-on: pull_request_target
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - ready_for_review
+      - synchronize
 
 jobs:
-  assign-users:
-
+  reviewers:
+    name: Assign Reviewers
     runs-on: ubuntu-latest
-
+    continue-on-error: true
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so the job can access it
       - uses: actions/checkout@v2
-
+      
       # Recognizes and assigns reviewers and codeowners
-      - name: Auto Reviewers
-      - uses: zattoo/reviewers@4.0.1
-
+      - uses: zattoo/reviewers@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          source: '.github/CODEOWNERS'
