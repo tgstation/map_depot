@@ -1,24 +1,22 @@
-name: Codeowner Reviews
+  name: Reviewers
 
-on:
-  pull_request_review:
-  pull_request:
-    branches:
-      - main
-    types:
-      - ready_for_review
+  on:
+      pull_request_review:
+      pull_request:
+          types: [opened, ready_for_review]
 
-jobs:
-  reviewers:
-    name: Assign Reviewers
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so the job can access it
-      - uses: actions/checkout@v2
-      
-      # Recognizes and assigns reviewers and codeowners
-      - uses: zattoo/reviewers@v2
-        with:
-          token: ${{ secrets.ACCESS_TOKEN }}
-          source: '.github/CODEOWNERS'
+  jobs:
+      reviewers:
+          name: Reviewers
+          runs-on: ubuntu-latest
+          steps:
+              - uses: actions/checkout@v2
+              - uses: zattoo/reviewers@levels
+                with:
+                    token: ${{secrets.TOKEN}}
+                    source: '.github/CODEOWNERS'
+                    labels: |
+                        {
+                          "reviewers:projects": "**/projects/*",
+                          "reviewers:platform": "/"
+                        }
