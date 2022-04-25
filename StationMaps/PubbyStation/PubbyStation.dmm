@@ -13522,8 +13522,7 @@
 /area/service/theater)
 "aVn" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Theatre Maintenance";
-	req_access_txt = "46"
+	name = "Theatre Maintenance"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -13531,6 +13530,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/any/service/theatre,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/bar)
 "aVo" = (
@@ -14430,8 +14430,7 @@
 /area/service/bar)
 "aYj" = (
 /obj/machinery/door/airlock{
-	name = "Theatre Storage";
-	req_access_txt = "46"
+	name = "Theatre Storage"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
@@ -14439,6 +14438,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/any/service/theatre,
 /turf/open/floor/iron/dark,
 /area/service/theater)
 "aYk" = (
@@ -18468,7 +18468,7 @@
 	},
 /area/science/explab)
 "boh" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer{
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
 	dir = 8
 	},
 /turf/open/floor/engine,
@@ -18518,8 +18518,7 @@
 /area/medical/morgue)
 "bou" = (
 /obj/machinery/door/airlock/hatch{
-	name = "Morgue";
-	req_access_txt = "6;5"
+	name = "Morgue"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -18529,6 +18528,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/morgue,
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
 "boz" = (
@@ -18981,7 +18982,7 @@
 /turf/open/floor/iron/dark,
 /area/science/robotics)
 "bql" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
 	dir = 1
 	},
 /obj/machinery/power/apc/auto_name/directional/west{
@@ -26236,8 +26237,7 @@
 /area/engineering/gravity_generator)
 "bRH" = (
 /obj/machinery/door/airlock/engineering{
-	name = "Gravity Generator";
-	req_access_txt = "11"
+	name = "Gravity Generator"
 	},
 /obj/effect/turf_decal/delivery,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -26248,6 +26248,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/engine_equipment,
 /turf/open/floor/iron,
 /area/engineering/gravity_generator)
 "bRI" = (
@@ -26273,8 +26274,7 @@
 /area/engineering/gravity_generator)
 "bRK" = (
 /obj/machinery/door/airlock/engineering{
-	name = "Gravity Generator";
-	req_access_txt = "11"
+	name = "Gravity Generator"
 	},
 /obj/effect/turf_decal/delivery,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -26286,6 +26286,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/engine_equipment,
 /turf/open/floor/iron,
 /area/engineering/storage/tech)
 "bRL" = (
@@ -26949,7 +26950,7 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "bTT" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/heater{
+/obj/machinery/atmospherics/components/unary/thermomachine/heater{
 	dir = 8
 	},
 /turf/open/floor/iron,
@@ -27121,7 +27122,7 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "bUv" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer{
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
 	dir = 8
 	},
 /turf/open/floor/iron,
@@ -28280,8 +28281,7 @@
 /area/engineering/engine_smes)
 "bYh" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Power Storage";
-	req_access_txt = "11"
+	name = "Power Storage"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
@@ -28289,6 +28289,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/any/engineering/engine_equipment,
 /turf/open/floor/iron/dark,
 /area/engineering/engine_smes)
 "bYj" = (
@@ -42591,7 +42592,7 @@
 /turf/open/floor/iron,
 /area/security/office)
 "lyB" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/heater,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "lzJ" = (
@@ -46151,7 +46152,7 @@
 	},
 /area/hallway/secondary/entry)
 "oPr" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/heater{
+/obj/machinery/atmospherics/components/unary/thermomachine/heater{
 	dir = 8
 	},
 /turf/open/floor/engine,
@@ -51140,7 +51141,7 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "taT" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on{
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
 	dir = 4;
 	name = "euthanization chamber freezer"
 	},
@@ -51537,7 +51538,7 @@
 /turf/open/floor/iron,
 /area/security/prison)
 "tpb" = (
-/obj/item/food/donut,
+/obj/item/food/donut/plain,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -53188,7 +53189,7 @@
 /turf/open/floor/carpet,
 /area/service/lawoffice)
 "uBs" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer{
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
 	dir = 4
 	},
 /obj/structure/cable,
@@ -54213,7 +54214,7 @@
 /turf/open/floor/plating,
 /area/maintenance/solars/port)
 "vtX" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer{
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
 	dir = 8
 	},
 /turf/open/floor/plating,
