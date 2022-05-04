@@ -1,20 +1,26 @@
-  name: Reviewers
+name: Codeowner Reviews
 
-  on:
-      pull_request_target
+# Controls when the workflow will run
+on: pull_request_target
 
-  jobs:
-      reviewers:
-          name: Reviewers
-          runs-on: ubuntu-latest
-          steps:
-              - uses: actions/checkout@v2
-              - uses: zattoo/reviewers@v2
-                with:
-                    token: ${{secrets.TOKEN}}
-                    source: '.github/CODEOWNERS'
-                    labels: |
-                        {
-                          "reviewers:projects": "**/projects/*",
-                          "reviewers:platform": "/"
-                        }
+jobs:
+  assign-users:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so the job can access it
+      - uses: actions/checkout@v2
+
+      #Parse the Codeowner file
+      - name: CodeOwnersParser
+        id: CodeOwnersParser
+        uses: tgstation/CodeOwnersParser@v1
+
+      #Request reviews
+      - name: Request reviews
+        if: steps.CodeOwnersParser.outputs.owners != ''
+        uses: tgstation/RequestReviewFromUser@v1
+        with:
+          separator: ' '
+          users: ${{ steps.CodeOwnersParser.outputs.owners }}
