@@ -15612,16 +15612,10 @@
 /area/station/maintenance/department/cargo)
 "bcN" = (
 /obj/structure/table,
-/obj/item/computer_hardware/hard_drive/role/quartermaster{
-	pixel_x = -4;
-	pixel_y = 7
-	},
+/obj/item/computer_hardware/hard_drive/portable/quartermaster,
 /obj/item/clipboard,
-/obj/item/computer_hardware/hard_drive/role/quartermaster{
-	pixel_x = 6;
-	pixel_y = 5
-	},
-/obj/item/computer_hardware/hard_drive/role/quartermaster,
+/obj/item/computer_hardware/hard_drive/portable/quartermaster,
+/obj/item/computer_hardware/hard_drive/portable/quartermaster,
 /obj/item/coin/silver,
 /obj/item/stamp/qm,
 /obj/machinery/requests_console/directional/west{
@@ -23044,33 +23038,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
-"bEF" = (
-/obj/item/computer_hardware/hard_drive/role/medical{
-	pixel_x = -2;
-	pixel_y = 6
-	},
-/obj/item/computer_hardware/hard_drive/role/medical{
-	pixel_x = 6;
-	pixel_y = 3
-	},
-/obj/item/computer_hardware/hard_drive/role/medical,
-/obj/item/computer_hardware/hard_drive/role/chemistry{
-	pixel_y = 2
-	},
-/obj/structure/table,
-/obj/machinery/light,
-/obj/item/wrench/medical,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/machinery/airalarm/directional/south,
-/obj/machinery/power/apc/auto_name/directional/east,
-/obj/structure/cable,
-/turf/open/floor/iron/white,
-/area/station/command/heads_quarters/cmo)
 "bEI" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -23148,9 +23115,9 @@
 	pixel_x = -8;
 	pixel_y = 14
 	},
-/obj/item/computer_hardware/hard_drive/role/signal/ordnance,
-/obj/item/computer_hardware/hard_drive/role/signal/ordnance,
-/obj/item/computer_hardware/hard_drive/role/signal/ordnance,
+/obj/item/computer_hardware/hard_drive/portable/ordnance,
+/obj/item/computer_hardware/hard_drive/portable/ordnance,
+/obj/item/computer_hardware/hard_drive/portable/ordnance,
 /obj/item/paper_bin{
 	pixel_x = 7;
 	pixel_y = 3
@@ -27164,31 +27131,6 @@
 /area/station/maintenance/department/engine)
 "bUH" = (
 /turf/closed/wall/r_wall,
-/area/station/command/heads_quarters/ce)
-"bUI" = (
-/obj/item/computer_hardware/hard_drive/role/engineering{
-	pixel_x = 4;
-	pixel_y = 5
-	},
-/obj/item/computer_hardware/hard_drive/role/engineering{
-	pixel_x = -3;
-	pixel_y = 2
-	},
-/obj/item/computer_hardware/hard_drive/role/engineering{
-	pixel_x = 3
-	},
-/obj/structure/table/reinforced,
-/obj/item/computer_hardware/hard_drive/role/atmos,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
 "bUJ" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -44234,7 +44176,6 @@
 /area/station/cargo/storage)
 "mXq" = (
 /obj/item/taperecorder,
-/obj/item/computer_hardware/hard_drive/role/lawyer,
 /obj/structure/table/wood,
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/wood,
