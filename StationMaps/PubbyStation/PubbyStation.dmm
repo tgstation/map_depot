@@ -2919,10 +2919,9 @@
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hos)
 "akc" = (
-/obj/structure/table/wood,
-/obj/machinery/recharger,
 /obj/machinery/status_display/evac/directional/north,
 /obj/machinery/light/directional/north,
+/obj/machinery/pdapainter/security,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hos)
 "akd" = (
@@ -3527,8 +3526,7 @@
 /area/station/command/heads_quarters/hos)
 "alL" = (
 /obj/structure/table/wood,
-/obj/item/folder/red,
-/obj/item/stamp/hos,
+/obj/machinery/recharger,
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/hos)
 "alM" = (
@@ -3756,6 +3754,9 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hos)
 "amv" = (
@@ -3786,8 +3787,9 @@
 /area/station/command/heads_quarters/hos)
 "amx" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/wiki/security_space_law,
 /obj/structure/cable,
+/obj/item/folder/red,
+/obj/item/stamp/hos,
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/hos)
 "amy" = (
@@ -21996,10 +21998,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/item/kirbyplants/dead,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/rd)
 "bBu" = (
-/obj/item/kirbyplants/dead,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
@@ -22032,6 +22034,7 @@
 	pixel_x = 38;
 	pixel_y = -5
 	},
+/obj/machinery/pdapainter/research,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/rd)
 "bBw" = (
@@ -27791,9 +27794,6 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
 "bXi" = (
@@ -30896,9 +30896,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
+/obj/machinery/pdapainter/engineering,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
 "coc" = (
@@ -39150,6 +39148,7 @@
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/south,
+/obj/machinery/pdapainter/medbay,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
 "iok" = (
@@ -41732,6 +41731,9 @@
 /area/station/engineering/atmos)
 "kSD" = (
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hos)
 "kSG" = (
@@ -50776,6 +50778,7 @@
 "sFA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
 "sFK" = (
@@ -85087,9 +85090,9 @@ abI
 ajs
 akc
 akX
-alL
-amx
 anj
+amx
+alL
 anU
 aqF
 apj
@@ -86461,7 +86464,7 @@ bUJ
 bWp
 caj
 cnX
-bXY
+bUH
 bYK
 cOG
 cOG
