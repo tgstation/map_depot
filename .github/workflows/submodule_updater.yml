@@ -3,9 +3,9 @@ name: Update Submodules
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # We do it every 24 hours.
+  # We do it every 6 hours.
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '0 */6 * * *'
 
 jobs:
   update:
@@ -27,5 +27,5 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions - Update Submodules"
           git add --all
-          git commit -m "Update Submodules" || echo "No Changes To Commit"
+          git commit -m "Submodule Update" || echo "No Changes To Commit"
           git push
