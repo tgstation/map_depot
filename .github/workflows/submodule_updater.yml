@@ -29,7 +29,7 @@ jobs:
           git add --all
           git commit -m "Submodule Update - Discard Any Changes" || echo "No Changes To Commit"
           git push
-	  
+
 # The reason why we say "Discard Any Changes" is because sometimes, when you merge master in your branch,
 # Git may assume that you want to change the submodule commit from whatever is on your machine
 # to the one that we have on master. So, this is a helpful reminder to all those who contribute
