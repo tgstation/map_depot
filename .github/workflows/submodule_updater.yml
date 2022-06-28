@@ -25,7 +25,7 @@ jobs:
       - name: Commit
         run: |
           git config user.email "actions@github.com"
-          git config user.name "GitHub Actions - Update Submodules"
+          git config user.name "Submodule Updater"
           git add --all
           git commit -m "Submodule Update - Discard Any Changes" || echo "No Changes To Commit"
           git push
