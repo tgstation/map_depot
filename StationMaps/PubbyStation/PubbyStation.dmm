@@ -13465,7 +13465,6 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
 /area/station/service/theater)
 "aWq" = (
@@ -13483,6 +13482,9 @@
 	dir = 8
 	},
 /obj/machinery/airalarm/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/station/service/theater)
 "aWr" = (
@@ -26108,7 +26110,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "bSy" = (
-/obj/machinery/gravity_generator/main/station,
+/obj/machinery/gravity_generator/main,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/white,
 /area/station/engineering/gravity_generator)
@@ -36126,6 +36128,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/closed/wall/r_wall,
 /area/station/engineering/supermatter)
+"fze" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/service/bar)
 "fzu" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -55976,8 +55984,8 @@
 /turf/open/floor/plating,
 /area/station/security/execution)
 "wzu" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 4
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/bar)
@@ -91335,8 +91343,8 @@ kVO
 wbR
 aKT
 cpc
-beB
-beB
+wzu
+fze
 aYh
 aZd
 liQ
