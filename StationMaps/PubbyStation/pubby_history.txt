@@ -1,0 +1,640 @@
+* f887155b274	Qustinnus	 (HEAD)	Kills oldfood, Puts newfood on top. (#55160)
+* de7994c0f75	TiviPlus		Init sanity unit test (#55147)
+* 311b9da86bc	TiviPlus		grep for pixelx/y = 0 varedits (#54845)
+* 439a58dce6a	Ghilker		More Map Fixes (#55204)
+* 724c4777695	Ghilker		add showers to icebox and pubby atmos (#55190)
+* bf39caca6a3	ArcaneMusic		Refactors Pastries into newfood. (#54996)
+* 41157f5d6b7	Qustinnus		Moves grown food to newfood (#55040)
+* 245b29599ac	ArcaneMusic		Properly differentiates the nanodrug and nanomed vending machines. (#55069)
+* b713fa1bc33	Qustinnus		moves misc food to newfood code (#54788)
+* f8581a636ac	Ghilker		Hypertorus Fusion Machinery (#54379)
+* 5338ad16960	ArcaneMusic		Re-assesses 99% of vending prices through Arconomics to match player resources and round-length. (#54715)
+* b343e941134	ArcaneMusic		Pies are now refactored for new foods. (#54751)
+* 114e002b43f	spessbro		No more free stuff in maint (#54533)
+* c818d41d6be	ArcaneMusic		I fixed the bounty boards directions. (#54760)
+* de1233a93e7	msgerbs		Assistants no longer spawn in the chapel on Pubby (THIS BUFFS VAMPIRES!)
+* 3fa8b2aab6d	81Denton		Replaces var edited mass driver machinery with subtypes (#54557)
+* 7eba7c49301	ArcaneMusic		Arconomy: Civilian Bounty Redux and full replacement of cargo bounties. (#54029)
+* 53cbbc221e9	EdgeLordExe		Anonymizes chapel intercom, so chaplain doesn't know who's talking. (#54476)
+* 18bd7474b50	Emmanuel S		Adds the New-and-Improved Training Machine, Training Toolbox! (#54133)
+* 661bd14d5f7	tattlemothe		 Allows Main Pubbystation cargo doors to be opened with EITHER cargo or mining access (#54256)
+* 13c806dbba1	L		Fixes broken var-edited walls
+* d40f820d125	Maurukas		fixies
+* 05b708b903a	Maurukas		misc minor map fixes
+*   8371bd12f42	ShizCalev		Merge pull request #54049 from kriskog/auxbase
+|\  
+| * 5f1485366f2	skoglol		Removes construction, research, cargo, mining from aux base
+| * 7c6aa766b4b	skoglol		Adds separate aux base access
+* | 632c931859a	Fikou		fix conflict
+* | eca964db35d	Qustinnus		Ports soup, snacks, icecream, salads and meat to newfood (#54028)
+* | 5810247ce06	Maurukas		Medbay Rework and Plumbing for Pubbystation  (#53936)
+* |   963779471a1	nemvar		Merge pull request #53906 from Rohesie/smoothing
+|\ \  
+| * | baa30b5d42e	L		floors
+* | | 8d9abae0a13	MIC		Fixes supermatter shutters on pubby
+| |/  
+|/|   
+* | 9ad38ff0ce6	Timberpoes		Fixes mapstart and random arcade machines (#53958)
+|/  
+* 3edffc96061	KathrinBailey		Chess, Sofas & Shutters - Furniture Update (#53861)
+* aeeff0c9a43	Kylerace		Makes Mass Drivers Great Again (#53730)
+* 61e5c556dfe	AnturK		Custom statues and sculpting changes. (#53154)
+* f290ceaf7d2	tattlemothe		Pubbystation mapping fixes (#53780)
+* 2c8489af263	Qustinnus		s-s-s-spaghetti to newfood (#53574)
+* 78b90a541ab	Cartographer-D		Fixes access, fire alarms, and lightswitches for Pubby Cargo (#53684)
+* d899bf9c289	Cartographer-D		[READY] Overhauls Pubby Cargo (#53614)
+*   b7de3cfc34f	81Denton		Merge pull request #53523 from TheVekter/xeno-grinder-pubby
+|\  
+| * 782ff3a9496	TheVekter		Readds the grinder to Pubbystation's xenobiology
+* | c88909bd849	Helianthus00		adds direction to arcades (#53543)
+|/  
+* dcbae4cebe6	Fikou		merges the sunglasses from detective's office with his spy glasses, makes spy glasses use action button instead of verb (#53355)
+* 4e2dda164fa	NightRed		Makes the stomach important part of eating (#53228)
+* 4d6f266b27e	Jack7D1		Fixes #53290, puddles are now infinite again. (#53311)
+* 991f3117755	Timberpoes		[R&D Machine Overhaul, Part 1] - Various machines no longer require R&D machines to function. (#53339)
+* 3f3b7bc7368	Ghilker		Expand number of pipe layers from 3 to 5 (#53278)
+* bac33337240	Helianthus00		Adds Layer 1/3 Gas Meter Subtypes (#53287)
+* 90be19087d5	Kylerace		9x10 Holodeck and New Holodeck Simulations (#52793)
+* 9723c5956b9	Krysonism		gross decal spawner  + more swab sites (#34)
+* c6f7c823c8d	Krysonism		Readds cytology lockers & loot sites to all maps (#32)
+* 87c4df3880d	Qustinnus		Food refactor part 1: Bread destruction and processable element (#53047)
+* 560c2729d0f	Paxilmaniac		Fixes Some Area And Window Inconsistencies In Pubby's Chapel (#52863)
+* 20ad8b42d3c	Helianthus00		Repipes Every Map in Layers 1 and 3 (#52639)
+* 16eb86ddcf3	silicons		Baystruments - I had two tgstation forks for some reason and had to delete one and that nuked the last PR (#51459)
+* 52a090af65e	uomo		Consistency for station pets. (#52717)
+* 85b700b2ea4	uomo		Lawyer and Courtroom department signs. (#52753)
+* 7d29a405686	Paxilmaniac		Adds Large Welding Fuel Tanks (#52808)
+* 560364672f0	Fikou		Dropping Now, Stand By For Titanfall: Mecha Orbital Pad (#52224)
+* 8fc671f9425	Timberpoes		Implements job skillchip framework as per hackmd.io design document (#52630)
+* 5c47b87db08	uomo		Fixing missing area tile. (#52657)
+* 2f83e15b84c	uomo		Makes the commissary publicly accessible, adds one to Pubbystation. (#52552)
+* 67fe2533166	Helianthus00		Adds Atmospherics Access to SM (Icebox, Meta, Pubby) (#52326)
+*   b6ae07930f9	skoglol		Merge pull request #52245 from Maurukas/medbayitems
+|\  
+| * 14a1c97cd2f	Maurukas		Medbay inventory cleanup
+* |   14c2017470b	ArcaneMusic		Merge remote-tracking branch 'upstream/master' into bepisv3
+|\ \  
+| * | 72b7c738af8	ArcaneMusic		Arconomy 1.0: Final Stage Capitalism (#52007)
+| |/  
+* / 68d6aefb00f	ArcaneMusic		The BEPIS is now in cargo instead of RnD.
+|/  
+* 57a7eee5eca	ArcaneMusic		Arconomy Productions presents: The Bounty Board (#51449)
+* eee922ee7fe	ArcaneMusic		Updates vend-a-trays to have a unique UI, improves accessibility.  (#51931)
+*   cd97432d7dd	skoglol		Merge pull request #51856 from EOBGames/donuts
+|\  
+| * 5cb1f6ff286	EOBGames		minor map fixes, volume 3
+* | fc3a93323be	Rohesie		lattice (#51880)
+* | 5413ed0f7dd	silicons		Anomaly Core Production (but I actually finish it this time) (#51432)
+|/  
+* b87f65d95e3	nemvar		Converts ALL typepaths to lowercase (#51642)
+* 99a2ed811c6	Shadark		Nerfed arrest access through SecHUDs & small balance changes (#51600)
+* 473d1cf11b4	Timberpoes		A very large number of Science QoL tweaks and mapping changes. (#51457)
+* ab84042f940	spessman-007		[READY] Improve spelling (#51134)
+* e72d9d217d8	Radu Dragan		reconnect medbay to power grid
+* 81998c166c3	dootdoom		Cargo console near supply shuttle on box and pubby (#50827)
+* ece05b4f879	uomo91		Removes redundant intercom.
+* 324aab4c55c	uomo91		Adds placeholder medical records computers, more IV drips.
+* 1ef5d50745c	uomo91		Makes stasis bed room a little less cramped.
+* abc1bb187d0	uomo91		Meday's lobby disposal is now connected.
+* 808bed42eb2	uomo91		Fixes duplicate sec console in engi outpost.
+* 15c932636fc	uomo91		Small door and area fix.
+* d5451ae60a0	uomo		Department, warning, and general sign code fix. And brand new custom plaques! (#50550)
+* 7ce87578a18	SomeoneYouProbablyKnow		Adds the detective wardrobe (#50564)
+* 95de90d23aa	TheVekter		Adds core R&D consoles to the RD's office (#50465)
+* 3944907e592	TiviPlus		 Adds Altar of the Gods to all maps (#50415)
+* 14b7e63415e	ArcaneMusic		A bold new era of hydroponics (Large department rework/update) (#50001)
+*   45917da07a8	81Denton		Merge pull request #49964 from uomo91/psychologist
+|\  
+| * f56d4046825	uomo91		Revert "Trivial map change to be immediately reverted, trying to reboot mapdiffbot."
+| * ceb7da680bf	uomo91		Trivial map change to be immediately reverted, trying to reboot mapdiffbot.
+| * c60670547e9	uomo91		Creates a psychology locker and adds it to every map.
+| * 2c783373ede	uomo91		Psych office cameras now follow naming conventions on every map, cleans up some leftover genetics stuff and a stray plant on Pubby.
+| * 6e25f8c9054	L		Service lathe door access to Psych
+| * b49b6f5a626	uomo91		Pubby Psychology office.
+* |   d6dfaaf18b7	Rohesie		Merge pull request #49899 from ArcaneMusic/screwyou
+|\ \  
+| * | 9cc71637aaf	ArcaneMusic		Murders RnD's abillity to research.
+| |/  
+* / d02e0cc364f	AnturK		Gateway refactor (#49868)
+|/  
+* a3a3b29719e	spessbandit		Adds pruno, aka prison wine, to the game. (#49615)
+*   f6ef81d8450	ShizCalev		Merge pull request #49728 from Mickyan/pubby_galleryfix
+|\  
+| * 00578f5204f	Mickyan		pubby art gallery
+* | 106b4ba6727	spookydonut		book console fix (#49696)
+|/  
+* 15452cac440	nightred		[READY] Two Handed Component (#49422)
+*   24803bd33de	skoglol		Merge pull request #48994 from ArcaneMusic/arconomy
+|\  
+| *   13e6c0b628d	ArcaneMusic		Merge remote-tracking branch 'upstream/master' into arconomy
+| |\  
+| * \   ea475c528f7	ArcaneMusic		Merge remote-tracking branch 'upstream/master' into arconomy
+| |\ \  
+| * \ \   0330bf7ef58	ArcaneMusic		Merge remote-tracking branch 'upstream/master' into arconomy
+| |\ \ \  
+| * \ \ \   8c11d4f9230	ArcaneMusic		Merge remote-tracking branch 'upstream/master' into arconomy
+| |\ \ \ \  
+| * | | | | 39da7ac64d8	ArcaneMusic		Map Changes, adds Vend-A-Tray to all maps
+* | | | | | f0eccbee9b0	Mickyan		firelocks and some details
+* | | | | | b1ab5f01f4d	Mickyan		fixes
+* | | | | | ab93a38e9cd	Mickyan		art gallery
+| |_|_|_|/  
+|/| | | |   
+* | | | | 94f27c7b25b	ArcaneMusic		[READY]Arconomy: Sales Taggers, split profits on barcoded, sold items! (#49111)
+| |_|_|/  
+|/| | |   
+* | | |   1ddf14af270	ShizCalev		Merge pull request #49387 from EOBGames/medhudcommunism
+|\ \ \ \  
+| * | | | eb4f1af5675	EOBGames		medhud communism
+* | | | | 074171369f3	EOBGames		More Minor Map Fixes (#49386)
+|/ / / /  
+* | | / 395bebcdcce	nightred		[READY] Space Suits use cells and warm the wearer (#49028)
+| |_|/  
+|/| |   
+* | | a28b24f1497	skoglol		Completely removes cloning (#48668)
+* | | 3055b703491	ShizCalev		emitter cleanup and fixes (#49129)
+* | | 8b19d797cae	RaveRadbury		[Ready] Prisoner role (#48819)
+* | |   6d53a7c2506	81Denton		Merge pull request #49102 from ShizCalev/viro-locker-fix
+|\ \ \  
+| * | | 05e319ced00	ShizCalev		Fixes biohazard locker types
+* | | |   3f694a598e0	81Denton		Merge pull request #48919 from cacogen/pubbywayfinderbeacons
+|\ \ \ \  
+| |/ / /  
+|/| | |   
+| * | | 7799aea4ea2	cacogen		Pubby wayfinding beacons
+| | |/  
+| |/|   
+* / | 398bbdbbecf	skoglol		Removes dorms toolboxes, tool storage insuls and multitools. (#48856)
+|/ /  
+* | 5ccbb641f16	flufflycthu1u		Pubby mapping fixes (#48756)
+* | 03f4a81f16b	skoglol		Makes husking harder, adds husk healing to instabitaluri (#48717)
+|/  
+* 666973a2310	TheVekter		Fixes Genetics access on Box and Pubby (#48713)
+* 4fe157ce2b7	skoglol		PubbyStation mapping fixes. (#48622)
+* 36437d9c33f	skoglol		Removes free roundstart RCDs, adds foam grenades to EVA (#48482)
+* 32d9bbb390f	bawhoppen		Fix swapped east/west sprites on sinks (#48576)
+* da2b817e449	TheVekter		[READY] Moves Genetics to the Science department and makes Gen… (#48397)
+* 5310876edc4	Krysonism		[READY]Sparklers, Firecrackers and Ian's New year's party. (#48480)
+* 3a0c5e75b3a	81Denton		Adds a new job: the Paramedic (#48236)
+* e39eea7b175	ArcaneMusic		[Ready] Adds a new RnD method, the B.E.P.I.S. (#48040)
+* 3602d39e0b8	skoglol		Fixes a bunch of map errors (#48295)
+* 44548a06867	TheVekter		E.X.P.E.R.I-Mentor Overhaul Part the First: Research Notes (#48238)
+* 0277d5039e8	TheVekter		Cleans up the difference between Pharmacy and Chemistry access (#48196)
+* 8e0827d7358	EdgeLordExe		[READY]Addition of Medbay Clinic in between Medbay 'proper' and Medbay lobby on Metastation and Pubbystation (#47740)
+* 83dcba29ee6	zxaber		Allows heads of staff to just connect to other holopads, rather than call. (#48041)
+* cdc0be5bb9f	TheVekter		Overhauls the entrance to Engineering on PubbyStation to allow for better access control, makes techfab accessible to Atmos. (#48036)
+* 28c97c603f6	TheVekter		Fixes Detective access on Box, Pubby, and Kilo (#47964)
+* 351d11962a2	skoglol		Removes an active turf.
+* ff42a1590b2	Firecage		Ports carbon paper from Bay. (#47691)
+* ea8292e4376	Rob Bailey		Fixes the laptop vendor, tgui-nextifies it, and adds it to every map. (#47540)
+* e781b715651	TheVekter		Added nanite lab to PubbyStation (#47530)
+* 6a65a85fe07	carlarctg		Reflector Trenchcoat replaces armory reflective vest (#47116)
+* 59a0440acfc	Krysonism		Da white kit nerf update: sutures and regen mesh. (#47092)
+* e7dacc57e40	ArcaneMusic		Adds more functionality to the Medical Kiosk with upgrades. (#46884)
+* a67115e0827	81Denton		Fixes Metastation toxins igniter (#46649)
+* 19bcb6ab8b4	Rob Bailey		Safety Doors (#46332)
+* 900483ba44f	variableundefined		Remove redundant structure/chair/wood/normal typepath (#46443)
+* 31d8e31727d	skoglol		Incinerator and toxins burn chamber monitoring, some mapping fixes. (#46081)
+* 4c9e791ffe4	Rob Bailey		Pubby SM piping fix (#46147)
+* 26b04ede422	Rob Bailey		Obliterates item_color: new washing machine functionality edition (#45961)
+* 3626b0b6cf6	Rob Bailey		Replace pubby outlet injector with the engine one (#45998)
+* 99f88c9d320	cacogen		Canned foods behave more like canned drinks and less like fruit (#46013)
+* 74ed605cd7c	moo		Cobbduceus Part 1/X: Category Twos, Base(d) Healers (#45749)
+* fe148785ccf	tralezab		song for this fix: Little Eva - The Loco-motion (#45951)
+*   0c6fabceb0d	Rob Bailey		Merge pull request #45680 from 81Denton/unfuck_c4
+|\  
+| * d98df6e0630	Denton		Refactors plastic explosives
+* | 2c720c64082	Rob Bailey		No ID insertion for everything except the hop console (fixes the ORM) (#45693)
+* | 42dd63c5c37	Rob Bailey		Pubby SM Rework (#45399)
+|/  
+* 6a26744d839	Rob Bailey		Clothing /under repath (#45548)
+* 48fbc073e53	RandolfTheMeh		[TMC] Defib Rework, Organ Damage Effects (#45104)
+* 64550884fa9	tralezab		[READY] Ian's Birthday Holiday (#45356)
+* f209bd1d3ad	nemvar		Cleans up a dirty var
+* 5c1b77cf8c9	nemvar		Mabbit
+* bfb6cf01bb1	Rob Bailey		Refactors shield wall generators (#45221)
+* bc2a2387485	Kmc2000		Gives the HOP a ticket machine (#45095)
+*   8a3078ee7b2	Jordie		Merge pull request #44967 from actioninja/dirtyvarcleanup
+|\  
+| * 169a974b6ca	actioninja		map vars cleanup
+* |   c2f856d701f	Jordie		Merge pull request #44995 from StonebayKyle/viro-scigoggles
+|\ \  
+| |/  
+|/|   
+| * d710574eef5	DESKTOP-4OJ997G\Kyle		Adds science goggles to virology lab
+* |   d8a3af332cf	oranges		Merge pull request #44961 from SpacePrius/addcopymachine
+|\ \  
+| |/  
+|/|   
+| * d9ac398516a	Space Prius		Photocopy
+* | a8197eb3dda	Nick		Citations (#44853)
+|/  
+* 61d39f14505	81Denton		Fix a bunch of map issues (#44876)
+* c863766ea4c	plapatin		THE VOMITGOOSE PR (#44563)
+* 532cc7ea633	Rob Bailey		Smart cable fixes (#44784)
+* 65e9888fa60	Rob Bailey		[READY] Smart Cables (#44265)
+* 9083e31410c	Emmett Gaines		Make setting stationary dock area_type no longer required (#44511)
+* bab214e8924	JJRcop		PDA Message Server can be constructed (#43961)
+* bee7382978b	pireamaineach		[READY] Reverts "Radiation suit lockers in atmos, moves pipe dispensers," and adds a 3rd atmos tech locker and rad locker to the incinerator. (#43933)
+* 94c42e3a45a	vuonojenmustaturska		Removes VR (#43832)
+* 3dbc8c3c121	Farquaar		Adds a Bunch of New Religious Clothing Items (#43841)
+* 6aa8cebfe46	JJRcop		[READY] Replaces sleepers with stasis beds (Lifeform Stasis Unit) (#43075)
+* 1c6190f3329	zxaber		Adds round-start dead bodies to the morgue (#43791)
+* 44e3843fb04	Joey H		Radiation suit lockers in atmos, moves pipe dispensers (#43557)
+* aaa1a727714	81Denton		Dab on dvars (#43707)
+* 8b43ac521b6	MrFluffster		Makes PubbyStation's Incinerator less bad (#43650)
+* 7a4ed5b82fa	RaveRadbury		Service Jobs have Servicelathe access. (#43647)
+* 7e4946d0f04	Wilchenx		Adds a new Modular PC vendor (#43642)
+* 6510fc7870c	81Denton		Standardize cable colors across maps (#43599)
+* 15696427287	Tad Hardesty		Fix incorrect APC pixel offsets in maps (#43539)
+* c1f7d013342	ShizCalev		Repath /obj/structure/chair/office/dark to /obj/structure/chair/office (#43269)
+* 04f5dacd419	ShizCalev		Add a chair to pubby's cloning room (#43268)
+* d1131bc4ba3	ShizCalev		Add DRAGnets to pubby & delta armories (#43165)
+*   f3692346d41	ShizCalev		Merge pull request #43047 from actioninja/pubbysmfixes
+|\  
+| * 8d331a059a1	actioninja		that wasn't supposed to be there
+| * f765c72d310	actioninja		replace atmos manifold with visible one
+| * 7fa07c45a8a	actioninja		lots of fixes
+| * 0b351a892a6	actioninja		mapmerged correctly
+| * d8930f8e98b	actioninja		removes heaters
+| * 822c44cd32c	actioninja		missed one tile
+| * db6ed9df17c	actioninja		fucked up the areas
+| * 88b1c0089c6	actioninja		fixes
+* | ee33e9c6a83	Rob Bailey		[READY] The war on stun based combat, Phase I: Fuck ranged stuns (#42930)
+|/  
+* cbecd7a93a1	skoglol		Another fridge access pass (#43012)
+* e6065db3508	Rob Bailey		[READY] Replaces the tesla/singulo on Pubby with a Supermatter (#42932)
+* 69e217d8d97	Rob Bailey		[READY] I got guns (#41804)
+* 84c06057ce6	Tad Hardesty		Fix untold mountains of minor mapping issues (#42541)
+* 68807035fc8	81Denton		Pubbystation fixes (#42375)
+*   443aec87b20	Jordie		Merge pull request #42302 from coiax/random-items-into-spawners
+|\  
+| * 6945a367c3f	Jack Edge		Changes the type pathing of some "random" items
+* | c3ad5fbd246	WJohn		Fix shuttle rotation of decal corners (#42261)
+|/  
+* 385c1a9e4ec	Denton		Fixes Pubby monastery fridge access
+*   18da79f4e73	moo		Merge pull request #41937 from Bawhoppen/autolathesgone
+|\  
+| * afbf79796d5	Bawhoppen		removes public autolathes
+* | 5c026df31e4	Jack Edge		Pubby now has an xmas tree spawner in the library
+|/  
+* e7cc2074c68	ShizCalev		Fixes missing decal icons, repaths food cleanables to cleanable/food (#41573)
+* b095e02bfd9	coiax		Removes var-edited maint loot spawners, replaces with types (#41696)
+* 1b094d287ce	Denton		Replaces pubby atmos components with proper subtypes
+* e940d017aa6	ShizCalev		map fixes
+* b010edabca7	coiax		Removes /abandoned type for airlocks; adds helper instead (#41514)
+* 0440e145578	ShizCalev		Cleans up dead area paths. Removes dead music var. (#41429)
+* 09bc3a6f82e	81Denton		Map fixes, access fixes/tweaks (#41422)
+* 614fb23fcec	81Denton		[Ready] Childproofs plastic flaps with windoors (#41360)
+* 9343d9e70a2	Shdorsh		[READY]Removal of circuits (#41108)
+* bcf4805a057	nicbn		Makes fire alarm simpler (#40586)
+* 3ad959a0fa5	81Denton		More variety for dorms bedsheets (#40687)
+* f5b6cf50b8c	81Denton		Tweak map lighting (#40598)
+* adb9296fcec	81Denton		Removes superfluous sacid beakers (#40490)
+* a1c2eb3bf1e	ShizCalev		Fix dirty vars and broken floor tiles (#40313)
+* 0dbee223821	granpawalton		revamps toxins (#40299)
+*   8c8bc7c26e3	Jordan Brown		Merge pull request #40146 from granpawalton/fix/standardizing-pubby-atmos
+|\  
+| * dead9dd345e	granpawalton		standardizes-pubby-atmos
+* | fe202d1e904	WJohn		Fixes pubby's missing tiles and a cleans a few other maps. (#40147)
+|/  
+* e54f1d5342a	WJohn		The great floor tile purge (#40065)
+* a212f623060	81Denton		Delta: Nanite lab, tweaks/fixes (#40049)
+* 9dda9d592a5	Tad Hardesty		Fix rogue var on PubbyStation
+* ba887b39edf	Tad Hardesty		Refactor status displays
+* 141f5581029	Tad Hardesty		Fix atom ordering problem in map files (#39889)
+* 2087e315b95	81Denton		Adds confessional intercoms to Delta/Pubby, cleans up dvars and wrong freqs/settings (#39831)
+* 85c1fb9b0d9	WJohn		Removes now obsolete floorgrime path and icon (#39816)
+*   8a2ec0d3aa5	Denton		Merge remote-tracking branch 'tgstation/master' into disposal_destinations_v3
+|\  
+| * 1c5ba92ecf9	octareenroon91		Fix 'Medical Delivery' windoor in Pubby (#39738)
+| * 3f487a2fef3	zxaber		[READY] Adds ability to give airlocks one-way unrestricted access (#39147)
+| * d7ec70e0020	81Denton		Add more wiki books/manuals (#39651)
+* | 6b9dbac4899	Denton		Adds det office junctions
+* | 0def32c7728	Denton		[DNM] Adds more destination tagger locations
+* | 41a77ff16da	Denton		Adds more wiki books/manuals
+|/  
+* 600586c72bc	ShizCalev		Fixes var set lists on maps (#39615)
+* 6afc4533e10	81Denton		Various mapfixes (#39541)
+* 80bf7286ee2	granpawalton		Fix minor pubby atmos issues (#39494)
+* 86b578a3d27	granpawalton		[READY] Incinerator clean up and update (#39299)
+* 7df3ffb4db6	bgobandit		Fixes various small issues with moodlets; adds one for exercise. (#39437)
+* 59fa61113f4	Tad Hardesty		[Ready] Communal Resource Storage II (#39118)
+* 43e4742e2ca	BeeSting12		Removes the omni circuit printer from robotics on delta, meta, and box. [Ready for review] (#39235)
+* 721273c8842	81Denton		Pubby: Replaces medical/cargo protolathes with techfabs (#39243)
+* e04bdb402be	81Denton		Adds shared storage to Delta engineering, fixes access reqs (#39193)
+* 09b27c1983b	81Denton		Pubby: Fixes auxbase cams, department signs, fire alarms etc (#39106)
+* b0a22d05d57	Denton		Replaces most static ingame manuals with wiki versions
+* 14fe3f29c51	81Denton		Adds recreational beer nukes to maps (#39001)
+* 64d8089a484	81Denton		Misc Pubby fixes and tweaks (#38819)
+* c610897397f	81Denton		Puts toasters on tables (#38803)
+*   89752866aa7	ShizCalev		Merge branch 'master' into spellcheck
+|\  
+| * ca8d9f06a06	81Denton		there we go (#38730)
+| * c222414ade7	Dax Dupont		Improves interdepartmental synergy between science and library
+* | f338f09207b	ShizCalev		Cleanup & corrections
+|/  
+*   58e39bb6a90	Jordan Brown		Merge pull request #38521 from AutomaticFrenzy/patch/pubby
+|\  
+| * 63c1917bb8e	Tad Hardesty		Fix protolathe in Pubby circuit lab
+* |   0619afdf798	Jordan Brown		Merge pull request #38522 from AutomaticFrenzy/patch/auxbase
+|\ \  
+| * | a954be83a57	Tad Hardesty		Allow the mining shuttle to fly to the aux base construction room
+| |/  
+* |   a8ffac294d4	Jordan Brown		Merge pull request #38499 from AnturK/runtimeH
+|\ \  
+| |/  
+|/|   
+| * 1a1aa6f1271	AnturK		Actually let's just add this functionality.
+| * 4b7faa80b37	AnturK		Fixes pubby mapedit.
+* | 819bfeeb299	pubby		Fix security disposals on pubby and a few other things (#38481)
+* | 842a952f9f8	81Denton		Pubby: fixes boozeomat and disposals issues (#38466)
+|/  
+* 486df3271a5	81Denton		Fixes Pubby maint boozeomat (#38300)
+* 5f76d96410c	81Denton		replaces varedits with defines/subtypes (#38240)
+* 3558b501479	theo2003		Roboticists now have access to open the R&D windoors. (#38226)
+* d06d725340d	Tad Hardesty		Fix Pubby auxiliary mining base
+* a9dea4db8b9	CosmicScientist		Removes normal ways to obtain drones (#38101)
+* 3d18b1e6165	Denton		@dril  Jan 21 thinking of wrapping my entire body in barbed wire and becoming Sovereign
+* 7f514db8d32	Trevor Serpas		Circuitry lab changes (#38029)
+* 3ab5c8fdbca	81Denton		Adds departmental wardrobe vendors to all maps (#37992)
+* 32c8d0abc57	MrDoomBringer		Cargo Update: Cargo Supplypod Beacons! (#37345)
+* 7db778c7761	Tad Hardesty		Fix some areas near Pubby's starboard solars (#38001)
+* 9ca6661140b	pubby		[ready] cargo bounties (#37833)
+* e91171c0cb2	ShizCalev		DV Cleanup (#37919)
+* 039890bddda	81Denton		Adds "proper" solar/gold/silver crates (#37890)
+* 121c62f3d44	Dax Dupont		Murderdome, a VR experience project w/ general VR improvements (#37730)
+*   1d24975fa11	pubby		Merge branch 'master' into newpub
+|\  
+| * 353af378cb5	Denton		adds circuit board spawners, adds missing electronics to engivend
+* | 137700a0cac	pubby		Remove dvs
+* | 284c9615782	pubby		Update PubbyStation
+|/  
+*   c4e04b4a220	Jordan Brown		Merge pull request #37622 from ShizCalev/cockarock
+|\  
+| * 8f64b6cb227	ShizCalev		Changes cockroach guts to insect guts
+* | cd9ac761e22	pigeons		Removes stock market (#37414)
+* | bf64ca40f19	KorPhaeron		Revert "Adds the jukebox to every active map."
+|/  
+* bea23b61828	YakumoChen		Readds BZ Cannisters for Xenobiology (#37481)
+*   9d58e092cbe	oranges		Merge pull request #37009 from MMMiracles/jookbox
+|\  
+| * 687a2272b62	MMMiracles		adds the jukebox to every map
+* | 093a5b8a0a1	Barhandar		Moved middle engine field generators to the side to prevent crosslinking. (#37408)
+* | 057aa31cda6	Fox McCloud		Kills off /obj/item/device (#37297)
+* | 423a5fe3bd6	Dax Dupont		Adds disk fridges to meta/box/pubby (#37336)
+* | 8e33113cfe8	ShizCalev		Cleans up conveyor belts (#37288)
+* | e9d22652488	ninjanomnom		Fixes aux base loading
+* | 0606fcf417b	ShizCalev		grunge airlock
+* | 7dcd6907569	Emmett Gaines		Removes some unnecesary vars on shuttles (#37041)
+|/  
+* 49d1e9ee663	Emmett Gaines		Shuttles have additional baseturfs, and other minor baseturf changes (#36388)
+*   d1d8dbe9e3e	vuonojenmustaturska		Merge pull request #36850 from 81Denton/pubby-bombsite-cams
+|\  
+| * af6d891b253	Denton		fixes camera tags/screen desc+name
+* | 77b1072d9b5	81Denton		[Ready] Atmos cleanup + subtypes (#36690)
+|/  
+*   1540c93aabc	vuonojenmustaturska		Merge pull request #36729 from ShizCalev/incinerator-fix
+|\  
+| * ffc225543e1	ShizCalev		more incinerator fixes
+* | b7d1277ac2b	81Denton		Pubbystation: makes evac location more obvious (#36528)
+|/  
+* 03431ab1730	ShizCalev		Fixes omega power, fixes various atmosia issues, cleans up dirty camera vars (#36545)
+* cff143d65ad	81Denton		Fixes Pubby mixtank and N2 filter (#36481)
+* 90b8cd9069e	Denton		circuitry lab/incinerator grilles fixes space areas near grilles +1 missing grille fixes scrubber pipe visibility toxins launch pipes, bridge+HoS buttons+key auth console head office grilles, CE shutters, turf decals, xeno egg, N2 atmos sign can I have uhhhhhh lightswitch light switch fixes removes dirty wars and wrong cables fixes grille turf moves toxins storage lightswitch
+*   8aca9d65418	oranges		Merge pull request #36319 from ShizCalev/var-cleanup
+|\  
+| * 40e2cc568d0	ShizCalev		Cleans up vars
+* | a3fb905876e	81Denton		[Ready]Pubbystation central tool storage tweaks (#36294)
+|/  
+* f7195a45456	ShizCalev		Fixes incinerator vents (#36237)
+* 9518d41007a	vuonojenmustaturska		Unmaps the smoke machine (#36260)
+* 79b96dd55df	kevinz000		Fixes master
+* 28b1fb254d2	kevinz000		RND TECHWEBS: TECHFABS (#36055)
+* f8c5febcc8d	Dax Dupont		Beacons are no longer radios (#36070)
+* 58db9ebc024	81Denton		[Ready]Adds circuitry lab to Pubbystation (#36151)
+* 083eefb6b90	Cameron!		Adds Medical Sprays (#36081)
+* c2b7edd411e	81Denton		SME is hugbox garbage okay (#36114)
+*   d62dc315878	Jordie		Merge pull request #36061 from ShizCalev/pubby-rad-collector-anchor
+|\  
+| * a1cec562422	ShizCalev		Fixes anchored radiation collectors in Pubby ESS
+* | 8fa6415234b	Denton		only you can prevent space forest fires!
+|/  
+* 89590639caa	ShizCalev		Cleans up double stacked firedoor on Pubby
+* e702bb23d0e	ShizCalev		Pubby fixes
+* 2adf1c6013b	81Denton		adds techweb doppler arrays, fixes techweb desc/name (#35846)
+* d0f10d151e1	ShizCalev		[s] Cameranet fixes (#35733)
+* 15f0d19ce7f	ShizCalev		Adds mapping helpers to handle cyclelink & locking airlocks, updates all relevant maps (#35674)
+* f52f73c4ce7	ShizCalev		Fixes fridge turf
+* a5a39ba42b4	ShizCalev		Actually fixes broken accesses
+* dc862ad931c	ShizCalev		Var cleanup and map fixes
+* c4fd8715a5f	vuonojenmustaturska		Return of ore stacking, various changes to lavaland bombs to facilitate reduced lag (#35291)
+* f5046f86ec2	Slignerd		Moves the spare ID inside the captain's locker (#35219)
+* 5715f5625d5	ShizCalev		Fixes some broken accesses (#35234)
+* 34897d87095	ShizCalev		Removed tripAI landmark (#35256)
+* cd7169d88de	Dax Dupont		Makes departemental lathes easier to access. (#35224)
+* b1ed8d0dc82	ShizCalev		blasts away a double stacked blast door in atmosia
+*   e0574d32027	vuonojenmustaturska		Merge pull request #34925 from ShizCalev/message-server-fix
+|\  
+| * 1f4d4d155cb	ShizCalev		Fixes messaging server runtime
+* | 25149f988c0	ShizCalev		Deprecates landmark, spawns off bodies and trays
+* | 8e20aa3f7bc	coiax		Refactors shuttles to be loaded in, rather than be on the station maps (#33766)
+|/  
+* cbd5aece900	coiax		Fake nuclear disks are even more convincing (#34466)
+* 9cb4772b611	ShizCalev		Sign restructure (#34527)
+* 81afde87003	ShizCalev		Fixes irreparable plating (#34472)
+* cdb53fcbe98	ShizCalev		Fails travis on common mapping mistakes
+* 65bfae057b9	modularized_suicide		aaaaaand quick map fix. should be done
+* 16e0e5f0ae4	vuonojenmustaturska		Improves loot drop spawners, adds AI law spawners to cores (#33945)
+* c4a495929c8	Ashe Higgs		Locks up Medical Storage a bit more tightly and adds framework for doors to ignore access reqs during red alert (#33686)
+* 984406c1e54	uraniummeltdown		Glass Airlocks Made Into Subtypes (#33764)
+* 26ef6760e74	WJohn		Tweaks the syndicate infiltrator so it's no longer lopsided. (#33731)
+*   15a28673733	Jordan Brown		Merge pull request #33450 from ShizCalev/sec-lockers
+|\  
+| * c6b09bda22e	ShizCalev		Adds security departmental lockers
+* | 09be3e9b6b1	uraniummeltdown		Airlock Construction Update (#33152)
+|/  
+* dd67e1e4e10	coiax		 Good Clean Fun: A vending machine for games! (#33265)
+* 5182128d2ad	kevinz000		refactors riding datums to a component, vehicle refactor staging for mech overhaul (#32249)
+*   80aad8cef0d	Leo		Merge pull request #33165 from MrStonedOne/revert-33062-ore_stacking
+|\  
+| * 8c4885cf6ed	Kyle Spier-Swenson		Revert "Ore Stacking (#33062)"
+* |   e64908bd2a8	Leo		Merge pull request #33179 from nicbn/removesmices
+|\ \  
+| |/  
+|/|   
+| * 651884b4f14	nicbn		Removes the mob mouse from maintenance from maps
+* | 8e1ac5720d6	kevinz000		Ore Stacking (#33062)
+* | 59dc33dfa6c	ShizCalev		unkevinz the station maps (#33091)
+* | 4c909b5ade0	ACCount		Replaces "console screen" stock part with glass sheets (#33018)
+* | e7197ec5891	ShizCalev		Nearstation fixes (#32931)
+* | 84f03067615	WJohn		Cleans up floors.dmi a bit and adds new turf decals. (#32860)
+* | b48524cb507	ShizCalev		Corrects Pubby AT issues
+* | e3d046845e2	ShizCalev		Fixes unpowered air injectors on pubby (#32846)
+* | caa1e1f400c	kevinz000		Massive research refactor; changes research system to techwebs; Decentralized research
+|/  
+* 81ba4e8d4b4	ShizCalev		Updates computers for directional sprites, fixed Delta crashing DM when opening with 512 (#32749)
+* 4daec514739	ACCount		Updates all the map disposal pipes for recent disposals refactor (#32670)
+* 5946689f10e	Ashe Higgs		Improves the deep fryer (#32482)
+* 0a9c240feee	WJohn		Removes stationary syndicate infiltrator docking ports on all maps. (#32579)
+* f48333c63e2	ShizCalev		Fixes map issues
+* b532606f2ac	vuonojenmustaturska		Refactors and improvements to xenobio slime processor (#32406)
+* 1cebac0ed18	ShizCalev		Fixes wrong locker IDs in pubby sec
+* 8cc1b5bab97	ACCount		Replaces glass in atmos tank windows with reinforced plasma glass (#32253)
+* 89b6b022f17	ACCount		Internal map improvements (#32310)
+* 1af03a8f2ef	Tad Hardesty		Clean up varedits on power cables on all maps (#31967)
+* 376afc85f41	ShizCalev		Cleaned duplicated keys
+* 1338d530cde	ShizCalev		Defrags pubby key dictionary
+* d17d09cb1bc	Emmett Gaines		Radiation makes you vomit blood and more balance changes (#31753)
+* 6e0e047fb21	ShizCalev		Even more explosive stuff...
+* c353b77f4e3	Robustin		Smoke Machine Updates & Fixes (#31598)
+* 945a58cf85a	duncathan salt		unfucks filters (#31599)
+* d7bfebf67ad	bawhoppen		Moves Smoke Machine boards to tech storage (#31546)
+* 454d16fe32c	duncathan salt		Minor refactor of how gas IDs are handled (#31528)
+* 44eefe24a3e	ShizCalev		Fixes a few more non-timid template shuttles (#31526)
+* 395524e2e2a	WJohn		Tweaks syndie infiltrator and box/meta whiteships: Diet conflicts flavor! (#31522)
+*   a8567719471	Jordan Brown		Merge pull request #31507 from ShizCalev/varedit-cleanup
+|\  
+| * c91d748d480	ShizCalev		Cleans up warning line varedits
+* |   7b85a826c02	Jordan Brown		Merge pull request #31506 from ShizCalev/pubby-texture-fix
+|\ \  
+| * | 9da6625eba2	ShizCalev		Fixes missing texture on pubby
+| |/  
+* / 62fe4eb93d6	Robustin		Adds the Chemistry Smoke Machine (#30920)
+|/  
+* 51f4ca1f8a6	ShizCalev		Fixes missing plating icons (#31418)
+* 49438a65f85	Emmett Gaines		Syndicate infiltrator update (#31410)
+* 33631ab12c7	ShizCalev		Map fixes
+* 626ef376593	ShizCalev		Cleans up some chemmaster varedits (#30787)
+* e679b625166	ShizCalev		Varedit cleanup mk4 (#30794)
+* 9e8766b5edf	Robustin		Adds Abandoned Airlocks (#30705)
+* d71efa0859e	ShizCalev		Cleans up showcase & plaque varedits, updated loyalty implant references (#30698)
+* 63593226be7	Jordan Brown		Changes shuttle port direction var from an angle to a dir (#30167)
+* 283da7778cc	pubby		Fix monastery shuttle + Pods (#30375)
+* ae64a284ab3	shizcalev		Changed to subtypes
+* ec6e9bb78f8	shizcalev		Makes APC cell_type actually pick a cell
+* 8a9ae965311	ShizCalev		Fixed pubby emergency shuttle (#30313)
+*   bc437d9aac1	Cyberboss		Merge pull request #30257
+|\  
+| * 3bc49313583	pubby		Small PubbyStation update
+* | 6eb61d6f413	pubby		Crew monitoring rework part 1: crew pinpointers (#30117)
+|/  
+* 3274ad4f129	Cruix		The syndicate shuttle can now fly anywhere on the station z-level (#29909)
+*   c61d001203b	Jordan Brown		Merge pull request #29908 from ShizCalev/pubby
+|\  
+| * dbe01bf1257	shizcalev		Cleaned up manually placed full window/grills
+* | bb4e0c94dde	shizcalev		Cleaned up dirty turf varedits
+* | af4d9a85c9a	Jordan Brown		Repaths /obj/item/weapon to /obj/item (#29929)
+|/  
+*   f55ff569c8d	Jordan Brown		Merge pull request #29880
+|\  
+| * 533ecdf6fef	shizcalev		Unlocked miner closet in Pubby aux_base dock
+* | cd67ec10795	WJohn		Adds ore box and shuttle console to aux bases on all maps.
+|/  
+* 6e7462f4473	shizcalev		Fixes on Pubby
+* 4a6dac1f5ee	pubby		Updates PubbyStation (#29795)
+* 4916458c69f	shizcalev		Fixed cere and meta using prison station areas
+* 15a26206c13	shizcalev		Cleaned up maint tunnels
+* 54f4964ff21	shizcalev		pubby done
+* 4d82f6a4d7e	shizcalev		turrets updated
+* 3d16b2295b2	shizcalev		Box done
+*   43352371a72	Cyberboss		Merge pull request #29635
+|\  
+| * 747d8209044	shizcalev		Cleaned up stacked pipes in engineering
+| * da70787dc9a	shizcalev		Made the AI sat bridge longer.
+| * 5e9cd28b635	shizcalev		added turrets to AI sat bridge area
+* | b3a2721590f	ShizCalev		Window Spawners (#29634)
+* |   6806607425b	Jordan Brown		Merge pull request #29369
+|\ \  
+| |/  
+|/|   
+| *   7ecbb8a1b22	Qustinnus		Merge branch 'master' into disgustport
+| |\  
+| * | 6a3c14143b2	Qustinnus		replaces some referenes to dead mouses
+* | |   3ec4aec215b	Jordan Brown		Merge pull request #29601
+|\ \ \  
+| * | | 99624b8e74b	shizcalev		further spellchecking
+* | | | 5d4558b9481	shizcalev		Cleaned up last telecomms turf varedits
+|/ / /  
+* | / 8e8ca692a5d	pubby		Updates PubbyStation
+| |/  
+|/|   
+* | 899bb2a305d	MoreRobustThanYou		Ports Rapid Cable Layers from /vg/ and paradise (#29119)
+* |   fbcc1b077bb	Jordan Brown		Merge pull request #29510
+|\ \  
+| * | a8e8e0091d8	BeeSting12		adds dresser
+* | | 8ebf6b6a43d	shizcalev		cleaned up paper
+* | | 0e9b3967e24	ShizCalev		Spellchecks the map definitions (#29485)
+* | | f31cbb3ac56	shizcalev		Nanotrasen
+* | | 4f763d401b1	ShizCalev		Fixes misc. map issues (#29386)
+|/ /  
+* / d3570ac2016	ShizCalev		Adds gateway to pubby station (#29329)
+|/  
+* 9d08a88d10f	ShizCalev		Made cell / holding cell windoors their own subtype (#29293)
+* c79aeb9cc02	ShizCalev		Var cleanup (#29168)
+* ddf76ba357e	shizcalev		Fixed walls on pubby shuttle
+* 5778b6f9001	ShizCalev		Replaces useless teleporter consoles on bridge (#29069)
+* 2d7b804adec	ShizCalev		renames mech bay APC on Pubby (#29065)
+* 35a0552f665	ShizCalev		Var cleanup again (#29025)
+* e1086bb6169	shizcalev		merge conflict fix
+* ca29c6c510a	ShizCalev		Varedit cleanup: Mk 4½ (#28715)
+* bfe6b89d9eb	ShizCalev		Var-edit Cleanup and Fixes: Mk3 - The Revenge (#28617)
+* 887b82056f1	Bedrydant		Fixed PubbyStation
+* 1b67599b81f	ShizCalev		Roundstart AT Cleanup mk2 (#28383)
+* 1db56a3d586	TrustyGun		Clown Toy Box + Wooden Crates (#28227)
+* f2d829261a5	ShizCalev		[Typo] Duffel Bag (#28200)
+* 2b298bb6aa9	Expletive		Adds The NT-75 Electromagnetic Power Inducer (#27653)
+* 82d5e8a51a0	ShizCalev		Area Refactor + Var-edit Cleanup (#27530)
+* df0efe1a562	ShizCalev		[All stations] Cleaned up var-editted areas (#27453)
+* e0bc634bd98	Mr Potato Shaman		Fixes #272322
+* 003461a39b8	Jack Edge		Smartfridges only come preloaded at map start
+* a818de3ae58	BeeSting12		removes one airlock
+* b7864be38ad	KorPhaeron		Curator
+* bee69ddcd95	Jack Edge		Removes active turfs from Pubby, Box and Crashed Ship ruin
+* ca90f93aa48	Poly the Parrot		Expands the bird to Pubbystation (#26286)
+* 99ec6fdeac2	BeeSting12		Adds an xenobiology access shield wall generator to all maps' except Cerestation's xenobiology (#26262)
+* 121968d6b4c	bawhoppen		Kills off inconsistent shuttle paths (#26221)
+* f55f037e535	Jack Edge		Turns out that the chef job is actually called Cook
+* 2d78e0f5827	Jack Edge		Pubbystation landmark types
+* d9b341f2ac9	Mr Potato Shaman		Modular Computer Tweak for #22637 (#25374)
+* 8023a02e574	Cyberboss		Map loader optimizations (#25316)
+* 36b62d0932d	Mr Potato Shaman		Adjust Engine Cameras / Monitors (#25288)
+* dc4409efbde	Mr Potato Shaman		Resolves access (#25220)
+*   44b6e31725b	Cheridan		Merge pull request #25181 from lzimann/orm
+|\  
+| * cb4b9a91c60	Lzimann		Requests console now have a receive ore updates variable. Also updates all maps with it.
+* | 764ec637135	Xhuis		Adds the power flow control console (#25001)
+|/  
+* c4e95a03448	Joan Lung		Shuttles and Centcom now have dynamic lighting (#24993)
+* a0df4444ebd	Cyberboss		Revert the map loader optimization
+* e48564d9417	Cyberboss		Arrivals Ferry (#24694)
+* 645f3b1d755	Cyberboss		Cuts out a chunk of map loader time for maps with a lot of space (#24764)
+* f36940d1c07	Joan Lung		Circuit tiles now glow faintly (#24722)
+* e46e892ed1f	Tofa01		[All Maps] Fixes Syndicate Shuttles Spawning Too Close To Stations (#24701)
+* 02bbad3656e	Tofa01		Adds The Centcomm Raven Battlecruiser, A New Purchasable Emergency Escape Shuttle (#24572)
+* b3a52289efd	coiax		Posters refactor (#24548)
+* 9e458b64526	Christopher		[Delta] Adds A Centcomm Ferry Shuttle & [All Maps] Changes Centcom Ferry To Better Design (#24353)
+* e479e282453	uraniummeltdown		fixes incorrect shuttle engine propulsion dirs
+* 356505e11d8	Cyberboss		Fixes the buggy ass throwing fedora
+* 347b3849771	GunHog		Aux Base Improvements (#24146)
+* 271ad20fa9f	Christopher		[Pubby] Re-Arranges And Extends Pubby Escape Hallway (#24158)
+* 4eaaa168a3a	KorPhaeron		Replaces the limb grower with surplus limbs
+* 6a49ff13f8b	AnturK		Fixes mapedited decals on Pubby
+* 6470464ec18	AnturK		Map Decals v.2 (#23385)
+* c5a9a8e16e5	Christopher		Adds New Sprite For AI Slipper (#23406)
+* 60a973b6799	Christopher		[Pubby] Adds Modular Computer To CE office (#23380)
+* 2947408e09d	Leo		Revert "Turf decals + path update helper"
+* bf20de19f61	AnturK		Turf decals + path update helper (#22887)
+* 0f59d707d2a	johnthedonut		Changed Permissions on Custodial Closet shutter buttons so only Janitor can open and close them.
+* 74923c69fa1	Mervill		added a credit deposit to pubbystation's vault (#22272)
+* 36489912375	Firecage		Adds Titanium Airlocks (#22141)
+* 2e8ef6c3564	Lzimann		Adds the spawner to the maps
+* 7d9c7ec44fd	pubby		PubbyStation bugfixes (#21637)
+* 735add08899	Leo		Removes lava baseturf in some PubbyStation's tiles. (#21465)
+* 744100713f9	pubby		Unfucks my docking port (#21405)
+* c5609f7daed	pubby		PubbyStation update #2 (#21345)
+* 7959535d05c	phil235		updating pubbystation with new transit tube types.
+* b7efc2cef43	phil235		Make energy guns able to use burst fire. (#21005)
+* c7e474ccaec	chowdermcarthor		Neck Slots (#21169)
+* a1db1df417c	pubby		PubbyStation update (#21166)
+* b26c78c9e3d	pubby		A new map for pubbies by pubbies (#20925)
