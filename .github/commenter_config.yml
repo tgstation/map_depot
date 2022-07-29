@@ -1,0 +1,10 @@
+comment:
+  on-update: recreate
+
+  snippets:
+    - id: submodules-changed
+      files:
+        - 'tgstation'
+      body: |
+       Hey, listen! You appear to be passing through a commit change on the tgstation submodule.
+       Please do not PR any changes to the submodule! Please attempt to remove the change.
