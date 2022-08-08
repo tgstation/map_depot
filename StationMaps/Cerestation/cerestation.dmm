@@ -1473,6 +1473,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig/upper)
+"agZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
+/area/station/science/robotics/mechbay)
 "aha" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=CellBlockMidRight";
@@ -3613,9 +3617,20 @@
 /turf/closed/wall,
 /area/station/commons/dorms/barracks/female)
 "aoW" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/engine,
-/area/station/hallway/primary/starboard)
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron,
+/area/station/hallway/primary/aft)
 "aoY" = (
 /obj/structure/dresser,
 /obj/structure/cable,
@@ -32349,10 +32364,7 @@
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
 "bOj" = (
-/obj/machinery/air_sensor{
-	frequency = 1441;
-	id_tag = "n2_sensor"
-	},
+/obj/machinery/air_sensor/nitrogen_tank,
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
 "bOk" = (
@@ -33821,10 +33833,7 @@
 /turf/open/floor/engine/o2,
 /area/station/engineering/atmos)
 "bSo" = (
-/obj/machinery/air_sensor{
-	frequency = 1441;
-	id_tag = "o2_sensor"
-	},
+/obj/machinery/air_sensor/oxygen_tank,
 /turf/open/floor/engine/o2,
 /area/station/engineering/atmos)
 "bSp" = (
@@ -34774,10 +34783,7 @@
 /turf/open/floor/engine/air,
 /area/station/engineering/atmos)
 "bUS" = (
-/obj/machinery/air_sensor{
-	frequency = 1441;
-	id_tag = "air_sensor"
-	},
+/obj/machinery/air_sensor/air_tank,
 /turf/open/floor/engine/air,
 /area/station/engineering/atmos)
 "bUT" = (
@@ -35009,13 +35015,6 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "bVy" = (
-/obj/machinery/computer/atmos_control/carbon_tank{
-	dir = 1;
-	input_tag = "co2_in";
-	name = "Carbon Dioxide Supply Control";
-	output_tag = "co2_out";
-	sensors = list("co2_sensor" = "Tank")
-	},
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
 	},
@@ -35029,6 +35028,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/carbon_tank{
+	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
@@ -35232,19 +35234,15 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
 "bWc" = (
-/obj/machinery/computer/atmos_control/mix_tank{
-	dir = 1;
-	input_tag = "mix_in";
-	name = "Gas Mix Tank Control";
-	output_tag = "mix_in";
-	sensors = list("mix_sensor" = "Tank")
-	},
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/mix_tank{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos/pumproom)
@@ -35431,10 +35429,7 @@
 /turf/open/floor/engine/co2,
 /area/station/engineering/atmos)
 "bWO" = (
-/obj/machinery/air_sensor{
-	frequency = 1441;
-	id_tag = "co2_sensor"
-	},
+/obj/machinery/air_sensor/carbon_tank,
 /turf/open/floor/engine/co2,
 /area/station/engineering/atmos)
 "bWP" = (
@@ -35456,10 +35451,7 @@
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "bWR" = (
-/obj/machinery/air_sensor{
-	frequency = 1441;
-	id_tag = "tox_sensor"
-	},
+/obj/machinery/air_sensor/plasma_tank,
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "bWS" = (
@@ -35482,10 +35474,7 @@
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
 "bWU" = (
-/obj/machinery/air_sensor{
-	frequency = 1441;
-	id_tag = "n2o_sensor"
-	},
+/obj/machinery/air_sensor/nitrous_tank,
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
 "bWV" = (
@@ -35507,10 +35496,7 @@
 /turf/open/floor/engine/vacuum,
 /area/station/engineering/atmos)
 "bWX" = (
-/obj/machinery/air_sensor{
-	frequency = 1441;
-	id_tag = "mix_sensor"
-	},
+/obj/machinery/air_sensor/mix_tank,
 /turf/open/floor/engine/vacuum,
 /area/station/engineering/atmos)
 "bWY" = (
@@ -42079,6 +42065,7 @@
 	pixel_y = 24;
 	req_access = list("robotics")
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/robotics/mechbay)
 "cqy" = (
@@ -43366,10 +43353,6 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "ctm" = (
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
@@ -43379,18 +43362,21 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/machinery/portable_atmospherics/canister,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "ctn" = (
-/obj/machinery/atmospherics/pipe/smart/simple/general/visible{
-	dir = 10
-	},
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/machinery/portable_atmospherics/canister,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "cto" = (
@@ -43453,6 +43439,7 @@
 /area/station/science/robotics/lab)
 "ctu" = (
 /obj/effect/turf_decal/tile/purple,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "ctv" = (
@@ -43688,10 +43675,6 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "cua" = (
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister,
 /obj/machinery/airalarm/directional/west{
 	pixel_x = -22
 	},
@@ -43701,11 +43684,15 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/trinary/filter/flipped{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "cub" = (
-/obj/machinery/atmospherics/pipe/smart/manifold/general/visible{
-	dir = 4
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible{
+	dir = 9
 	},
 /obj/machinery/meter,
 /turf/open/floor/iron/white,
@@ -43848,9 +43835,6 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "cuu" = (
-/obj/machinery/atmospherics/pipe/smart/simple/general/visible{
-	dir = 9
-	},
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
@@ -43865,6 +43849,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "cuw" = (
@@ -43909,6 +43894,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "cuB" = (
@@ -43966,6 +43952,7 @@
 /obj/structure/noticeboard{
 	pixel_y = 32
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "cuL" = (
@@ -45196,6 +45183,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "cxf" = (
@@ -45422,6 +45410,7 @@
 	dir = 5
 	},
 /obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/station/science/ordnance)
 "cxP" = (
@@ -45476,6 +45465,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "cxW" = (
@@ -45797,6 +45787,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "cyM" = (
@@ -45809,6 +45800,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "cyN" = (
@@ -49317,6 +49309,8 @@
 /obj/machinery/camera/directional/north{
 	c_tag = "Research Asteroid Hallway 3"
 	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/firecloset,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "cJv" = (
@@ -49665,10 +49659,6 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "cKv" = (
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister,
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -49677,12 +49667,17 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "cKw" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "cKx" = (
@@ -51868,6 +51863,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/station/science/ordnance/storage)
 "cSs" = (
@@ -52664,6 +52660,7 @@
 "cVo" = (
 /obj/machinery/igniter/incinerator_atmos,
 /obj/structure/cable,
+/obj/machinery/air_sensor/incinerator_tank,
 /turf/open/floor/engine/vacuum,
 /area/station/maintenance/disposal/incinerator)
 "cVp" = (
@@ -52930,10 +52927,19 @@
 /turf/open/floor/engine,
 /area/station/hallway/primary/central)
 "cWp" = (
-/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/engine,
-/area/station/hallway/primary/starboard)
+/turf/open/floor/iron,
+/area/station/hallway/primary/aft)
 "cWs" = (
 /obj/structure/chair/wood,
 /obj/structure/cable,
@@ -54023,13 +54029,6 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/atmos)
 "ddM" = (
-/obj/machinery/computer/atmos_control/nitrogen_tank{
-	dir = 4;
-	input_tag = "n2_in";
-	name = "Nitrogen Supply Control";
-	output_tag = "n2_out";
-	sensors = list("n2_sensor" = "Tank")
-	},
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /obj/structure/window/reinforced{
 	dir = 8
@@ -54043,6 +54042,9 @@
 	},
 /obj/effect/turf_decal/tile/red{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/nitrogen_tank{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
@@ -54371,10 +54373,6 @@
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
 	},
-/obj/machinery/computer/atmos_control/plasma_tank{
-	dir = 1;
-	sensors = list("tox_sensor" = "Tank")
-	},
 /obj/structure/window/reinforced,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -54385,6 +54383,9 @@
 	},
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/plasma_tank{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
@@ -60496,6 +60497,10 @@
 /obj/item/stack/sheet/iron,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine/atmos)
+"eaI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
+/area/station/science/research)
 "ebh" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -60902,13 +60907,12 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "eUS" = (
-/obj/machinery/atmospherics/pipe/smart/simple/dark/visible,
-/obj/machinery/air_sensor/incinerator_tank{
-	pixel_x = -32;
-	pixel_y = -32
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible{
+	dir = 4
 	},
-/turf/closed/wall/r_wall,
-/area/station/maintenance/disposal/incinerator)
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
+/area/station/science/ordnance)
 "eVz" = (
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
@@ -61458,9 +61462,6 @@
 /area/station/engineering/atmos/project)
 "gHX" = (
 /obj/structure/table/reinforced,
-/obj/item/paper/fluff{
-	info = "Yeah sorry bud, you're gonna have to go put the bomb out there manually."
-	},
 /obj/item/crowbar,
 /obj/item/computer_hardware/hard_drive/portable{
 	pixel_x = -2
@@ -61530,6 +61531,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 5
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/station/science/ordnance/storage)
 "gOb" = (
@@ -61625,6 +61627,7 @@
 	dir = 4
 	},
 /obj/item/radio/intercom/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "gTv" = (
@@ -65429,6 +65432,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "opR" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/station/science/ordnance)
 "orc" = (
@@ -66599,6 +66603,7 @@
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/station/science/ordnance)
 "quL" = (
@@ -68542,6 +68547,10 @@
 "uFD" = (
 /turf/closed/wall/rust,
 /area/station/maintenance/department/chapel)
+"uFY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron,
+/area/station/science/robotics/lab)
 "uFZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -68933,6 +68942,16 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/misc/asteroid,
 /area/station/maintenance/department/science)
+"vtk" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
+/area/station/science/research)
 "vtB" = (
 /obj/effect/landmark/blobstart,
 /obj/structure/disposalpipe/segment{
@@ -69716,6 +69735,10 @@
 /obj/structure/holosign/barrier/atmos,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/project)
+"wZB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
+/area/station/science/ordnance)
 "wZG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/neutral{
@@ -82551,13 +82574,13 @@ aaa
 aaa
 cJM
 cpo
+eUS
+wZB
 cKu
+wZB
+wZB
 crm
-cKu
-crm
-crm
-crm
-crm
+wZB
 cvp
 cwk
 cpo
@@ -82809,9 +82832,9 @@ aaa
 cJM
 cpo
 cqn
-crm
+wZB
 csh
-crm
+wZB
 ctq
 crm
 cJW
@@ -84356,7 +84379,7 @@ dCd
 dCh
 ctt
 cuf
-cuF
+vtk
 bcR
 cxq
 mLU
@@ -84610,10 +84633,10 @@ cou
 cqs
 crp
 orc
-cro
+uFY
 ctu
 dCm
-cuF
+vtk
 bcR
 cwr
 cxe
@@ -85892,7 +85915,7 @@ cmX
 cnU
 cow
 dBS
-cqw
+agZ
 cqw
 cqw
 cqw
@@ -86926,7 +86949,7 @@ css
 csS
 ctD
 dCo
-cuF
+vtk
 bcS
 cxq
 hxQ
@@ -87185,7 +87208,7 @@ ctE
 dBU
 cuK
 bcS
-cxq
+eaI
 cJY
 cyc
 cyQ
@@ -87431,7 +87454,7 @@ iUx
 iUx
 iUx
 cmX
-cnU
+cWp
 coE
 cpw
 cqB
@@ -87439,10 +87462,10 @@ cxq
 cst
 cpw
 gTu
-cxq
-cxq
+eaI
+eaI
 xei
-cxq
+eaI
 cJY
 cyd
 cyR
@@ -87688,7 +87711,7 @@ ckz
 clc
 iUx
 cmX
-cnU
+cWp
 coF
 cpv
 xUK
@@ -87699,7 +87722,7 @@ ctG
 xUK
 cuM
 cvE
-cxq
+eaI
 cJY
 cye
 sIc
@@ -88971,7 +88994,7 @@ cBo
 iUx
 iUx
 iUx
-cnU
+aoW
 cmX
 cnT
 coz
@@ -89485,7 +89508,7 @@ crx
 iUx
 aZO
 ceW
-cnU
+aoW
 cmX
 cnU
 coz
@@ -96426,7 +96449,7 @@ uQa
 clA
 cmd
 cnj
-cnU
+cWp
 cXm
 ceW
 jWk
@@ -96683,7 +96706,7 @@ ckP
 clA
 cmc
 cnk
-cnU
+cWp
 coR
 ceW
 jWk
@@ -98969,7 +98992,7 @@ wgC
 kyo
 cVf
 sIm
-eUS
+cVf
 cVp
 cVr
 aaa
@@ -121766,11 +121789,11 @@ ybp
 ybp
 ybp
 ybp
-cWp
-cWp
-cWp
-cWp
-cWp
+ybp
+ybp
+ybp
+ybp
+ybp
 cWx
 ybp
 ybp
@@ -122028,7 +122051,7 @@ eJh
 gTv
 eJh
 eJh
-aoW
+eJh
 eJh
 eJh
 eJh
