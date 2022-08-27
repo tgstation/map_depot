@@ -18776,7 +18776,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "bqY" = (
@@ -19591,8 +19590,8 @@
 	},
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
-	dir = 4
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
@@ -19779,9 +19778,6 @@
 	},
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
 /turf/open/floor/iron/dark,
 /area/station/science/lab)
 "buy" = (
@@ -19792,6 +19788,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
+/obj/structure/sign/departments/rndserver/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/science/lab)
 "buz" = (
@@ -19848,7 +19845,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/delivery,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
 /area/station/medical/cryo)
@@ -20107,7 +20103,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 5
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "bvM" = (
@@ -22842,6 +22840,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/cyan{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
@@ -33091,11 +33092,18 @@
 /turf/open/floor/iron,
 /area/station/security/prison/workout)
 "cYn" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/turf/open/floor/plating,
-/area/station/maintenance/department/science/central)
+/obj/structure/table/reinforced,
+/obj/item/clipboard,
+/obj/item/lighter,
+/obj/item/stock_parts/cell/high,
+/obj/item/clothing/glasses/meson/engine,
+/obj/item/stamp/ce,
+/turf/open/floor/iron,
+/area/station/command/heads_quarters/ce)
 "cZu" = (
 /obj/structure/chair{
 	dir = 1
@@ -35926,7 +35934,6 @@
 /obj/structure/chair/office{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/iron/dark,
 /area/station/science/server)
 "fwg" = (
@@ -38069,9 +38076,6 @@
 /area/station/security/prison)
 "htK" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
-	dir = 9
-	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "hvm" = (
@@ -41045,7 +41049,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 9
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "knG" = (
@@ -41695,7 +41701,6 @@
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 6
 	},
-/obj/machinery/portable_atmospherics/canister/anesthetic_mix,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/central)
 "kTl" = (
@@ -41931,10 +41936,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/drone_bay)
-"lcA" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/visible,
-/turf/closed/wall/r_wall,
-/area/station/science/server)
 "lcH" = (
 /obj/machinery/camera/directional/west{
 	c_tag = "Cargo Mining Dock"
@@ -46565,12 +46566,6 @@
 	},
 /turf/open/floor/carpet,
 /area/station/medical/psychology)
-"pdf" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/visible{
-	dir = 4
-	},
-/turf/closed/wall/r_wall,
-/area/station/maintenance/department/science/central)
 "pdq" = (
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating,
@@ -49574,7 +49569,6 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/delivery,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/machinery/shower/directional/south,
 /turf/open/floor/iron,
 /area/station/medical/cryo)
@@ -50112,6 +50106,14 @@
 /obj/effect/spawner/random/maintenance/two,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
+"rSR" = (
+/obj/structure/table,
+/obj/machinery/fax{
+	fax_name = "Cargo Office";
+	name = "Cargo Office Fax Machine"
+	},
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "rTy" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -50337,14 +50339,6 @@
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"sdE" = (
-/obj/structure/table,
-/obj/machinery/fax{
-	fax_name = "Cargo Office";
-	name = "Cargo Office Fax Machine"
-	},
-/turf/open/floor/iron,
-/area/station/cargo/storage)
 "sea" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -50563,9 +50557,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
-/obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/hidden{
-	dir = 4
-	},
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
@@ -53281,19 +53272,6 @@
 /obj/structure/flora/bush/large/style_random,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
-"uqJ" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/structure/table/reinforced,
-/obj/item/clipboard,
-/obj/item/lighter,
-/obj/item/stock_parts/cell/high,
-/obj/item/clothing/glasses/meson/engine,
-/obj/item/stamp/ce,
-/turf/open/floor/iron,
-/area/station/command/heads_quarters/ce)
 "urG" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -54242,9 +54220,6 @@
 /obj/machinery/disposal/bin{
 	name = "Corpse Disposal"
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
-	dir = 5
-	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "uYV" = (
@@ -54672,9 +54647,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port)
 "vtX" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer{
-	dir = 8
-	},
+/obj/machinery/portable_atmospherics/canister/anesthetic_mix,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/central)
 "vuq" = (
@@ -76974,7 +76947,7 @@ agF
 msX
 ahj
 ahy
-kUH
+ahy
 aix
 aiZ
 ajH
@@ -77230,7 +77203,7 @@ xaW
 nrb
 nrb
 ahk
-ahy
+kUH
 rHF
 rHF
 aja
@@ -83206,8 +83179,8 @@ hVZ
 gQI
 bvc
 bqY
-mEo
 tOy
+mEo
 rtd
 koW
 koW
@@ -86833,7 +86806,7 @@ bPB
 bUJ
 bWp
 caj
-uqJ
+cYn
 bUH
 bYK
 cOG
@@ -96827,7 +96800,7 @@ bnT
 fGa
 bql
 fwe
-lcA
+bkx
 buw
 bvM
 sTi
@@ -101176,7 +101149,7 @@ eZj
 gcq
 sAD
 cCB
-sdE
+rSR
 kRa
 bbG
 aaa
@@ -102218,7 +102191,7 @@ enf
 khX
 fGd
 isg
-cYn
+yet
 wAI
 rpa
 rpa
@@ -102475,7 +102448,7 @@ jHZ
 iSi
 iSi
 iSi
-pdf
+iSi
 iSi
 iSi
 iSi
