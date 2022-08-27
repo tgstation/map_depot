@@ -30152,6 +30152,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron,
 /area/station/tcommsat/computer)
 "cmn" = (
@@ -30432,6 +30433,7 @@
 	c_tag = "Telecomms Server Room";
 	network = list("tcomms")
 	},
+/obj/item/radio/intercom/directional/south,
 /turf/open/floor/iron/dark/telecomms,
 /area/station/tcommsat/server)
 "cnv" = (
@@ -53527,6 +53529,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/station/tcommsat/computer)
 "uzr" = (
@@ -54840,6 +54843,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
+"vDd" = (
+/obj/machinery/holopad,
+/turf/open/floor/iron/dark/telecomms,
+/area/station/tcommsat/server)
 "vDh" = (
 /obj/item/target,
 /obj/structure/training_machine,
@@ -87136,7 +87143,7 @@ cmK
 cmK
 cmX
 cnc
-cmK
+vDd
 cmK
 cmK
 cnu
