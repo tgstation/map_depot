@@ -250,7 +250,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/structure/cable,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "aaQ" = (
@@ -518,7 +517,6 @@
 	pixel_y = -24
 	},
 /obj/machinery/holopad/secure,
-/obj/structure/cable,
 /obj/item/radio/intercom/directional/south{
 	broadcasting = 1;
 	frequency = 1447;
@@ -526,6 +524,7 @@
 	name = "AI Intercom";
 	pixel_y = -40
 	},
+/obj/structure/cable/multilayer/connected,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "acr" = (
@@ -589,11 +588,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/structure/cable,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "acC" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
@@ -1590,6 +1587,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
+/obj/structure/sign/departments/aisat/directional/west,
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "afO" = (
@@ -1624,6 +1622,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
+/obj/structure/sign/departments/aisat/directional/east,
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "afS" = (
@@ -1645,6 +1644,18 @@
 	},
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/ai_sat_ext_as)
+"afU" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/sign/departments/telecomms/directional/south,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "afX" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-08"
@@ -8304,6 +8315,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai_upload)
 "aBy" = (
@@ -10790,16 +10802,6 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/central/fore)
-"aLv" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/iron/dark,
-/area/station/ai_monitored/turret_protected/ai_upload)
 "aLx" = (
 /obj/structure/easel,
 /obj/item/canvas/twentythree_nineteen,
@@ -27448,6 +27450,14 @@
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
+"bXg" = (
+/obj/machinery/door/firedoor/heavy,
+/obj/machinery/door/airlock/command/glass{
+	name = "AI Core"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/science/minisat,
+/turf/open/floor/iron/white,
+/area/station/ai_monitored/turret_protected/ai)
 "bXi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -30017,6 +30027,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/sign/departments/telecomms/alt/directional/north,
 /turf/open/floor/iron,
 /area/station/tcommsat/computer)
 "clU" = (
@@ -33079,22 +33090,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/security/prison/workout)
-"cYn" = (
-/obj/structure/table,
-/obj/item/circuitboard/computer/operating{
-	pixel_x = -5;
-	pixel_y = -5
-	},
-/obj/item/circuitboard/machine/smartfridge{
-	pixel_x = 2;
-	pixel_y = 4
-	},
-/obj/item/circuitboard/computer/operating{
-	pixel_x = -2
-	},
-/obj/item/stack/cable_coil,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical/central)
 "cZu" = (
 /obj/structure/chair{
 	dir = 1
@@ -40024,6 +40019,7 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
+/obj/structure/sign/departments/aiupload/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "juh" = (
@@ -41927,6 +41923,22 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/drone_bay)
+"lcA" = (
+/obj/structure/table,
+/obj/item/circuitboard/computer/operating{
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/item/circuitboard/machine/smartfridge{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/item/circuitboard/computer/operating{
+	pixel_x = -2
+	},
+/obj/item/stack/cable_coil,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/central)
 "lcH" = (
 /obj/machinery/camera/directional/west{
 	c_tag = "Cargo Mining Dock"
@@ -48331,19 +48343,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
-"qxX" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/structure/table/reinforced,
-/obj/item/clipboard,
-/obj/item/lighter,
-/obj/item/stock_parts/cell/high,
-/obj/item/clothing/glasses/meson/engine,
-/obj/item/stamp/ce,
-/turf/open/floor/iron,
-/area/station/command/heads_quarters/ce)
 "qyR" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -50110,6 +50109,14 @@
 /obj/effect/spawner/random/maintenance/two,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
+"rSR" = (
+/obj/structure/table,
+/obj/machinery/fax{
+	fax_name = "Cargo Office";
+	name = "Cargo Office Fax Machine"
+	},
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "rTy" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -50336,13 +50343,18 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "sdE" = (
-/obj/structure/table,
-/obj/machinery/fax{
-	fax_name = "Cargo Office";
-	name = "Cargo Office Fax Machine"
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
 	},
+/obj/structure/table/reinforced,
+/obj/item/clipboard,
+/obj/item/lighter,
+/obj/item/stock_parts/cell/high,
+/obj/item/clothing/glasses/meson/engine,
+/obj/item/stamp/ce,
 /turf/open/floor/iron,
-/area/station/cargo/storage)
+/area/station/command/heads_quarters/ce)
 "sea" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -82408,7 +82420,7 @@ biP
 gQI
 bkX
 bmh
-cYn
+lcA
 gQI
 bpy
 biv
@@ -86810,7 +86822,7 @@ bPB
 bUJ
 bWp
 caj
-qxX
+sdE
 bUH
 bYK
 cOG
@@ -87332,7 +87344,7 @@ cai
 cbe
 cca
 cbW
-orZ
+afU
 nZX
 iEJ
 nZX
@@ -88795,7 +88807,7 @@ axb
 ayb
 juf
 aAB
-aLv
+aBu
 lTW
 wEJ
 aEF
@@ -90545,7 +90557,7 @@ ace
 abO
 abO
 abO
-bhU
+bXg
 abO
 abO
 acC
@@ -90802,7 +90814,7 @@ abO
 abO
 abO
 abO
-bhU
+bXg
 abO
 abO
 abO
@@ -101153,7 +101165,7 @@ eZj
 gcq
 sAD
 cCB
-sdE
+rSR
 kRa
 bbG
 aaa
