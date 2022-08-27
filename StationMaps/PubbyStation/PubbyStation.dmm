@@ -17174,34 +17174,22 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/central)
 "bkZ" = (
-/obj/structure/table,
-/obj/item/circuitboard/machine/smartfridge{
-	pixel_x = 2;
-	pixel_y = 4
-	},
-/obj/item/circuitboard/computer/operating{
-	pixel_x = -2
-	},
-/obj/item/circuitboard/computer/operating{
-	pixel_x = -5;
-	pixel_y = -5
-	},
-/obj/item/stack/cable_coil,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical/central)
-"bla" = (
 /obj/structure/closet/crate/medical,
-/obj/item/storage/box/rxglasses{
-	pixel_x = 1;
-	pixel_y = 1
-	},
+/obj/item/storage/box/syringes,
+/obj/item/reagent_containers/chem_pack,
+/obj/item/reagent_containers/chem_pack,
+/obj/item/reagent_containers/chem_pack,
 /obj/item/storage/box/beakers{
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/obj/item/reagent_containers/chem_pack,
-/obj/item/reagent_containers/chem_pack,
-/obj/item/storage/box/syringes,
+/obj/item/storage/box/rxglasses{
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/central)
+"bla" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -33092,18 +33080,21 @@
 /turf/open/floor/iron,
 /area/station/security/prison/workout)
 "cYn" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
+/obj/structure/table,
+/obj/item/circuitboard/computer/operating{
+	pixel_x = -5;
+	pixel_y = -5
 	},
-/obj/structure/table/reinforced,
-/obj/item/clipboard,
-/obj/item/lighter,
-/obj/item/stock_parts/cell/high,
-/obj/item/clothing/glasses/meson/engine,
-/obj/item/stamp/ce,
-/turf/open/floor/iron,
-/area/station/command/heads_quarters/ce)
+/obj/item/circuitboard/machine/smartfridge{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/item/circuitboard/computer/operating{
+	pixel_x = -2
+	},
+/obj/item/stack/cable_coil,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/central)
 "cZu" = (
 /obj/structure/chair{
 	dir = 1
@@ -48340,6 +48331,19 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
+"qxX" = (
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/item/clipboard,
+/obj/item/lighter,
+/obj/item/stock_parts/cell/high,
+/obj/item/clothing/glasses/meson/engine,
+/obj/item/stamp/ce,
+/turf/open/floor/iron,
+/area/station/command/heads_quarters/ce)
 "qyR" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -50106,14 +50110,6 @@
 /obj/effect/spawner/random/maintenance/two,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
-"rSR" = (
-/obj/structure/table,
-/obj/machinery/fax{
-	fax_name = "Cargo Office";
-	name = "Cargo Office Fax Machine"
-	},
-/turf/open/floor/iron,
-/area/station/cargo/storage)
 "rTy" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -50339,6 +50335,14 @@
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
+"sdE" = (
+/obj/structure/table,
+/obj/machinery/fax{
+	fax_name = "Cargo Office";
+	name = "Cargo Office Fax Machine"
+	},
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "sea" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -82404,7 +82408,7 @@ biP
 gQI
 bkX
 bmh
-xyK
+cYn
 gQI
 bpy
 biv
@@ -86806,7 +86810,7 @@ bPB
 bUJ
 bWp
 caj
-cYn
+qxX
 bUH
 bYK
 cOG
@@ -101149,7 +101153,7 @@ eZj
 gcq
 sAD
 cCB
-rSR
+sdE
 kRa
 bbG
 aaa
