@@ -136,7 +136,7 @@
 /area/station/solars/port/fore)
 "acA" = (
 /obj/docking_port/stationary/random{
-	shuttle_id = "pod_1_lavaland";
+	shuttle_id = "pod_3_lavaland";
 	name = "lavaland"
 	},
 /turf/open/space/basic,
@@ -14396,7 +14396,7 @@
 	dir = 4;
 	dwidth = 5;
 	height = 7;
-	shuttle_id = "supply_home";
+	shuttle_id = "cargo_home";
 	name = "Cargo Bay";
 	width = 12
 	},
@@ -29594,7 +29594,6 @@
 	dir = 4;
 	dwidth = 1;
 	height = 4;
-	name = "escape pod loader";
 	roundstart_template = /datum/map_template/shuttle/escape_pod/default;
 	width = 3
 	},
@@ -47143,8 +47142,8 @@
 	height = 15;
 	name = "arrivals";
 	roundstart_template = /datum/map_template/shuttle/arrival/box;
-	width = 7;
-	shuttle_id = "arrivals_stationary"
+	shuttle_id = "arrival_stationary";
+	width = 7
 	},
 /turf/open/space/basic,
 /area/space)
