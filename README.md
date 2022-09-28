@@ -7,7 +7,7 @@ This is a repository intended to include unused maps for the /tg/station codebas
 
 ## Submodules
 
-We provide a courtesy submodule of tgstation/tgstation code (https://github.com/tgstation/tgstation). If you find that you're having some issues (i.e.: the submodule is blank, try running this command in your repository's Command Line Interface:
+We provide a courtesy submodule of tgstation/tgstation code (https://github.com/tgstation/tgstation). If you find that you're having some issues (i.e.: the submodule is blank), try running this command in your repository's Command Line Interface:
 
 `git clone https://github.com/tgstation/tgstation.git --recursive`
 
