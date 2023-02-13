@@ -1,0 +1,35 @@
+{
+	"version": 1,
+	"map_name": "Sokoban Station",
+	"map_path": "custom",
+	"map_file": "Sokoban.dmm",
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_meta",
+		"emergency": "emergency_meta"
+	},
+	"traits": [
+		{
+			"Up": 1,
+			"Baseturf": "/turf/open/misc/asteroid/airless",
+			"Linkage": "Cross"
+		},
+		{
+			"Down": -1,
+			"Up": 1,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		},
+		{
+			"Down": -1,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		}
+	],
+	"job_changes": {
+		"Captain": {
+			"special_charter": "asteroid"
+		}
+	}
+}
