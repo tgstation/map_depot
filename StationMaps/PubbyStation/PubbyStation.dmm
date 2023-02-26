@@ -2911,6 +2911,7 @@
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 1
 	},
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/white,
 /area/station/security/medical)
 "akC" = (
@@ -2932,6 +2933,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
+/obj/machinery/computer/records/medical/laptop,
 /turf/open/floor/iron/white,
 /area/station/security/medical)
 "akE" = (
@@ -4913,6 +4915,7 @@
 /obj/effect/turf_decal/tile/green/half/contrasted{
 	dir = 1
 	},
+/obj/machinery/computer/records/medical,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "arJ" = (
@@ -16361,6 +16364,7 @@
 /obj/effect/turf_decal/tile/green/half/contrasted{
 	dir = 1
 	},
+/obj/structure/fireaxecabinet/mechremoval/directional/north,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "blJ" = (
@@ -18199,6 +18203,7 @@
 "btS" = (
 /obj/structure/table,
 /obj/item/clothing/mask/surgical,
+/obj/item/clothing/gloves/latex/nitrile,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "btV" = (
@@ -23104,6 +23109,7 @@
 "bOI" = (
 /obj/structure/flora/grass/jungle/b,
 /obj/structure/flora/bush/lavendergrass/style_random,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "bOK" = (
@@ -28834,6 +28840,10 @@
 "crv" = (
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/office)
+"crw" = (
+/mob/living/basic/pet/dog/corgi,
+/turf/open/floor/iron,
+/area/station/hallway/primary/aft)
 "cry" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/disposalpipe/segment{
@@ -30450,6 +30460,7 @@
 	pixel_y = 12
 	},
 /obj/item/radio/intercom/directional/north,
+/obj/item/infuser_book,
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "cQs" = (
@@ -31511,6 +31522,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/security/prison/garden)
+"dWC" = (
+/obj/structure/flora/bush/lavendergrass/style_random,
+/mob/living/basic/pet/dog/corgi,
+/turf/open/floor/grass,
+/area/station/medical/psychology)
 "dWO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -35092,6 +35108,7 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "hkQ" = (
@@ -38635,6 +38652,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/obj/machinery/computer/records/medical,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
 "kQZ" = (
@@ -39099,6 +39117,7 @@
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 4
 	},
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "lkH" = (
@@ -39146,6 +39165,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
+/mob/living/basic/pet/dog/corgi,
 /turf/open/floor/iron/dark,
 /area/station/service/library/lounge)
 "lne" = (
@@ -42022,6 +42042,7 @@
 /obj/structure/chair/office/light{
 	dir = 1
 	},
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "oaM" = (
@@ -44065,6 +44086,7 @@
 /area/station/service/library)
 "pNf" = (
 /obj/machinery/light/directional/east,
+/obj/machinery/dna_infuser,
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "pNy" = (
@@ -54025,6 +54047,7 @@
 /obj/item/reagent_containers/dropper{
 	pixel_y = 8
 	},
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
 "xWB" = (
@@ -78914,7 +78937,7 @@ bss
 piR
 lba
 sea
-uLp
+dWC
 gkS
 bSs
 aht
@@ -87132,7 +87155,7 @@ bAl
 bIu
 bmD
 bKK
-bmD
+crw
 bMT
 bOc
 cCU
