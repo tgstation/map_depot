@@ -148,10 +148,6 @@
 /turf/open/floor/iron,
 /area/station/commons/dorms)
 "aaw" = (
-/obj/machinery/requests_console/directional/north{
-	department = "Nanite Lab";
-	name = "Nanite Lab Requests Console"
-	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/engine,
 /area/station/science/lab)
@@ -4733,7 +4729,7 @@
 	height = 6;
 	name = "Station";
 	roundstart_template = /datum/map_template/shuttle/escape_pod/large;
-	shuttle_id = "monastery_shuttle_station";
+	shuttle_id = "monastery_shuttle_asteroid";
 	width = 5
 	},
 /turf/open/space/basic,
@@ -14767,9 +14763,9 @@
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "beS" = (
-/obj/structure/sign/warning,
+/obj/effect/spawner/random/structure/crate_abandoned,
 /turf/open/floor/plating,
-/area/station/maintenance/department/science/central)
+/area/station/maintenance/department/cargo)
 "beY" = (
 /obj/machinery/camera/directional/west{
 	c_tag = "Arrivals Central"
@@ -16503,7 +16499,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/paramedic)
 "bmy" = (
-/obj/machinery/holopad,
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=Kitchen";
 	location = "Med"
@@ -16761,12 +16756,8 @@
 /obj/item/assembly/flash/handheld,
 /obj/item/assembly/flash/handheld,
 /obj/item/assembly/flash/handheld,
-/obj/machinery/requests_console{
-	department = "Robotics";
-	departmentType = 2;
-	name = "Robotics RC";
-	pixel_x = 30;
-	receive_ore_updates = 1
+/obj/machinery/requests_console/directional/east{
+	name = RoboticsRequestConsole
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
@@ -17264,6 +17255,7 @@
 	pixel_x = 4
 	},
 /obj/structure/table,
+/obj/structure/fireaxecabinet/mechremoval/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
 "bql" = (
@@ -30643,6 +30635,10 @@
 /obj/effect/spawner/random/contraband/armory,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
+"dfJ" = (
+/obj/structure/sign/warning,
+/turf/closed/wall,
+/area/station/maintenance/department/science/central)
 "dfU" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -34417,6 +34413,10 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
+"gDk" = (
+/obj/effect/spawner/random/structure/crate_abandoned,
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "gDq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -35375,6 +35375,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
+"hBy" = (
+/obj/effect/spawner/random/structure/crate_abandoned,
+/turf/open/floor/plating{
+	luminosity = 2
+	},
+/area/station/maintenance/department/science/xenobiology)
 "hBT" = (
 /obj/machinery/newscaster/directional/north,
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
@@ -38719,15 +38725,11 @@
 	},
 /obj/machinery/light/directional/north,
 /obj/structure/disposalpipe/trunk,
-/obj/machinery/requests_console/directional/south{
-	department = "Virology";
-	departmentType = 2;
-	name = "Virology Requests Console";
-	pixel_y = 30;
-	receive_ore_updates = 1
-	},
 /obj/machinery/disposal/bin{
 	name = "Disposal To Space"
+	},
+/obj/machinery/requests_console/directional/north{
+	name = "Virology Requests Console"
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
@@ -39693,6 +39695,11 @@
 	},
 /turf/closed/wall,
 /area/station/maintenance/department/science/central)
+"lQy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/crate_abandoned,
+/turf/open/floor/plating,
+/area/station/maintenance/department/engine)
 "lQQ" = (
 /obj/machinery/computer/atmos_control/carbon_tank{
 	dir = 8
@@ -45554,6 +45561,7 @@
 /obj/structure/sign/poster/contraband/random{
 	pixel_x = 32
 	},
+/obj/effect/spawner/random/structure/crate_abandoned,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "raP" = (
@@ -53286,6 +53294,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/genetics)
+"xnI" = (
+/obj/effect/spawner/random/structure/crate_abandoned,
+/turf/open/floor/plating,
+/area/station/maintenance/department/engine)
 "xnW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
@@ -72191,7 +72203,7 @@ ekU
 aiu
 aiH
 ajD
-ajD
+gDk
 nPA
 mtu
 aCc
@@ -75597,7 +75609,7 @@ bME
 bva
 qvx
 bHT
-bNQ
+lQy
 xtI
 xtI
 xtI
@@ -80230,7 +80242,7 @@ bVC
 xbD
 bNQ
 bsn
-bDi
+xnI
 bDi
 bDi
 bOB
@@ -98691,7 +98703,7 @@ vgm
 vgm
 vgm
 gvM
-gvM
+dfJ
 tBP
 gvM
 uSW
@@ -99184,7 +99196,7 @@ aFi
 yiL
 aEj
 aFi
-aFi
+beS
 aEj
 aNW
 aEj
@@ -99205,7 +99217,7 @@ aaa
 aaa
 aaa
 gvM
-beS
+yet
 uSW
 gvM
 uSW
@@ -100773,7 +100785,7 @@ hTl
 bFC
 bwm
 izF
-izF
+hBy
 bwm
 niN
 bwm
