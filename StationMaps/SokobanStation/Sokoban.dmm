@@ -2728,6 +2728,11 @@
 "mK" = (
 /turf/open/space/openspace,
 /area/space)
+"mL" = (
+/obj/effect/turf_decal/bot_white/left,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/station/engineering/gravity_generator)
 "mM" = (
 /obj/item/radio/intercom/directional/south,
 /obj/effect/turf_decal/tile/bar{
@@ -5166,6 +5171,13 @@
 	},
 /turf/open/misc/asteroid/airless,
 /area/space)
+"wG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot_white/right,
+/turf/open/floor/engine,
+/area/station/engineering/gravity_generator)
 "wL" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -9100,7 +9112,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/effect/turf_decal/bot_white/right,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
@@ -9182,6 +9193,10 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
+"OF" = (
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/engine,
+/area/station/engineering/gravity_generator)
 "OG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -9506,7 +9521,6 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "Qe" = (
-/obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -10894,7 +10908,6 @@
 /turf/open/floor/plating,
 /area/station/security/processing)
 "Wp" = (
-/obj/effect/turf_decal/bot_white/left,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
@@ -114083,9 +114096,9 @@ dR
 Qq
 mK
 Ha
-SG
-Rw
-kg
+wG
+OF
+mL
 Ha
 xE
 xE
@@ -114340,9 +114353,9 @@ Db
 mK
 mK
 Ha
-jz
-Je
-Sy
+SG
+Rw
+kg
 jE
 xE
 xE
@@ -114597,9 +114610,9 @@ mK
 mK
 mK
 Ha
-Ha
-Ha
-Ha
+jz
+Je
+Sy
 Ha
 pT
 pT
@@ -114853,11 +114866,11 @@ pT
 pT
 mK
 mK
-mK
-mK
-mK
-mK
-mK
+Ha
+Ha
+Ha
+Ha
+Ha
 mK
 mK
 mK
@@ -115114,7 +115127,7 @@ mK
 mK
 mK
 mK
-mK
+rV
 mK
 mK
 mK
