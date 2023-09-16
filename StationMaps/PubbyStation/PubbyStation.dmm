@@ -243,6 +243,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "aaQ" = (
@@ -494,7 +495,7 @@
 	name = "AI Intercom";
 	pixel_y = -40
 	},
-/obj/structure/cable/multilayer/connected,
+/obj/structure/cable,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "acr" = (
@@ -510,7 +511,6 @@
 	},
 /obj/effect/mapping_helpers/requests_console/information,
 /obj/effect/mapping_helpers/requests_console/assistance,
-/obj/structure/cable,
 /obj/item/radio/intercom/directional/south{
 	freerange = 1;
 	frequency = 1447;
@@ -558,6 +558,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "acD" = (
@@ -1641,10 +1642,10 @@
 	department = "AI";
 	name = "AI Satellite Requests Console"
 	},
-/obj/structure/cable/multilayer/connected,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "agh" = (
@@ -1654,6 +1655,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "agi" = (
@@ -1723,6 +1725,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "agv" = (
@@ -1748,6 +1751,7 @@
 "agE" = (
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/transit_tube,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "agF" = (
@@ -1804,6 +1808,7 @@
 "agS" = (
 /obj/structure/transit_tube,
 /obj/structure/lattice/catwalk,
+/obj/structure/cable,
 /turf/open/space/basic,
 /area/space/nearstation)
 "agX" = (
@@ -1901,6 +1906,7 @@
 "ahs" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/transit_tube,
+/obj/structure/cable,
 /turf/open/space/basic,
 /area/space/nearstation)
 "aht" = (
@@ -2020,6 +2026,7 @@
 "ahR" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/transit_tube/crossing,
+/obj/structure/cable,
 /turf/open/space/basic,
 /area/space/nearstation)
 "ahS" = (
@@ -4348,7 +4355,8 @@
 /obj/machinery/camera/directional/south{
 	c_tag = "Bridge Starboard Exterior"
 	},
-/obj/structure/lattice,
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
 /turf/open/space,
 /area/space/nearstation)
 "apq" = (
@@ -5591,6 +5599,7 @@
 	name = "Bridge External Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/command/bridge)
 "aua" = (
@@ -5874,6 +5883,7 @@
 /turf/open/floor/plating,
 /area/station/command/bridge)
 "auV" = (
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/command/bridge)
 "auW" = (
@@ -6307,6 +6317,7 @@
 	name = "Bridge External Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/command/bridge)
 "awd" = (
@@ -25070,6 +25081,7 @@
 	name = "AI Core"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/minisat,
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/ai_monitored/turret_protected/ai)
 "bXi" = (
@@ -37228,6 +37240,11 @@
 	},
 /turf/open/floor/carpet,
 /area/station/service/library)
+"jNf" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space,
+/area/space/nearstation)
 "jNg" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/closed/wall,
@@ -40849,6 +40866,14 @@
 /obj/effect/spawner/random/clothing/costume,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
+"nir" = (
+/obj/structure/transit_tube/curved{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "niy" = (
 /obj/structure/table,
 /obj/item/food/cookie,
@@ -46754,6 +46779,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/commons/lounge)
+"snH" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/turret_protected/aisat_interior)
 "snT" = (
 /obj/structure/closet/emcloset,
 /obj/machinery/light/small/directional/north,
@@ -53142,6 +53171,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
+"xrJ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "xsm" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/effect/turf_decal/stripes/corner{
@@ -87120,11 +87154,11 @@ aaa
 aaa
 aaa
 aaa
-ahi
+jNf
 atZ
 auV
 awc
-ayg
+fRJ
 fRJ
 azp
 aAH
@@ -87377,7 +87411,7 @@ aaa
 aaa
 aaa
 aaa
-ahi
+jNf
 atY
 atY
 atY
@@ -87613,7 +87647,7 @@ adX
 aEb
 afA
 fAL
-agf
+snH
 ags
 adX
 adX
@@ -87630,11 +87664,11 @@ aht
 aht
 aaa
 aaa
-aht
-aht
-aht
-aht
-aht
+xrJ
+xrJ
+xrJ
+xrJ
+xrJ
 aht
 aaa
 aaa
@@ -87881,7 +87915,7 @@ ahs
 ahs
 ahs
 ahR
-ala
+nir
 aht
 aaa
 aht
@@ -88138,13 +88172,13 @@ aht
 aht
 aht
 aht
-aht
-aht
-aht
-aht
-aht
-aht
-aht
+xrJ
+xrJ
+xrJ
+xrJ
+xrJ
+xrJ
+xrJ
 apT
 aqL
 auc
