@@ -4173,7 +4173,7 @@
 /area/station/engineering/atmos)
 "buJ" = (
 /obj/structure/bed/dogbed/runtime,
-/mob/living/simple_animal/pet/cat/runtime,
+/mob/living/basic/pet/cat/runtime,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/cmo)
@@ -6486,9 +6486,6 @@
 /area/station/maintenance/department/crew_quarters/bar)
 "cjq" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/secure/briefcase{
-	pixel_y = 6
-	},
 /obj/item/radio{
 	pixel_y = 6
 	},
@@ -6892,7 +6889,7 @@
 /turf/closed/wall/r_wall,
 /area/space/nearstation)
 "cox" = (
-/mob/living/simple_animal/sloth/citrus,
+/mob/living/basic/sloth/citrus,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
@@ -7225,7 +7222,7 @@
 /turf/open/misc/asteroid/airless,
 /area/space/nearstation)
 "cuj" = (
-/mob/living/simple_animal/hostile/asteroid/hivelord,
+/mob/living/basic/mining/hivelord,
 /turf/open/misc/asteroid/airless,
 /area/space/nearstation)
 "cup" = (
@@ -8819,7 +8816,7 @@
 /area/station/hallway/secondary/exit/departure_lounge)
 "cYZ" = (
 /obj/effect/spawner/random/structure/furniture_parts,
-/obj/effect/spawner/random/structure/crate_empty,
+/obj/effect/spawner/random/structure/closet_empty/crate,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/department/crew_quarters/bar)
@@ -8926,6 +8923,7 @@
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "dbR" = (
@@ -12972,6 +12970,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/old,
+/mob/living/basic/trooper/russian,
 /turf/open/floor/carpet/green,
 /area/station/maintenance/port/greater)
 "esq" = (
@@ -13466,7 +13465,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/old,
-/mob/living/simple_animal/hostile/retaliate/goat{
+/mob/living/basic/goat/pete{
 	name = "Pete"
 	},
 /turf/open/floor/iron/freezer,
@@ -14086,11 +14085,11 @@
 "eMB" = (
 /obj/machinery/light_switch/directional/west,
 /obj/structure/noticeboard/directional/south,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/computer/operating{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -14539,7 +14538,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/mob/living/simple_animal/bot/cleanbot/medbay,
+/mob/living/basic/bot/cleanbot/medbay,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
@@ -18075,6 +18074,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
+/obj/machinery/vending/wardrobe/coroner_wardrobe,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "fYf" = (
@@ -19387,7 +19387,6 @@
 /turf/open/floor/iron/dark,
 /area/station/service/janitor)
 "gtK" = (
-/obj/structure/filingcabinet/chestdrawer,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
@@ -23186,7 +23185,6 @@
 /area/station/medical/virology)
 "hGC" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/rnd/bepis,
 /obj/effect/turf_decal/box/white,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
@@ -23204,11 +23202,11 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "hHg" = (
-/obj/machinery/atmospherics/components/unary/cryo_cell{
-	dir = 4
-	},
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/obj/machinery/cryo_cell{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -23387,7 +23385,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
-/mob/living/simple_animal/bot/cleanbot/medbay{
+/mob/living/basic/bot/cleanbot/medbay{
 	maints_access_required = list(22);
 	name = "Deacon Scrubsy"
 	},
@@ -28232,7 +28230,6 @@
 "jfK" = (
 /obj/structure/table/glass,
 /obj/item/stack/package_wrap,
-/obj/item/storage/secure/briefcase,
 /obj/item/hand_labeler,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/structure/cable,
@@ -28578,7 +28575,6 @@
 /obj/structure/table,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/storage/toolbox/emergency,
-/obj/item/wirerod,
 /obj/machinery/light/small/directional/north,
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/dark,
@@ -29381,10 +29377,10 @@
 /area/station/command/bridge)
 "jBO" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/atmospherics/components/unary/cryo_cell{
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
+/obj/machinery/cryo_cell{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -30206,9 +30202,6 @@
 "jPq" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/cobweb,
-/obj/item/storage/secure/briefcase{
-	pixel_y = 4
-	},
 /obj/item/radio{
 	desc = "An old handheld radio. You could use it, if you really wanted to.";
 	icon_state = "radio";
@@ -31570,6 +31563,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
+/obj/structure/secure_safe/caps_spare/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "kqn" = (
@@ -31918,10 +31912,6 @@
 /obj/effect/decal/cleanable/blood/gibs/old,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/jungle/mook{
-	environment_smash = 0;
-	name = "deformed creature"
-	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/port/fore)
@@ -35172,9 +35162,6 @@
 /obj/machinery/firealarm/directional/west,
 /obj/machinery/newscaster/directional/south,
 /obj/item/stack/package_wrap,
-/obj/item/storage/secure/briefcase{
-	pixel_y = 4
-	},
 /obj/item/hand_labeler,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
@@ -35242,7 +35229,7 @@
 "lxU" = (
 /obj/effect/turf_decal/bot,
 /obj/item/storage/box/lights/mixed,
-/obj/effect/spawner/random/structure/crate_empty,
+/obj/effect/spawner/random/structure/closet_empty/crate,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "lyb" = (
@@ -35679,7 +35666,6 @@
 "lGa" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/canister_frame/machine/unfinished_canister_frame,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
@@ -37434,7 +37420,6 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/obj/item/storage/secure/briefcase,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
@@ -38252,7 +38237,6 @@
 /obj/item/wirecutters{
 	pixel_y = 5
 	},
-/obj/item/wirerod,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
 /area/station/security/interrogation)
@@ -40998,10 +40982,6 @@
 "nvA" = (
 /obj/machinery/suit_storage_unit/hos,
 /obj/effect/turf_decal/delivery,
-/obj/item/storage/secure/safe/hos{
-	pixel_x = 36;
-	pixel_y = 28
-	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
@@ -41881,10 +41861,6 @@
 /obj/effect/decal/remains/human,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/mob/living/simple_animal/hostile/jungle/mook{
-	environment_smash = 0;
-	name = "deformed creature"
-	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/port/fore)
@@ -43615,7 +43591,6 @@
 /area/station/service/library)
 "otO" = (
 /obj/structure/table,
-/obj/item/storage/secure/briefcase,
 /obj/item/taperecorder,
 /obj/structure/sign/warning/electric_shock/directional/south,
 /turf/open/floor/iron/dark,
@@ -44027,7 +44002,6 @@
 /area/station/hallway/primary/fore)
 "oAO" = (
 /obj/effect/turf_decal/stripes/corner,
-/obj/machinery/lapvend,
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 8
 	},
@@ -44281,7 +44255,7 @@
 /area/station/security/warden)
 "oFt" = (
 /obj/machinery/light/small/directional/east,
-/mob/living/basic/syndicate/russian,
+/mob/living/basic/trooper/russian,
 /turf/open/floor/carpet/green,
 /area/station/maintenance/port/greater)
 "oFC" = (
@@ -45408,7 +45382,6 @@
 /obj/structure/table,
 /obj/item/healthanalyzer,
 /obj/item/hand_labeler,
-/obj/item/storage/secure/safe/caps_spare/directional/north,
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 1
 	},
@@ -45474,7 +45447,6 @@
 /area/station/engineering/atmos/pumproom)
 "paM" = (
 /obj/structure/cable,
-/mob/living/basic/syndicate/russian,
 /turf/open/floor/wood,
 /area/station/maintenance/port/greater)
 "paN" = (
@@ -46619,6 +46591,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
+/obj/structure/table/optable,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "prn" = (
@@ -53005,10 +52978,6 @@
 /area/station/service/chapel)
 "rxt" = (
 /obj/structure/table/wood,
-/obj/item/storage/secure/briefcase{
-	pixel_x = 5;
-	pixel_y = 5
-	},
 /obj/item/storage/lockbox/medal,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
@@ -59266,7 +59235,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
-/mob/living/simple_animal/bot/cleanbot/autopatrol,
+/mob/living/basic/bot/cleanbot/autopatrol,
 /obj/effect/turf_decal/tile/purple/half/contrasted,
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron,
@@ -59682,7 +59651,7 @@
 /area/station/hallway/primary/aft)
 "tCd" = (
 /obj/effect/landmark/event_spawn,
-/mob/living/simple_animal/bot/medbot/autopatrol,
+/mob/living/basic/bot/medbot/autopatrol,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/blue/opposingcorners,
@@ -65071,7 +65040,6 @@
 	},
 /obj/machinery/light/directional/east,
 /obj/item/lighter,
-/obj/item/storage/secure/safe/directional/east,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
@@ -68367,6 +68335,10 @@
 	name = "Space Blast Door Toggle";
 	pixel_x = 8
 	},
+/obj/structure/secure_safe/hos{
+	pixel_y = -33;
+	pixel_x = 6
+	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hos)
 "woc" = (
@@ -68515,7 +68487,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/mob/living/simple_animal/hostile/asteroid/hivelord,
+/mob/living/basic/mining/hivelord,
 /turf/open/floor/plating,
 /area/station/cargo/warehouse)
 "wpw" = (
@@ -69153,7 +69125,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/asteroid/hivelord,
+/mob/living/basic/mining/hivelord,
 /turf/open/floor/plating,
 /area/station/cargo/warehouse)
 "wAz" = (
@@ -71060,7 +71032,7 @@
 	pixel_x = 12
 	},
 /obj/item/radio/intercom/directional/east,
-/mob/living/simple_animal/parrot/poly,
+/mob/living/basic/parrot/poly,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/ce)
 "xjr" = (
@@ -72744,7 +72716,7 @@
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/chair/stool/bar/directional/west,
-/mob/living/basic/syndicate/russian,
+/mob/living/basic/trooper/russian,
 /turf/open/floor/carpet/green,
 /area/station/maintenance/port/greater)
 "xKr" = (
@@ -72996,6 +72968,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/mob/living/basic/mining/mook/worker,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/port/fore)
 "xOh" = (
@@ -73838,7 +73811,7 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai_upload)
 "ycp" = (
-/mob/living/simple_animal/hostile/asteroid/hivelord,
+/mob/living/basic/mining/hivelord,
 /turf/open/misc/asteroid/lowpressure,
 /area/space/nearstation)
 "ycr" = (
