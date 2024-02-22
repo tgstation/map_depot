@@ -7658,6 +7658,10 @@
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/starboard/fore)
+"cEY" = (
+/obj/machinery/air_sensor/engine_chamber,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter)
 "cFq" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -17284,6 +17288,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/machinery/airalarm/directional/south,
 /obj/effect/mapping_helpers/airalarm/engine_access,
+/obj/effect/mapping_helpers/airalarm/link{
+	chamber_id = "engine"
+	},
+/obj/effect/mapping_helpers/airalarm/tlv_no_checks,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "fKJ" = (
@@ -110038,7 +110046,7 @@ uqD
 kBz
 vyN
 mda
-vyN
+cEY
 dGG
 vyN
 eVL
