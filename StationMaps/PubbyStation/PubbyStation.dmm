@@ -2461,7 +2461,7 @@
 "ajE" = (
 /obj/structure/bed,
 /obj/structure/sign/poster/contraband/random/directional/east,
-/obj/item/bedsheet/dorms,
+/obj/effect/spawner/random/bedsheet,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "ajG" = (
@@ -2734,7 +2734,7 @@
 /area/station/maintenance/department/security/brig)
 "akt" = (
 /obj/structure/bed,
-/obj/item/bedsheet/dorms,
+/obj/effect/spawner/random/bedsheet,
 /obj/item/radio/intercom/directional/south,
 /obj/machinery/button/door/directional/east{
 	id = "mainthideout";
@@ -4244,8 +4244,7 @@
 /area/station/security/office)
 "apK" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor{
-	dir = 1;
+/obj/machinery/door/window/brigdoor/left/directional/north{
 	name = "Armory Desk";
 	req_access = list("armory")
 	},
@@ -5244,7 +5243,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "atw" = (
-/obj/machinery/door/window/brigdoor/security/cell{
+/obj/machinery/door/window/brigdoor/security/cell/left/directional/south{
 	id = "Cell 1";
 	name = "Cell 1"
 	},
@@ -5257,7 +5256,7 @@
 /turf/open/floor/iron,
 /area/station/security/brig)
 "atA" = (
-/obj/machinery/door/window/brigdoor/security/cell{
+/obj/machinery/door/window/brigdoor/security/cell/left/directional/south{
 	id = "Cell 2";
 	name = "Cell 2"
 	},
@@ -5270,7 +5269,7 @@
 /turf/open/floor/iron,
 /area/station/security/brig)
 "atC" = (
-/obj/machinery/door/window/brigdoor/security/cell{
+/obj/machinery/door/window/brigdoor/security/cell/left/directional/south{
 	id = "Cell 3";
 	name = "Cell 3"
 	},
@@ -5790,7 +5789,7 @@
 /area/station/commons/dorms)
 "ave" = (
 /obj/structure/bed,
-/obj/item/bedsheet/dorms,
+/obj/effect/spawner/random/bedsheet,
 /obj/machinery/button/door/directional/north{
 	id = "Dorm3Shutters";
 	name = "Privacy Shutters Control"
@@ -6689,7 +6688,7 @@
 /area/station/commons/dorms)
 "ayj" = (
 /obj/structure/bed,
-/obj/item/bedsheet/dorms,
+/obj/effect/spawner/random/bedsheet,
 /obj/machinery/button/door/directional/north{
 	id = "Dorm2Shutters";
 	name = "Privacy Shutters Control"
@@ -7600,7 +7599,7 @@
 /area/station/commons/dorms)
 "aBM" = (
 /obj/structure/bed,
-/obj/item/bedsheet/dorms,
+/obj/effect/spawner/random/bedsheet,
 /obj/machinery/button/door/directional/north{
 	id = "Dorm1Shutters";
 	name = "Privacy Shutters Control"
@@ -8719,8 +8718,7 @@
 /area/station/command/heads_quarters/hop)
 "aFB" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor{
-	dir = 1;
+/obj/machinery/door/window/brigdoor/left/directional/north{
 	name = "Head of Personnel's Desk";
 	req_access = list("hop")
 	},
@@ -12642,10 +12640,7 @@
 	location = "QM #1"
 	},
 /obj/effect/turf_decal/bot,
-/mob/living/simple_animal/bot/mulebot{
-	home_destination = "QM #1";
-	suffix = "#1"
-	},
+/mob/living/simple_animal/bot/mulebot,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "aXy" = (
@@ -13118,10 +13113,7 @@
 	location = "QM #3"
 	},
 /obj/effect/turf_decal/bot,
-/mob/living/simple_animal/bot/mulebot{
-	home_destination = "QM #2";
-	suffix = "#2"
-	},
+/mob/living/simple_animal/bot/mulebot,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "aZr" = (
@@ -25170,7 +25162,7 @@
 /area/station/maintenance/department/engine)
 "ccO" = (
 /obj/structure/bed,
-/obj/item/bedsheet/random,
+/obj/effect/spawner/random/bedsheet/any,
 /obj/structure/table/optable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
@@ -35723,8 +35715,7 @@
 /obj/machinery/door/window/left/directional/west{
 	name = "Reception Window"
 	},
-/obj/machinery/door/window/brigdoor{
-	dir = 4;
+/obj/machinery/door/window/brigdoor/left/directional/east{
 	name = "Brig Control Desk";
 	req_access = list("brig_entrance")
 	},
