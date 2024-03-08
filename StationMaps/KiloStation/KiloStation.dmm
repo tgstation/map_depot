@@ -21649,6 +21649,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/machinery/vending/wallmed/directional/south,
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/surgery/fore)
 "hjj" = (
@@ -24631,10 +24632,6 @@
 /area/station/ai_monitored/security/armory)
 "ibL" = (
 /obj/structure/table,
-/obj/item/circular_saw,
-/obj/item/surgicaldrill{
-	pixel_y = 5
-	},
 /obj/item/healthanalyzer,
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
@@ -30475,11 +30472,11 @@
 	pixel_x = -32
 	},
 /obj/machinery/light/directional/north,
-/obj/item/surgery_tray,
 /obj/machinery/status_display/evac/directional/north,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
+/obj/item/surgery_tray/full,
 /turf/open/floor/iron/dark,
 /area/station/medical/virology)
 "jUz" = (
@@ -41304,9 +41301,9 @@
 "nBZ" = (
 /obj/machinery/newscaster/directional/west,
 /obj/structure/table,
-/obj/item/surgery_tray,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/item/surgery_tray/full,
 /turf/open/floor/iron/dark,
 /area/station/medical/surgery/fore)
 "nCc" = (
@@ -46572,6 +46569,7 @@
 	dir = 4
 	},
 /obj/structure/table/optable,
+/obj/item/surgery_tray/full/deployed,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "prn" = (
@@ -51041,13 +51039,10 @@
 /area/station/cargo/miningoffice)
 "qTY" = (
 /obj/structure/table,
-/obj/item/surgical_drapes,
-/obj/item/scalpel{
-	pixel_y = 5
-	},
-/obj/item/cautery,
 /obj/machinery/light_switch/directional/north,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/item/book/manual/wiki/surgery,
+/obj/item/razor,
 /turf/open/floor/iron/dark,
 /area/station/medical/surgery/aft)
 "qUb" = (
@@ -53079,10 +53074,6 @@
 /area/station/service/library)
 "rzB" = (
 /obj/structure/table,
-/obj/item/clipboard{
-	pixel_x = 4;
-	pixel_y = 4
-	},
 /obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/suit/apron/surgical,
@@ -67265,17 +67256,14 @@
 /turf/open/floor/iron/dark,
 /area/station/command/gateway)
 "vXf" = (
-/obj/structure/table,
-/obj/item/folder/white,
-/obj/item/retractor,
-/obj/item/hemostat,
-/obj/machinery/vending/wallmed/directional/north,
 /obj/machinery/camera/directional/north{
 	c_tag = "Medical Operating Theater B";
 	name = "medical camera";
 	network = list("ss13","medical")
 	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/structure/closet/crate/freezer/blood,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
 /area/station/medical/surgery/aft)
 "vXn" = (
@@ -72736,11 +72724,13 @@
 /turf/open/floor/iron/dark,
 /area/station/maintenance/starboard/fore)
 "xLd" = (
-/obj/structure/closet/crate/freezer/blood,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
+/obj/structure/table,
+/obj/item/surgery_tray/full,
+/obj/machinery/vending/wallmed/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/medical/surgery/aft)
 "xLk" = (
