@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"map_name": "OmegaStation",
+	"map_path": "map_files/OmegaStation",
+	"map_file": "OmegaStation.dmm",
+	"shuttles": {
+		"emergency": "emergency_omega",
+		"ferry": "ferry_kilo",
+		"cargo": "cargo_kilo",
+		"whiteship": "whiteship_kilo"
+	},
+	"traits": [
+		{
+			"Bombcap Multiplier": 0.5
+		}
+	],
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/service/cafeteria"]
+		},
+		"Captain": {
+			"special_charter": "asteroid"
+		}
+	}
+}
