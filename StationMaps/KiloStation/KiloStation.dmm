@@ -2141,6 +2141,7 @@
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 4
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/exam_room)
 "aHD" = (
@@ -7327,6 +7328,12 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
+	},
+/obj/machinery/button/door/directional/south{
+	pixel_x = 9
+	},
+/obj/item/radio/intercom/directional/south{
+	pixel_y = -34
 	},
 /turf/open/floor/iron/dark,
 /area/station/medical/paramedic)
@@ -13074,13 +13081,19 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/item/kirbyplants/random,
 /obj/machinery/light_switch/directional/south{
 	pixel_x = 12
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/effect/turf_decal/tile/yellow,
+/obj/item/circuitboard/computer/quantum_console,
+/obj/structure/rack,
+/obj/item/circuitboard/machine/quantum_server,
+/obj/item/circuitboard/machine/byteforge,
+/obj/item/circuitboard/machine/netpod,
+/obj/item/circuitboard/machine/netpod,
+/obj/item/circuitboard/machine/netpod,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "evb" = (
@@ -33505,6 +33518,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/royalblue,
 /area/station/service/chapel/office)
+"kXz" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
+/turf/open/floor/iron/dark,
+/area/station/medical/medbay/central)
 "kXJ" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "xeno1";
@@ -46567,6 +46586,7 @@
 	},
 /obj/structure/table/optable,
 /obj/item/surgery_tray/full/deployed,
+/obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "prn" = (
@@ -51036,6 +51056,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/item/book/manual/wiki/surgery,
 /obj/item/razor,
+/obj/machinery/vending/wallmed/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/medical/surgery/aft)
 "qUb" = (
@@ -56118,7 +56139,6 @@
 /turf/open/floor/plating,
 /area/station/security/prison)
 "sAr" = (
-/obj/machinery/vending/wardrobe/cargo_wardrobe,
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/camera/directional/west{
@@ -56129,6 +56149,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
+/obj/machinery/computer/order_console/bitrunning,
 /turf/open/floor/iron/dark,
 /area/station/cargo/storage)
 "sAv" = (
@@ -59551,14 +59572,11 @@
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
 "tBh" = (
-/obj/machinery/requests_console/directional/north{
-	department = "Medbay";
-	name = "Medbay Requests Console"
-	},
 /obj/effect/mapping_helpers/requests_console/assistance,
 /obj/structure/table/optable,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/machinery/defibrillator_mount/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/medical/surgery/fore)
 "tBj" = (
@@ -62655,15 +62673,10 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/virology)
 "uCa" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
-/obj/effect/turf_decal/delivery,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
-	dir = 1
-	},
-/turf/open/floor/iron/showroomfloor,
+/obj/machinery/cryo_cell,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/iron/dark,
 /area/station/medical/medbay/central)
 "uCd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -69901,6 +69914,7 @@
 /obj/structure/bed,
 /obj/structure/curtain,
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/medical/exam_room)
 "wOB" = (
@@ -72714,7 +72728,7 @@
 	},
 /obj/structure/table,
 /obj/item/surgery_tray/full,
-/obj/machinery/vending/wallmed/directional/south,
+/obj/machinery/defibrillator_mount/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/medical/surgery/aft)
 "xLk" = (
@@ -93511,7 +93525,7 @@ mrl
 ivh
 mrl
 tZc
-srg
+kXz
 dhY
 nKV
 sbJ
