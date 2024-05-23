@@ -1,11 +1,9 @@
 name: Update Submodules
 
 on:
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # We do it every 6 hours.
   schedule:
-    - cron:  '0 */6 * * *'
+    - cron:  '0 12 * * *'
 
 jobs:
   update:
@@ -36,7 +34,5 @@ jobs:
 # that they should discard any changes to this file before they commit. Also, discarding this change
 # does mean that you will actually be on the most recent commit in the tgstation submodule.
 # If you do not discard your change, your submodule will not be in-date.
-# This is a pretty awkward place to put it, but I just figured it out after an hour of sweating here
-# and I want to make sure I can get back to it later.
 #
 # -san7890
