@@ -3,7 +3,7 @@ This is a repository intended to include unused maps for the /tg/station codebas
 * All maps provided here are provided as is, with no guarantee of working on the most up to date version of /tg/station code. Inclusion of a file noting the commit hash on which the map last worked would be appreciated.
 * Only maps for the /tg/station codebase will be accepted.
 * Update PRs for old maps are welcomed! However, if you are updating a map that we currently do not have in our repository, it is requested that you leave a version of the un-modified map for archival purposes.
-* Any questions regarding the repository should be directed to one of /tg/'s maptainers, presently EOBGames (@emerald_or_bust), Maurukas (@kas7#2839), MMMiracles (@mmmiracles) and san7890 (@san7890). Pinging @tgstation/maptainers in the comments of your PR if it has not recieved any attention is of good help.
+* Any questions regarding the repository should be directed to one of /tg/'s maptainers, presently EOBGames (@emerald_or_bust), Maurukas (@kas72839), MMMiracles (@mmmiracles) and san7890 (@san7890). Pinging @tgstation/maptainers in the comments of your PR if it has not recieved any attention is of good help.
 
 ## Submodules
 
