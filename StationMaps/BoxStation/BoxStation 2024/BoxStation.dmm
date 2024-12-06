@@ -15870,6 +15870,11 @@
 	},
 /turf/open/floor/wood/tile,
 /area/station/command/meeting_room/council)
+"bfs" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron,
+/area/station/construction/mining/aux_base)
 "bfv" = (
 /turf/closed/wall/r_wall,
 /area/station/ai_monitored/turret_protected/ai_upload)
@@ -19642,6 +19647,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/mid_joiner{
 	dir = 1
 	},
+/obj/machinery/duct,
 /turf/open/floor/iron/white/smooth_corner,
 /area/station/science/genetics)
 "brv" = (
@@ -39712,6 +39718,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningdock)
+"fGW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/iron/dark,
+/area/station/science/xenobiology)
 "fHc" = (
 /obj/machinery/light/small/directional/north,
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
@@ -42360,6 +42373,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/project)
+"hqM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/carpet,
+/area/station/service/chapel)
 "hrd" = (
 /obj/structure/table/wood,
 /obj/item/pai_card,
@@ -50141,13 +50159,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
-"msO" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/spawner/random/engineering/tracking_beacon,
-/turf/open/floor/iron,
-/area/station/engineering/main)
 "msW" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Medbay Maintenance"
@@ -52113,6 +52124,10 @@
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/kitchen_coldroom,
 /area/station/medical/coldroom)
+"nIb" = (
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "nIo" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/portable_atmospherics/scrubber,
@@ -54775,11 +54790,6 @@
 /mob/living/basic/sloth/citrus,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
-"pkZ" = (
-/obj/structure/cable,
-/obj/effect/spawner/random/engineering/tracking_beacon,
-/turf/open/floor/iron,
-/area/station/service/hydroponics/garden)
 "plu" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/box/white{
@@ -55916,6 +55926,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/engineering/main)
+"pXd" = (
+/obj/structure/cable,
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron,
+/area/station/service/hydroponics/garden)
 "pXv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -56625,10 +56640,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
-"qxD" = (
-/obj/effect/spawner/random/engineering/tracking_beacon,
-/turf/open/floor/iron,
-/area/station/engineering/atmos)
 "qxY" = (
 /obj/structure/railing/corner/end{
 	dir = 1
@@ -59563,11 +59574,6 @@
 /obj/structure/sign/poster/official/random/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/medical/medbay/aft)
-"sAS" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/spawner/random/engineering/tracking_beacon,
-/turf/open/floor/iron,
-/area/station/construction/mining/aux_base)
 "sBu" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -59849,13 +59855,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/hydroponics)
-"sLb" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/iron/dark,
-/area/station/science/xenobiology)
+"sLv" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "sLN" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/highsecurity{
@@ -62056,6 +62062,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
+"ufP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron/dark/herringbone,
+/area/station/commons/dorms)
 "ugc" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Central Hallway Maintenance"
@@ -62695,6 +62708,7 @@
 	},
 /obj/effect/turf_decal/tile/blue/full,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/genetics)
 "uHF" = (
@@ -64448,13 +64462,6 @@
 	},
 /turf/open/floor/grass,
 /area/station/medical/virology)
-"vJD" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/effect/spawner/random/engineering/tracking_beacon,
-/turf/open/floor/iron/dark/herringbone,
-/area/station/commons/dorms)
 "vJK" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -65009,11 +65016,6 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/engineering/main)
-"wcj" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/spawner/random/engineering/tracking_beacon,
-/turf/open/floor/carpet,
-/area/station/service/chapel)
 "wcr" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/wood/large,
@@ -80092,7 +80094,7 @@ asI
 qwX
 cau
 qyN
-sAS
+bfs
 oyn
 aub
 aLu
@@ -83957,7 +83959,7 @@ arP
 aAT
 aBw
 aDg
-pkZ
+pXd
 vyA
 aHz
 aIS
@@ -98420,7 +98422,7 @@ cio
 cjY
 cfc
 cmF
-msO
+sLv
 cWh
 aPU
 cFL
@@ -100912,7 +100914,7 @@ arf
 arf
 arf
 auW
-vJD
+ufP
 mOt
 uWg
 qrE
@@ -101745,7 +101747,7 @@ iDs
 sIB
 jvK
 bUL
-qxD
+nIb
 oRi
 bUL
 bUL
@@ -113558,7 +113560,7 @@ bGY
 bDc
 bMp
 wbH
-sLb
+fGW
 ujh
 bJN
 qHT
@@ -115065,7 +115067,7 @@ dQh
 wTy
 fMC
 njA
-wcj
+hqM
 njA
 njA
 hby
