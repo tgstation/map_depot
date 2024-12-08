@@ -1090,9 +1090,9 @@
 "adM" = (
 /obj/machinery/light/directional/south,
 /obj/structure/table,
-/obj/item/flatpack{
-	board = /obj/item/circuitboard/machine/flatpacker;
-	pixel_x = -5
+/obj/item/flatpack/flatpacker{
+	pixel_x = -6;
+	pixel_y = 1
 	},
 /obj/item/multitool{
 	pixel_x = 8
@@ -19029,10 +19029,14 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/table,
-/obj/item/flatpack{
-	board = /obj/item/circuitboard/machine/flatpacker
+/obj/item/flatpack/flatpacker{
+	pixel_x = -7;
+	pixel_y = 6
 	},
-/obj/item/multitool,
+/obj/item/multitool{
+	pixel_x = 7;
+	pixel_y = 0
+	},
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
 	},
