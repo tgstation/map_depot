@@ -12549,6 +12549,7 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "aTO" = (
@@ -27045,10 +27046,6 @@
 "bQZ" = (
 /turf/closed/wall/r_wall,
 /area/station/science/explab)
-"bRb" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/security/execution/education)
 "bRc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -34658,6 +34655,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "cPH" = (
@@ -37420,6 +37418,7 @@
 /area/station/service/library/artgallery)
 "epL" = (
 /obj/effect/turf_decal/siding/dark_red,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "epR" = (
@@ -41164,6 +41163,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/dark_red/corner,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "gDj" = (
@@ -47400,6 +47400,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "kGj" = (
@@ -49377,6 +49380,8 @@
 /area/station/science/xenobiology)
 "lRY" = (
 /obj/structure/bed,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "lSm" = (
@@ -49700,6 +49705,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "mcM" = (
@@ -50704,6 +50711,8 @@
 /obj/machinery/flasher/directional/east{
 	id = "execution_flash"
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "mKU" = (
@@ -52285,6 +52294,8 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	name = "justice injector"
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "nMS" = (
@@ -53516,9 +53527,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms/laundry)
-"owU" = (
-/turf/closed/wall,
-/area/station/security/execution/education)
 "oxL" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -55176,7 +55184,7 @@
 /area/station/maintenance/port/aft)
 "pyj" = (
 /obj/structure/lattice,
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/station/security/execution/education)
 "pyo" = (
 /obj/effect/decal/cleanable/glass,
@@ -55635,7 +55643,6 @@
 	name = "Education Chamber Lockdown";
 	id = "execution_fireblast"
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/simple/general/hidden,
 /obj/machinery/door/window/brigdoor/left/directional/north{
 	name = "Education Chamber";
@@ -55647,6 +55654,8 @@
 	},
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured_half,
 /area/station/security/execution/education)
 "pMw" = (
@@ -56196,6 +56205,7 @@
 	dir = 10
 	},
 /obj/effect/turf_decal/siding/dark_red,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "qgg" = (
@@ -57145,7 +57155,6 @@
 	name = "Education Chamber Lockdown";
 	id = "execution_fireblast"
 	},
-/obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark/textured_half,
 /area/station/security/execution/education)
 "qRp" = (
@@ -59217,6 +59226,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "sqS" = (
@@ -59630,6 +59640,8 @@
 	req_access = list("armory")
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/general/hidden,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "sCN" = (
@@ -64183,6 +64195,7 @@
 "vAY" = (
 /obj/machinery/atmospherics/pipe/smart/simple/general/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "vBc" = (
@@ -88574,11 +88587,11 @@ gxr
 iwL
 iwL
 iwL
-owU
-bRb
-owU
-bRb
-owU
+gxr
+gxr
+gxr
+gxr
+gxr
 aaa
 aaa
 aaa
@@ -88835,7 +88848,7 @@ qRk
 gUD
 mzb
 iBU
-owU
+gxr
 aaa
 aaa
 aaa
@@ -89349,7 +89362,7 @@ pMu
 sCr
 vAY
 aTN
-owU
+gxr
 gXs
 gXs
 gXs
@@ -89606,9 +89619,9 @@ gxr
 gxr
 wlL
 gDi
-owU
-bRb
-owU
+gxr
+gxr
+gxr
 aaa
 gXs
 aqQ
@@ -89865,7 +89878,7 @@ jng
 qfy
 chU
 dbu
-owU
+gxr
 aaa
 aaa
 aaa
@@ -90122,7 +90135,7 @@ qQw
 epL
 aFE
 vnM
-owU
+gxr
 aaa
 aaa
 aaa
@@ -90379,7 +90392,7 @@ hrz
 pso
 jHJ
 iBg
-owU
+gxr
 aaa
 aaa
 aaa
@@ -90632,11 +90645,11 @@ eda
 mIe
 clZ
 gxr
-owU
-owU
-owU
-owU
-owU
+gxr
+gxr
+gxr
+gxr
+gxr
 aaa
 aaa
 aaa
