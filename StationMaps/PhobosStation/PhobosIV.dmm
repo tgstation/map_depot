@@ -1094,12 +1094,9 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/obj/structure/table,
 /obj/machinery/requests_console/auto_name/directional/south,
-/obj/machinery/power/smes{
-	charge = 5e+006
-	},
 /obj/structure/cable,
+/obj/machinery/power/smes/full,
 /turf/open/floor/mineral/titanium/yellow,
 /area/station/tcommsat/computer)
 "bhk" = (
@@ -2369,15 +2366,6 @@
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/station/tcommsat/computer)
-"cEZ" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/machinery/door/airlock/engineering{
-	name = "Engine Room"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/turf/open/floor/plating,
-/area/station/engineering/main)
 "cFl" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/libraryconsole{
@@ -2407,7 +2395,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "cGV" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on{
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
@@ -2620,6 +2608,12 @@
 /obj/machinery/atmospherics/pipe/bridge_pipe/general/visible,
 /turf/open/floor/plating,
 /area/station/engineering/atmos)
+"cQy" = (
+/obj/item/paper/guides/jobs/medical/morgue{
+	pixel_x = -4
+	},
+/turf/open/misc/asteroid,
+/area/station/medical/morgue)
 "cQM" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/decal/cleanable/dirt,
@@ -4287,7 +4281,7 @@
 /turf/open/floor/plating,
 /area/station/engineering/main)
 "eDL" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on{
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
@@ -4894,6 +4888,15 @@
 /obj/effect/spawner/random/maintenance,
 /turf/open/misc/asteroid,
 /area/station/maintenance/starboard)
+"fmv" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/machinery/door/airlock/engineering{
+	name = "Engine Room"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/turf/open/floor/plating,
+/area/station/engineering/main)
 "fne" = (
 /obj/structure/table/glass,
 /obj/item/folder{
@@ -4903,6 +4906,7 @@
 	pixel_y = 2
 	},
 /obj/item/pen,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/titanium/tiled/blue,
 /area/station/tcommsat/server)
 "fnn" = (
@@ -5514,8 +5518,7 @@
 /area/station/service/library)
 "geJ" = (
 /obj/machinery/door/airlock{
-	name = "Kitchen";
-	req_access_txt = "25"
+	name = "Kitchen"
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/service/kitchen,
@@ -8678,7 +8681,7 @@
 /turf/open/misc/asteroid,
 /area/station/maintenance/port)
 "jHm" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on{
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
@@ -9858,9 +9861,9 @@
 /area/station/security/prison)
 "kUw" = (
 /obj/effect/turf_decal/sand/plating,
-/obj/machinery/power/smes/engineering,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
+/obj/machinery/power/smes/engineering,
 /turf/open/floor/plating,
 /area/station/engineering/main)
 "kUH" = (
@@ -10079,13 +10082,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/service/hydroponics)
-"lgC" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/access/any/service/general,
-/turf/open/floor/plating,
-/area/station/maintenance/central)
 "lgE" = (
 /obj/machinery/light/small/red/dim/directional/north,
 /turf/open/misc/asteroid,
@@ -10515,10 +10511,6 @@
 /obj/machinery/camera/autoname/directional/west,
 /turf/open/misc/asteroid,
 /area/station/engineering/break_room)
-"lLC" = (
-/obj/structure/closet/secure_closet/miner,
-/turf/open/floor/plating,
-/area/station/cargo/miningoffice)
 "lLL" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1
@@ -10688,8 +10680,8 @@
 /area/station/maintenance/solars/starboard/fore)
 "lUl" = (
 /obj/effect/turf_decal/sand/plating,
-/obj/machinery/power/smes/engineering,
 /obj/structure/cable,
+/obj/machinery/power/smes/engineering,
 /turf/open/floor/plating,
 /area/station/engineering/main)
 "lUL" = (
@@ -13136,7 +13128,6 @@
 /obj/structure/cable,
 /obj/machinery/holopad/secure,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/station/tcommsat/server)
 "oJn" = (
@@ -16049,10 +16040,8 @@
 	network = list("ss13","tcomms")
 	},
 /obj/machinery/camera/autoname/directional/south,
-/obj/machinery/power/smes{
-	charge = 5e+006
-	},
 /obj/structure/cable,
+/obj/machinery/power/smes/full,
 /turf/open/floor/mineral/titanium/yellow,
 /area/station/tcommsat/computer)
 "rXb" = (
@@ -16578,12 +16567,6 @@
 	},
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
-/area/station/medical/morgue)
-"sAZ" = (
-/obj/item/paper/guides/jobs/medical/morgue{
-	pixel_x = -4
-	},
-/turf/open/misc/asteroid,
 /area/station/medical/morgue)
 "sBC" = (
 /obj/structure/window/reinforced/spawner/directional/west,
@@ -18903,6 +18886,13 @@
 	},
 /turf/open/misc/asteroid,
 /area/station/hallway/primary/central)
+"vjp" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/machinery/door/airlock/maintenance,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
+/turf/open/floor/plating,
+/area/station/maintenance/port)
 "vjA" = (
 /obj/machinery/rnd/production/circuit_imprinter,
 /obj/machinery/camera/autoname/directional/south,
@@ -19022,7 +19012,7 @@
 /turf/open/floor/plating,
 /area/station/commons/locker)
 "vsS" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on{
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
@@ -20643,6 +20633,13 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium/yellow,
 /area/station/tcommsat/computer)
+"xsV" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
+/turf/open/floor/plating,
+/area/station/maintenance/central)
 "xte" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/decal/cleanable/dirt,
@@ -21243,13 +21240,6 @@
 /obj/structure/closet/crate,
 /turf/open/misc/asteroid,
 /area/station/maintenance/starboard)
-"yac" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/machinery/door/airlock/maintenance,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
-/turf/open/floor/plating,
-/area/station/maintenance/port)
 "yaH" = (
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
@@ -43196,7 +43186,7 @@ mxa
 mxa
 mxa
 tct
-yac
+vjp
 tct
 mxa
 mxa
@@ -46301,7 +46291,7 @@ mxa
 mxa
 mxa
 tct
-yac
+vjp
 cpS
 cpS
 bou
@@ -48575,7 +48565,7 @@ bou
 cpS
 bou
 duV
-lgC
+xsV
 duV
 udA
 tNy
@@ -49356,7 +49346,7 @@ uzh
 dvD
 ygL
 jGi
-sAZ
+cQy
 xaD
 tVF
 rku
@@ -51386,7 +51376,7 @@ dAz
 wuC
 wuC
 azg
-lgC
+xsV
 iOg
 pTr
 fGF
@@ -58347,7 +58337,7 @@ vSp
 vSp
 lih
 hjs
-cEZ
+fmv
 hjs
 hjs
 arn
@@ -60146,7 +60136,7 @@ vSp
 vSp
 lih
 lih
-cEZ
+fmv
 uFR
 hjs
 lih
@@ -60403,7 +60393,7 @@ xOS
 xOS
 hjs
 hjs
-cEZ
+fmv
 pWq
 hjs
 hjs
@@ -63708,7 +63698,7 @@ nYF
 nYF
 hTB
 hTB
-lLC
+hTB
 hTB
 hTB
 hTB
@@ -65300,10 +65290,10 @@ hjs
 hjs
 vgS
 pWq
-cEZ
+fmv
 lih
 hjs
-cEZ
+fmv
 aad
 pGQ
 aad
@@ -65557,10 +65547,10 @@ rdi
 xBD
 bOk
 pWq
-cEZ
+fmv
 hjs
 hjs
-cEZ
+fmv
 aad
 pGQ
 aad
