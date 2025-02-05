@@ -1603,10 +1603,10 @@
 /turf/open/floor/iron/dark,
 /area/station/security/execution/transfer)
 "afv" = (
-/obj/machinery/photobooth,
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/turf/open/floor/iron/dark/textured_large,
-/area/station/hallway/primary/central)
+/obj/effect/turf_decal/tile/red/half/contrasted,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark,
+/area/station/security/execution/transfer)
 "afB" = (
 /obj/item/radio/intercom/directional/east,
 /obj/structure/cable,
@@ -3812,13 +3812,15 @@
 	pixel_y = -6;
 	id = "outerbrig";
 	name = "Brig Exterior Doors Control";
-	req_access = list("brig")
+	req_access = list("brig");
+	normaldoorcontrol = 1
 	},
 /obj/machinery/button/door/directional/west{
 	pixel_y = 6;
 	id = "innerbrig";
 	req_access = list("brig");
-	name = "Brig Interior Doors Control"
+	name = "Brig Interior Doors Control";
+	normaldoorcontrol = 1
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -18142,6 +18144,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
+/area/station/hallway/primary/central)
+"bkT" = (
+/obj/machinery/photobooth,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/central)
 "bkX" = (
 /obj/structure/table/wood,
@@ -32584,7 +32591,7 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/storage)
 "crr" = (
-/obj/structure/chair/sofa/left/maroon,
+/obj/structure/chair/sofa/right/maroon,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "crt" = (
@@ -42574,24 +42581,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
-"gSF" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Bridge Maintenance"
-	},
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/any/command/maintenance,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/central/greater)
 "gSI" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/red{
@@ -48874,6 +48863,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 4
 	},
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/morgue)
 "kJq" = (
@@ -51777,11 +51767,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/security/prison)
-"myh" = (
-/obj/effect/turf_decal/tile/red/half/contrasted,
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron/dark,
-/area/station/security/execution/transfer)
 "mzb" = (
 /obj/structure/table,
 /obj/item/electropack,
@@ -61266,10 +61251,6 @@
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/service)
-"sxu" = (
-/obj/structure/chair/sofa/right/maroon,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "sxD" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/wood{
@@ -62439,6 +62420,24 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
+"thM" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Bridge Maintenance"
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/command/maintenance,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/central/greater)
 "thV" = (
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
 	dir = 4
@@ -63469,7 +63468,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/bridge_pipe/purple/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible,
 /obj/machinery/atmospherics/pipe/bridge_pipe/supply/hidden{
 	dir = 4
 	},
@@ -68923,6 +68922,10 @@
 	dir = 8
 	},
 /area/station/hallway/primary/central)
+"xko" = (
+/obj/structure/chair/sofa/left/maroon,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "xkv" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -93038,7 +93041,7 @@ kga
 gSI
 fyS
 clZ
-sxu
+crr
 lWm
 gXs
 aaa
@@ -93295,7 +93298,7 @@ xzW
 qSI
 aft
 clZ
-crr
+xko
 aaH
 gXs
 aaa
@@ -93807,7 +93810,7 @@ rlH
 kCk
 xzW
 qSI
-myh
+afv
 clZ
 gXs
 gXs
@@ -95659,7 +95662,7 @@ bcX
 aZM
 bjz
 bjz
-gSF
+thM
 bjz
 bjz
 jXq
@@ -95919,7 +95922,7 @@ bie
 bjA
 bmp
 bjz
-afv
+bkT
 bpa
 bHC
 cBr
