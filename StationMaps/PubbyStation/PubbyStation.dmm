@@ -30899,6 +30899,7 @@
 /area/station/science/xenobiology)
 "eoS" = (
 /obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/tlv_no_checks,
 /turf/open/floor/iron/dark/telecomms,
 /area/station/tcommsat/server)
 "epk" = (
@@ -39944,10 +39945,8 @@
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "mxy" = (
-/obj/machinery/power/smes{
-	charge = 5e+006
-	},
 /obj/structure/cable,
+/obj/machinery/power/smes/full,
 /turf/open/floor/plating,
 /area/station/tcommsat/computer)
 "mxV" = (
@@ -46207,7 +46206,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "rLi" = (
-/obj/item/ammo_casing/shotgun/improvised,
 /obj/machinery/button/door/directional/east{
 	id = "shootshut";
 	name = "shutters control"
