@@ -257,7 +257,6 @@
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "acD" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
 /obj/machinery/airalarm/directional/west,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -265,6 +264,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
+/obj/machinery/disposal/bin/tagger,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/cmo)
 "acF" = (
@@ -3748,7 +3748,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/drone_bay)
 "bnl" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -4323,6 +4323,7 @@
 	dir = 1
 	},
 /obj/machinery/airalarm/directional/west,
+/obj/effect/mapping_helpers/airalarm/tlv_no_checks,
 /turf/open/floor/engine/telecomms,
 /area/station/tcommsat/server)
 "bxE" = (
@@ -7757,7 +7758,7 @@
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/hos)
 "cGl" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/item/radio/intercom/directional/north,
 /obj/structure/disposalpipe/trunk{
@@ -7937,7 +7938,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
 "cIk" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/machinery/firealarm/directional/north,
 /obj/structure/disposalpipe/trunk,
 /obj/effect/turf_decal/bot,
@@ -12748,7 +12749,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
@@ -16021,7 +16022,7 @@
 /area/station/engineering/atmos)
 "fqP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/machinery/camera/directional/east{
 	c_tag = "Bridge Council Chamber";
@@ -16475,7 +16476,6 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit/departure_lounge)
 "fxx" = (
-/obj/machinery/disposal/bin,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light_switch/directional/west,
 /obj/machinery/light/directional/west,
@@ -16486,6 +16486,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
+/obj/machinery/disposal/bin/tagger,
 /turf/open/floor/iron/dark,
 /area/station/medical/paramedic)
 "fxB" = (
@@ -16510,7 +16511,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/kitchen)
 "fxQ" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -19577,7 +19578,7 @@
 /area/station/medical/morgue)
 "gtR" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/structure/disposalpipe/trunk,
@@ -19730,7 +19731,7 @@
 /turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/bomb)
 "gwO" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light/directional/north,
 /obj/structure/disposalpipe/trunk{
@@ -20176,7 +20177,7 @@
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningdock)
 "gEB" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/trunk,
@@ -21580,7 +21581,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "hdz" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -21651,6 +21652,7 @@
 /obj/structure/rack,
 /obj/item/tank/internals/oxygen/red,
 /obj/item/stack/package_wrap,
+/obj/item/food/grown/mushroom/glowshroom,
 /obj/item/clothing/mask/gas,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
@@ -22756,7 +22758,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
 	},
@@ -23287,7 +23289,7 @@
 /area/station/maintenance/aft)
 "hEH" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/machinery/light/directional/east,
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/structure/disposalpipe/trunk{
@@ -24012,7 +24014,6 @@
 	dir = 8
 	},
 /obj/item/clothing/glasses/meson/engine,
-/obj/item/reagent_containers/applicator/patch/aiuri,
 /obj/item/storage/box/donkpockets{
 	pixel_y = 5
 	},
@@ -25053,7 +25054,7 @@
 /area/station/cargo/office)
 "idQ" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/machinery/newscaster/directional/west,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -25233,7 +25234,7 @@
 /area/station/service/janitor)
 "igC" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
@@ -28785,7 +28786,7 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/science/ordnance/office)
 "jiR" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/sign/departments/restroom/directional/east,
 /obj/effect/decal/cleanable/dirt,
@@ -30520,7 +30521,7 @@
 /area/station/security/courtroom)
 "jPG" = (
 /obj/effect/turf_decal/stripes/corner,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/machinery/light/directional/east,
 /obj/item/radio/intercom/directional/east,
 /obj/structure/disposalpipe/trunk{
@@ -30702,7 +30703,7 @@
 /turf/open/floor/carpet/green,
 /area/station/cargo/warehouse/upper)
 "jSJ" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -34151,7 +34152,7 @@
 /turf/open/floor/engine,
 /area/station/maintenance/disposal/incinerator)
 "lam" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light_switch/directional/west,
 /obj/structure/disposalpipe/trunk,
@@ -34856,7 +34857,7 @@
 /area/station/security/prison/mess)
 "lmA" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
@@ -35170,7 +35171,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "lrU" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -38693,7 +38694,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/bridge)
 "mzp" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/disposalpipe/trunk,
 /obj/effect/turf_decal/bot,
 /obj/machinery/airalarm/directional/east,
@@ -40928,7 +40929,7 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit/departure_lounge)
 "nol" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -41082,10 +41083,7 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit/departure_lounge)
 "nqE" = (
-/obj/machinery/disposal/bin{
-	desc = "A pneumatic waste disposal unit. This one leads into space!";
-	name = "deathsposal unit"
-	},
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/box,
 /obj/structure/cable,
 /obj/structure/disposalpipe/trunk{
@@ -41262,12 +41260,6 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
-"ntC" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/space/basic,
-/area/space)
 "ntE" = (
 /obj/structure/sign/departments/security/directional/west,
 /obj/structure/disposalpipe/segment,
@@ -42069,7 +42061,7 @@
 /area/station/tcommsat/server)
 "nGM" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
@@ -44163,7 +44155,6 @@
 /turf/open/floor/iron/grimy,
 /area/station/hallway/primary/fore)
 "owm" = (
-/obj/machinery/disposal/bin,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/stripes/corner{
@@ -44183,6 +44174,7 @@
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 8
 	},
+/obj/machinery/disposal/bin/tagger,
 /turf/open/floor/iron/dark,
 /area/station/medical/medbay/central)
 "owA" = (
@@ -44892,7 +44884,7 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/science/xenobiology)
 "oJq" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/item/radio/intercom/directional/east,
 /obj/machinery/light/directional/east,
@@ -45765,10 +45757,7 @@
 /area/station/hallway/primary/central)
 "oYu" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin{
-	desc = "A pneumatic waste disposal unit. This one leads into space!";
-	name = "deathsposal unit"
-	},
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
@@ -47043,7 +47032,7 @@
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
 "prK" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/machinery/firealarm/directional/south,
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/effect/turf_decal/bot,
@@ -47724,7 +47713,7 @@
 /turf/open/floor/iron/dark,
 /area/station/cargo/sorting)
 "pFS" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -48952,6 +48941,7 @@
 	},
 /obj/item/poster/random_contraband,
 /obj/machinery/light/small/directional/north,
+/obj/item/food/grown/mushroom/glowshroom,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
 "pZj" = (
@@ -49923,7 +49913,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/machinery/light/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
@@ -51978,7 +51968,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/main)
 "rbz" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -53216,7 +53206,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/bot,
 /obj/machinery/firealarm/directional/west,
@@ -53238,7 +53228,6 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "ruU" = (
-/obj/machinery/disposal/bin,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -53246,6 +53235,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
+/obj/machinery/disposal/bin/tagger,
 /turf/open/floor/iron/dark,
 /area/station/medical/storage)
 "ruW" = (
@@ -56635,7 +56625,6 @@
 /turf/open/floor/plating/rust,
 /area/station/security/prison)
 "szL" = (
-/obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
@@ -56645,6 +56634,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted,
+/obj/machinery/disposal/bin/tagger,
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/chemistry)
 "szX" = (
@@ -57477,12 +57467,10 @@
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "sLU" = (
-/obj/machinery/power/smes{
-	charge = 5e+006
-	},
 /obj/machinery/light/small/directional/north,
 /obj/structure/sign/warning/electric_shock/directional/north,
 /obj/structure/cable,
+/obj/machinery/power/smes/full,
 /turf/open/floor/circuit/red/telecomms,
 /area/station/tcommsat/server)
 "sLW" = (
@@ -58456,7 +58444,7 @@
 "tav" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
@@ -60303,7 +60291,7 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
@@ -61583,7 +61571,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/lesser)
 "tZK" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/firealarm/directional/east,
@@ -63984,7 +63972,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
 "uOA" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -65466,7 +65454,7 @@
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
 "vou" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/disposalpipe/trunk,
 /obj/effect/turf_decal/bot,
 /obj/machinery/camera/directional/north{
@@ -65609,7 +65597,7 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/storage/tech)
 "vqN" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/machinery/firealarm/directional/south,
 /obj/machinery/button/door/directional/south{
@@ -65710,13 +65698,13 @@
 "vss" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 1
 	},
+/obj/machinery/disposal/bin/tagger,
 /turf/open/floor/iron/dark,
 /area/station/medical/medbay/lobby)
 "vsx" = (
@@ -65834,7 +65822,7 @@
 /area/station/hallway/primary/port)
 "vuF" = (
 /obj/machinery/light_switch/directional/west,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/disposalpipe/trunk,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/line{
@@ -69448,7 +69436,7 @@
 	},
 /area/station/engineering/storage/tech)
 "wwf" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/structure/disposalpipe/trunk,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot_white,
@@ -70540,7 +70528,6 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "wNQ" = (
-/obj/machinery/disposal/bin,
 /obj/effect/turf_decal/bot,
 /obj/machinery/airalarm/directional/south,
 /obj/structure/disposalpipe/trunk{
@@ -70551,6 +70538,7 @@
 	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow/half/contrasted,
+/obj/machinery/disposal/bin/tagger,
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/pharmacy)
 "wNT" = (
@@ -72675,7 +72663,6 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/obj/machinery/disposal/bin,
 /obj/machinery/camera/directional/east{
 	c_tag = "Medbay Psychology Office";
 	name = "medical camera";
@@ -72683,6 +72670,7 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/obj/machinery/disposal/bin/tagger,
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/psychology)
 "xzC" = (
@@ -73854,7 +73842,7 @@
 /area/station/service/bar/atrium)
 "xTt" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/machinery/light/directional/south,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -74322,7 +74310,7 @@
 /turf/open/floor/plating,
 /area/station/medical/pharmacy)
 "yaK" = (
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/machinery/airalarm/directional/east,
@@ -74498,7 +74486,7 @@
 /area/station/security/brig)
 "ycL" = (
 /obj/structure/disposalpipe/trunk,
-/obj/machinery/disposal/bin,
+/obj/machinery/disposal/bin/tagger,
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/iron/grimy,
 /area/station/service/chapel/office)
@@ -79142,7 +79130,7 @@ aaa
 aaa
 aaa
 aaa
-ntC
+aaa
 aaa
 aaa
 aaa
