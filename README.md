@@ -13,7 +13,7 @@ We provide a courtesy submodule of tgstation/tgstation code (https://github.com/
 git clone https://github.com/tgstation/tgstation.git --recursive
 ```
 
-This may take a good chunk of time to install, unfortunately. However, from there, you can leverage all the tooling that the tgstation repository has to help with any potential uptainance (portmanteu of upkeep and maintainance) you may wish to do on any older map files we have here. We have an action that automatically updates this submodule every six hours when changes are present. 
+This may take a good chunk of time to install, unfortunately. However, from there, you can leverage all the tooling that the tgstation repository has to help with any potential uptainance (portmanteu of upkeep and maintainance) you may wish to do on any older map files we have here. We have an action that automatically updates this submodule every 24 hours when changes are present. 
 
 Please always make certain that your submodule's commit is the same as the one on the repository (you should *never* update the submodule's commit in one of your PRs, just undo any changes your client may want to do to it). You may also reach out if you are having any issues with this system. We do not track any changes to this submodule beyond the commit version, so do feel free to edit it however you like.
 
