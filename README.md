@@ -9,11 +9,21 @@ This is a repository intended to include unused maps for the /tg/station codebas
 
 We provide a courtesy submodule of tgstation/tgstation code (https://github.com/tgstation/tgstation). If you find that you're having some issues (i.e.: the submodule is blank), try running this command in your repository's Command Line Interface:
 
-`git clone https://github.com/tgstation/tgstation.git --recursive`
+```
+git clone https://github.com/tgstation/tgstation.git --recursive
+```
 
 This may take a good chunk of time to install, unfortunately. However, from there, you can leverage all the tooling that the tgstation repository has to help with any potential uptainance (portmanteu of upkeep and maintainance) you may wish to do on any older map files we have here. We have an action that automatically updates this submodule every six hours when changes are present. 
 
 Please always make certain that your submodule's commit is the same as the one on the repository (you should *never* update the submodule's commit in one of your PRs, just undo any changes your client may want to do to it). You may also reach out if you are having any issues with this system. We do not track any changes to this submodule beyond the commit version, so do feel free to edit it however you like.
+
+If you need to update your branch, we _strongly_ recommend pulling our `main` branch.
+However, if something fails (like the commentor bot posting an alert on your PR), try running the following commands and committing those changes, as it's likely something goofed out and is trying to push something it shouldn't.
+```
+git submodule update --init --recursive
+git submodule update --recursive --remote
+```
+This is not recommended because it can latch onto a commit that the bot isn't accustomed to yet, so preventing any change to the `tgstation` submodule is always more ideal.
 
 ## Licensure
 
