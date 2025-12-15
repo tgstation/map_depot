@@ -357,7 +357,6 @@
 /area/station/cargo/drone_bay)
 "acq" = (
 /obj/machinery/turretid{
-	control_area = "/area/station/ai_monitored/turret_protected/ai";
 	name = "AI Chamber turret control";
 	pixel_x = 5;
 	pixel_y = -24
@@ -24928,7 +24927,6 @@
 /area/station/tcommsat/server)
 "cnC" = (
 /obj/machinery/turretid{
-	control_area = "/area/station/ai_monitored/turret_protected/aisat_interior";
 	name = "AI Satellite turret control";
 	pixel_x = -5;
 	pixel_y = -24
@@ -26420,12 +26418,13 @@
 /turf/closed/wall,
 /area/station/service/library/lounge)
 "cyM" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor/shutters{
+	id = "jangarage";
+	name = "Custodial Closet Shutters"
 	},
-/obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron,
-/area/station/hallway/primary/central/aft)
+/area/station/service/janitor)
 "cyP" = (
 /obj/structure/bookcase/random/nonfiction,
 /obj/machinery/light/small/directional/north,
@@ -37160,7 +37159,7 @@
 /area/station/service/abandoned_gambling_den)
 "kmd" = (
 /obj/machinery/turretid{
-	control_area = "/area/station/ai_monitored/turret_protected/ai_upload";
+	control_area = "/area/station/ai/upload/chamber";
 	name = "AI Upload turret control";
 	pixel_y = -23
 	},
@@ -37175,6 +37174,8 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/recharger,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "kmn" = (
@@ -38410,16 +38411,10 @@
 /turf/open/floor/iron/airless,
 /area/space/nearstation)
 "ldQ" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/secure_safe/caps_spare,
+/obj/effect/turf_decal/tile/yellow/half/contrasted,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark,
-/area/station/command/bridge)
+/area/station/maintenance/disposal/incinerator)
 "ldZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -41035,11 +41030,6 @@
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
-"mYX" = (
-/obj/machinery/light/directional/south,
-/obj/effect/turf_decal/tile/yellow/half/contrasted,
-/turf/open/floor/iron/dark,
-/area/station/maintenance/disposal/incinerator)
 "mZi" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -51238,11 +51228,11 @@
 	pixel_y = 32
 	},
 /obj/structure/table/reinforced/rglass,
-/obj/machinery/recharger,
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
+/obj/structure/secure_safe/caps_spare,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "tXm" = (
@@ -81978,7 +81968,7 @@ aYL
 wFO
 baW
 vOQ
-cyM
+vOQ
 beb
 vOQ
 bge
@@ -82235,7 +82225,7 @@ aVS
 aVS
 aVS
 bbW
-bbW
+cyM
 aVS
 aVS
 bgf
@@ -89402,7 +89392,7 @@ axc
 axc
 tyJ
 adG
-ldQ
+wyP
 aAB
 aAB
 aAB
@@ -97452,7 +97442,7 @@ usl
 usl
 usl
 jKs
-yjt
+ldQ
 bYw
 bYw
 bYw
@@ -97709,7 +97699,7 @@ usl
 usl
 usl
 oib
-mYX
+yjt
 mHK
 usl
 xXi
