@@ -5882,7 +5882,9 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/obj/machinery/camera/autoname/directional/south,
+/obj/machinery/camera/autoname/directional/south{
+	network = list("ss13","monastery")
+	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
@@ -10326,7 +10328,9 @@
 /area/station/maintenance/department/bridge)
 "dvs" = (
 /obj/machinery/firealarm/directional/north,
-/obj/machinery/camera/autoname/directional/north,
+/obj/machinery/camera/autoname/directional/north{
+	network = list("ss13","monastery")
+	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/monastery)
 "dvu" = (
@@ -13823,7 +13827,9 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/obj/machinery/camera/autoname/directional/north,
+/obj/machinery/camera/autoname/directional/north{
+	network = list("ss13","monastery")
+	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
@@ -28990,7 +28996,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/machinery/camera/autoname/directional/north,
+/obj/machinery/camera/autoname/directional/north{
+	network = list("ss13","monastery")
+	},
 /turf/open/floor/carpet/red,
 /area/station/service/chapel)
 "joK" = (
@@ -38893,7 +38901,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/newscaster/directional/south,
-/obj/machinery/camera/autoname/directional/south,
+/obj/machinery/camera/autoname/directional/south{
+	network = list("ss13","monastery")
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -44123,6 +44133,7 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/security/telescreen/monastery/directional/west,
 /turf/open/floor/iron/grimy,
 /area/station/hallway/primary/fore)
 "owm" = (
@@ -56432,6 +56443,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
 	},
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/grimy,
 /area/station/service/chapel/office)
 "swA" = (
@@ -58547,7 +58559,9 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/chemistry)
 "tdf" = (
-/obj/machinery/camera/autoname/directional/north,
+/obj/machinery/camera/autoname/directional/north{
+	network = list("ss13","monastery")
+	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
 "tdk" = (
@@ -58691,12 +58705,12 @@
 	pixel_x = -5;
 	pixel_y = 5
 	},
-/obj/machinery/airalarm/directional/north,
 /obj/machinery/light/directional/north,
 /obj/item/storage/box/matches{
 	pixel_x = -3;
 	pixel_y = 2
 	},
+/obj/machinery/computer/security/telescreen/monastery/directional/north,
 /turf/open/floor/iron/grimy,
 /area/station/service/chapel/office)
 "teU" = (
@@ -63564,7 +63578,9 @@
 /area/station/maintenance/port/lesser)
 "uHL" = (
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/camera/autoname/directional/south,
+/obj/machinery/camera/autoname/directional/south{
+	network = list("ss13","monastery")
+	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
 "uHN" = (
@@ -68469,6 +68485,7 @@
 /obj/item/papercutter{
 	pixel_x = -4
 	},
+/obj/machinery/computer/security/telescreen/monastery/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hop)
 "wgX" = (
@@ -71350,7 +71367,9 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "xdc" = (
-/obj/machinery/camera/autoname/directional/west,
+/obj/machinery/camera/autoname/directional/west{
+	network = list("ss13","monastery")
+	},
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
@@ -84848,8 +84867,8 @@ dAS
 dCd
 hMN
 rQG
-onr
 lJR
+onr
 jgN
 rOz
 xdc
