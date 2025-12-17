@@ -8576,13 +8576,13 @@
 "wK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering";
 	 = ;
 	req_one_access_txt = "0"
 	},
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "wL" = (
@@ -8628,13 +8628,13 @@
 "wT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering";
 	 = ;
 	req_one_access_txt = "0"
 	},
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "wU" = (
@@ -9774,14 +9774,13 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/main)
 "Aa" = (
-/obj/structure/cable,
 /obj/machinery/door/firedoor/heavy,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering";
 	 = ;
 	req_one_access_txt = "0"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "Ab" = (
@@ -9965,12 +9964,12 @@
 /area/station/engineering/main)
 "AH" = (
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering";
 	 = ;
 	req_one_access_txt = "0"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "AI" = (
@@ -9992,12 +9991,12 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "AK" = (
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering";
 	 = ;
 	req_one_access_txt = "0"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "AL" = (
@@ -11495,12 +11494,11 @@
 	},
 /area/station/tcommsat/computer)
 "FB" = (
-/obj/machinery/door/airlock/engineering/glass{
-	name = "Server Room";
-	security_level = 1
-	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Server Room"
+	},
 /turf/open/floor/iron/dark{
 	name = "Mainframe Floor";
 	initial_gas_mix = "n2=100;TEMP=80"
@@ -11832,14 +11830,13 @@
 /turf/open/floor/iron/white/small,
 /area/ruin/space/has_grav/powered)
 "Gw" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Telecommunications";
-	security_level = 1
-	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/any/command/general,
 /obj/effect/mapping_helpers/airlock/access/any/command/minisat,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/tcoms,
+/obj/machinery/door/airlock/engineering{
+	name = "Telecommunications"
+	},
 /turf/open/floor/iron,
 /area/station/tcommsat/computer)
 "Gx" = (
