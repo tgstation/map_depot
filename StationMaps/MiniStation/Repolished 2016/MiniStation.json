@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"map_name": "MiniStation",
+	"map_path": "custom",
+	"map_file": "MiniStation.dmm",
+	"shuttles": {
+		"arrival": "arrival_box",
+		"cargo": "cargo_mini",
+		"ferry": "ferry_base",
+		"mining": "mining_box",
+		"emergency": "emergency_mini"
+	},
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/service/bar"]
+		}
+	}
+}
