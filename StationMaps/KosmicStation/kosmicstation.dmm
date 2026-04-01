@@ -2204,12 +2204,6 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
-"ju" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/east,
-/turf/open/floor/plating,
-/area/station/security/prison)
 "jx" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Prison Forestry"
@@ -2296,6 +2290,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
+"jP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/plating,
+/area/station/security/prison)
 "jQ" = (
 /obj/structure/chair/sofa/bench/right,
 /obj/effect/turf_decal/tile/green/half/contrasted,
@@ -2404,7 +2404,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/turretid{
 	control_area = "/area/station/ai_monitored/turret_protected/ai_upload";
-	icon_state = "control_stun";
 	name = "AI Upload Turret Control";
 	pixel_y = 28
 	},
@@ -2943,7 +2942,6 @@
 	pixel_y = 7
 	},
 /obj/machinery/turretid{
-	icon_state = "control_stun";
 	name = "AI Chamber turret control";
 	pixel_x = 28;
 	pixel_y = 6
@@ -3326,6 +3324,9 @@
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/iron,
 /area/station/service/bar)
+"oz" = (
+/turf/closed/wall/r_wall,
+/area/station/security/prison/safe)
 "oC" = (
 /obj/structure/table/wood,
 /obj/item/book/bible,
@@ -3902,9 +3903,6 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/engine/o2,
 /area/station/engineering/atmos)
-"qS" = (
-/turf/closed/wall/r_wall,
-/area/station/security/prison/safe)
 "qT" = (
 /obj/machinery/modular_computer/preset/id{
 	dir = 8
@@ -4629,6 +4627,11 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
+"ty" = (
+/obj/machinery/power/rtg,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/station/security/prison)
 "tz" = (
 /obj/machinery/computer/rdconsole,
 /turf/open/floor/iron,
@@ -11672,11 +11675,6 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard)
-"TN" = (
-/obj/machinery/power/rtg,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/station/security/prison)
 "TO" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron,
@@ -65110,7 +65108,7 @@ xG
 gR
 kL
 Gq
-TN
+ty
 Gq
 zA
 nd
@@ -65365,7 +65363,7 @@ iB
 uW
 xG
 KX
-ju
+jP
 OL
 cq
 ta
@@ -65628,9 +65626,9 @@ Ke
 Ke
 Ke
 xv
-qS
-qS
-qS
+oz
+oz
+oz
 nd
 aa
 aa
@@ -65874,20 +65872,20 @@ Hr
 nd
 Lm
 nd
-qS
+oz
 Rv
-qS
-qS
-qS
-qS
+oz
+oz
+oz
+oz
 im
 wu
 xv
 Gs
 dO
 co
-qS
-qS
+oz
+oz
 nd
 aa
 aa
@@ -66131,7 +66129,7 @@ nd
 nd
 Lm
 nd
-qS
+oz
 Vk
 qH
 nV
@@ -66388,9 +66386,9 @@ Sm
 Sm
 dm
 Sm
-qS
+oz
 ei
-qS
+oz
 YB
 dF
 UA
@@ -66400,8 +66398,8 @@ xv
 Ye
 Vi
 xC
-qS
-qS
+oz
+oz
 nd
 aa
 aa
@@ -66645,20 +66643,20 @@ Sm
 Pp
 Nr
 Wv
-qS
-qS
-qS
-qS
-qS
-qS
+oz
+oz
+oz
+oz
+oz
+oz
 qN
 Xm
-qS
-qS
-qS
-qS
-qS
-qS
+oz
+oz
+oz
+oz
+oz
+oz
 nd
 aa
 aa
@@ -66902,7 +66900,7 @@ wz
 nr
 he
 he
-qS
+oz
 aw
 Ru
 Ka
@@ -66910,12 +66908,12 @@ aT
 oP
 FB
 mL
-qS
+oz
 EU
 fs
 LO
-qS
-qS
+oz
+oz
 nd
 aa
 aa
@@ -67416,7 +67414,7 @@ JC
 JC
 JC
 JC
-qS
+oz
 gW
 Vl
 Ja
@@ -67424,12 +67422,12 @@ rc
 nD
 di
 mL
-qS
+oz
 kj
 mQ
 Ol
-qS
-qS
+oz
+oz
 nd
 aa
 aa
@@ -67673,7 +67671,7 @@ Fd
 Fd
 Fd
 Fd
-qS
+oz
 rg
 lz
 WU
@@ -67681,12 +67679,12 @@ rL
 Tw
 Nb
 ZS
-qS
-qS
-qS
-qS
-qS
-qS
+oz
+oz
+oz
+oz
+oz
+oz
 nd
 aa
 aa
@@ -67930,7 +67928,7 @@ JC
 JC
 JC
 JC
-qS
+oz
 jQ
 MT
 HW
@@ -67938,12 +67936,12 @@ Zt
 pt
 Cl
 mL
-qS
+oz
 EU
 cd
 tv
-qS
-qS
+oz
+oz
 nd
 aa
 aa
@@ -68452,12 +68450,12 @@ Ta
 Rs
 aH
 io
-qS
+oz
 Qz
 ob
 xg
-qS
-qS
+oz
+oz
 nd
 aa
 aa
@@ -68709,12 +68707,12 @@ YQ
 xm
 Ah
 io
-qS
-qS
-qS
-qS
-qS
-qS
+oz
+oz
+oz
+oz
+oz
+oz
 nd
 aa
 aa
@@ -68970,8 +68968,8 @@ fZ
 xM
 AM
 Xp
-qS
-qS
+oz
+oz
 nd
 aa
 aa
@@ -69215,15 +69213,15 @@ YA
 Jj
 Ws
 JC
-qS
-qS
+oz
+oz
 Sc
 fK
-qS
+oz
 fK
 fK
 DF
-qS
+oz
 DX
 Tz
 Mx
@@ -69476,16 +69474,16 @@ rv
 JP
 IU
 iH
-qS
+oz
 Wu
 IO
 Qw
-qS
+oz
 UH
 yt
 ME
-qS
-qS
+oz
+oz
 nd
 aa
 aa
@@ -69729,20 +69727,20 @@ JC
 JC
 JC
 JC
-qS
+oz
 jA
 tK
 ie
-qS
+oz
 dq
 BH
 KS
-qS
-qS
-qS
-qS
-qS
-qS
+oz
+oz
+oz
+oz
+oz
+oz
 nd
 aa
 aa
@@ -69986,20 +69984,20 @@ JC
 JC
 JC
 JC
-qS
-qS
+oz
+oz
 QA
 QA
-qS
+oz
 QA
 QA
-qS
-qS
-qS
-qS
-qS
-qS
-qS
+oz
+oz
+oz
+oz
+oz
+oz
+oz
 nd
 aa
 aa
@@ -70243,16 +70241,16 @@ nd
 nd
 nd
 nd
-qS
-qS
+oz
+oz
 Tt
 Tt
-qS
+oz
 Tt
 Tt
-qS
-qS
-qS
+oz
+oz
+oz
 nd
 nd
 nd
