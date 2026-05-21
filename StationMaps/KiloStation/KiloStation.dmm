@@ -3559,6 +3559,7 @@
 /area/station/engineering/main)
 "bji" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/machinery/wall_healer/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "bjk" = (
@@ -7277,6 +7278,8 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/machinery/portable_atmospherics/canister,
+/obj/effect/turf_decal/box,
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
 "cup" = (
@@ -10596,7 +10599,7 @@
 "dyH" = (
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/door/airlock/external,
-/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/abandoned,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "dyK" = (
@@ -12641,6 +12644,9 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/supermatter/room)
 "ekp" = (
+/obj/machinery/atmospherics/components/unary/airlock_pump{
+	dir = 1
+	},
 /turf/open/floor/plating/airless,
 /area/station/maintenance/disposal/incinerator)
 "ekB" = (
@@ -13479,14 +13485,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "eyl" = (
-/mob/living/basic/bear{
-	desc = "Once a trained show bear, this creature has been left abandoned and unfed.";
-	environment_smash = 0;
-	health = 160;
-	maxHealth = 160;
-	melee_damage_upper = 25;
-	name = "hungry show bear"
-	},
 /turf/open/floor/wood,
 /area/station/maintenance/port/fore)
 "eyv" = (
@@ -14790,6 +14788,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/wall_healer/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "eWu" = (
@@ -17229,6 +17228,9 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron/showroomfloor,
 /area/station/engineering/atmos)
+"fHN" = (
+/turf/open/floor/plating,
+/area/station/cargo/sorting)
 "fHZ" = (
 /obj/structure/table,
 /obj/item/assembly/signaler{
@@ -18043,6 +18045,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
+/obj/machinery/wall_healer/directional/north,
 /turf/open/floor/iron/dark/corner{
 	dir = 4
 	},
@@ -19892,6 +19895,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/disposal/incinerator)
+"gzd" = (
+/obj/machinery/door/airlock/external{
+	name = "Atmospherics External Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "atmos_end_big_lad"
+	},
+/turf/open/floor/plating/airless,
+/area/station/maintenance/disposal/incinerator)
 "gzh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -20772,6 +20785,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/effect/landmark/event_spawn,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/decal/remains/human,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/port/fore)
 "gNI" = (
@@ -23804,7 +23818,6 @@
 /area/station/service/kitchen)
 "hMo" = (
 /obj/structure/disposalpipe/segment,
-/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/iron/dark,
 /area/station/cargo/sorting)
 "hMx" = (
@@ -27050,6 +27063,7 @@
 	},
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted,
 /obj/effect/turf_decal/tile/yellow,
+/obj/machinery/wall_healer/directional/south,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "iIF" = (
@@ -43411,11 +43425,11 @@
 	},
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
-/obj/structure/sign/warning/secure_area/directional/east,
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/red,
+/obj/machinery/wall_healer/directional/east,
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
 "ojs" = (
@@ -45063,7 +45077,7 @@
 /turf/open/floor/plating,
 /area/station/cargo/warehouse/upper)
 "oNO" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/cargo/office)
 "oOW" = (
@@ -46612,8 +46626,8 @@
 /turf/open/floor/iron/dark,
 /area/station/commons/storage/primary)
 "pmy" = (
-/obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/cargo/drone_bay)
 "pmA" = (
@@ -49095,6 +49109,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
+/obj/machinery/wall_healer/directional/south,
 /turf/open/floor/iron/stairs/left{
 	dir = 4
 	},
@@ -61553,6 +61568,7 @@
 /obj/effect/landmark/secequipment,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/machinery/wall_healer/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/security/office)
 "tZG" = (
@@ -65097,6 +65113,18 @@
 "vkh" = (
 /turf/closed/wall,
 /area/station/hallway/primary/central)
+"vkm" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "atmos_end_big_lad"
+	},
+/obj/machinery/door/airlock/external{
+	name = "Atmospherics External Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating/airless,
+/area/station/maintenance/disposal/incinerator)
 "vkq" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -66427,11 +66455,8 @@
 /area/station/security/courtroom)
 "vCV" = (
 /obj/structure/cable,
-/obj/machinery/portable_atmospherics/canister,
-/obj/effect/turf_decal/box,
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/disposal/incinerator)
 "vDk" = (
@@ -72484,6 +72509,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
+/obj/machinery/wall_healer/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/science/lab)
 "xwO" = (
@@ -101413,7 +101439,7 @@ ePm
 bfA
 fdp
 mLN
-vqj
+mLN
 nmo
 gxi
 qmR
@@ -101669,7 +101695,7 @@ nqn
 nDX
 bfA
 vCV
-mLN
+vkm
 ekp
 dtb
 xWT
@@ -101927,7 +101953,7 @@ qsv
 bfA
 drk
 mLN
-bjJ
+gzd
 dtb
 laf
 pOG
@@ -104942,7 +104968,7 @@ mlw
 eDT
 vJH
 bji
-qTC
+ijQ
 iRt
 hVU
 mCs
@@ -112678,7 +112704,7 @@ jYL
 oJd
 uov
 uIx
-uqI
+fHN
 rpN
 bHl
 drl
@@ -114988,7 +115014,7 @@ suA
 mEH
 fOX
 iIp
-etO
+tOy
 gzv
 yaF
 pOq
@@ -118107,7 +118133,7 @@ ffa
 ffa
 ffa
 ffa
-ffa
+vJm
 dyH
 cmU
 oAg
