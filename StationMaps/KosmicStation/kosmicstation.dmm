@@ -142,6 +142,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
+"aD" = (
+/obj/item/beacon,
+/turf/open/floor/iron,
+/area/station/command/bridge)
 "aF" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Cell 2"
@@ -167,6 +171,12 @@
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /turf/open/floor/plating,
 /area/station/service/chapel/office)
+"aJ" = (
+/obj/structure/chair/old{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/command/heads_quarters/ce)
 "aL" = (
 /turf/closed/wall/r_wall,
 /area/station/tcommsat/server)
@@ -715,6 +725,9 @@
 /obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
+"cW" = (
+/turf/open/floor/plating,
+/area/station/command/heads_quarters/ce)
 "cZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -901,6 +914,19 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron,
 /area/station/service/bar)
+"dJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/spawner/random/armory/buckshot,
+/obj/structure/rack,
+/obj/effect/spawner/random/armory/buckshot,
+/obj/effect/spawner/random/armory/buckshot,
+/obj/item/paper/crumpled/muddy{
+	default_raw_text = "<i>I used the shotgun. You know why? Cause the shot gun doesn’t miss: and unlike the shitty taser it stops a criminal in their tracks in two hits. Bang: bang: and they're fucking done.</i>";
+	name = "ramblings of a deranged individual"
+	},
+/turf/open/floor/iron,
+/area/station/security/brig)
 "dK" = (
 /obj/machinery/computer/prisoner/management{
 	dir = 4
@@ -945,8 +971,11 @@
 /turf/open/floor/iron/white,
 /area/station/security/prison/safe)
 "dP" = (
-/turf/closed/wall,
-/area/space)
+/obj/item/beacon,
+/turf/open/floor/iron/chapel{
+	dir = 8
+	},
+/area/station/service/chapel)
 "dQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -954,6 +983,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
+"dS" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/engineering/supermatter/room)
 "dT" = (
 /turf/closed/wall,
 /area/station/hallway/primary/fore)
@@ -1473,6 +1508,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/engineering/atmos)
+"fR" = (
+/obj/item/beacon,
+/turf/open/floor/iron,
+/area/station/science)
 "fS" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/iron,
@@ -1546,6 +1585,12 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
 /area/station/maintenance/solars/starboard/aft)
+"gj" = (
+/obj/item/paper/crumpled/bloody{
+	default_raw_text = "<i>I MADE IT. I FINALLY MADE IT. THE SOUL IS STRong he...</i>"
+	},
+/turf/open/floor/plating,
+/area/station/command/heads_quarters/ce)
 "gk" = (
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron,
@@ -1639,6 +1684,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/engineering/main)
+"gF" = (
+/obj/item/beacon,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central/fore)
 "gG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/green/half/contrasted{
@@ -1823,6 +1872,10 @@
 /obj/machinery/status_display/evac/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
+"hw" = (
+/obj/item/beacon,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "hx" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible{
@@ -1833,7 +1886,7 @@
 "hE" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/station/hallway/primary/central/aft)
 "hG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2405,6 +2458,19 @@
 /obj/machinery/telecomms/server/presets/supply,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
+"kg" = (
+/obj/item/card/emagfake,
+/obj/item/disk/nuclear/fake/obvious,
+/obj/item/fake_e_cutlass,
+/obj/item/fake_items/l6_saw,
+/obj/item/gun/magic/wand/nothing/fake_resurrection,
+/obj/item/fake_items/sm_sliver,
+/obj/item/radio/entertainment/speakers/physical{
+	name = "debug nuclear uplink";
+	desc = "A completely ordinary radio."
+	},
+/turf/open/floor/plating,
+/area/station/engineering/main)
 "kh" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /turf/open/floor/plating,
@@ -2896,6 +2962,7 @@
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "mq" = (
+/obj/item/beacon,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "ms" = (
@@ -3268,7 +3335,13 @@
 /area/space/nearstation)
 "nR" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/armory/laser_gun,
+/obj/item/gun/energy/laser/soul{
+	pixel_y = -5
+	},
+/obj/item/gun/energy/laser/soul,
+/obj/item/gun/energy/laser/soul{
+	pixel_y = 5
+	},
 /turf/open/floor/iron,
 /area/station/security/brig)
 "nT" = (
@@ -3338,6 +3411,10 @@
 	},
 /turf/open/floor/vault,
 /area/station/command/vault)
+"of" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/engineering/gravity_generator)
 "og" = (
 /obj/machinery/computer/records/security{
 	dir = 8
@@ -4390,6 +4467,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/science/genetics)
+"sd" = (
+/obj/structure/bed/maint,
+/obj/item/clothing/suit/costume/wellworn_shirt/wornout/graphic/ian,
+/turf/open/floor/plating,
+/area/station/command/heads_quarters/ce)
 "se" = (
 /obj/structure/table,
 /obj/item/radio/intercom/command/directional/north,
@@ -4476,6 +4558,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/north,
+/obj/item/beacon,
 /turf/open/floor/iron,
 /area/station/ai/satellite/foyer)
 "su" = (
@@ -4756,7 +4839,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/space/nearstation)
+/area/station/hallway/primary/central/aft)
 "tD" = (
 /obj/machinery/blackbox_recorder,
 /obj/machinery/door/window/brigdoor/security{
@@ -4779,6 +4862,12 @@
 "tH" = (
 /turf/closed/wall/r_wall,
 /area/station/command/heads_quarters/ce)
+"tI" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/middle{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/station/science)
 "tJ" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -6034,6 +6123,7 @@
 /area/station/security/prison/safe)
 "yw" = (
 /obj/structure/table,
+/obj/effect/landmark/start/hangover,
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
@@ -7360,7 +7450,13 @@
 /area/space/nearstation)
 "DA" = (
 /obj/structure/rack,
-/obj/effect/spawner/random/armory/disablers,
+/obj/item/gun/energy/e_gun/advtaser{
+	pixel_y = -5
+	},
+/obj/item/gun/energy/e_gun/advtaser,
+/obj/item/gun/energy/e_gun/advtaser{
+	pixel_y = 5
+	},
 /turf/open/floor/iron,
 /area/station/security/brig)
 "DB" = (
@@ -7896,7 +7992,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/station/hallway/primary/central/aft)
 "Fz" = (
 /obj/effect/turf_decal/tile/dark_blue/half/contrasted{
 	dir = 1
@@ -10130,6 +10226,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/security/prison/safe)
+"NG" = (
+/mob/living/basic/spaceman{
+	name = "Specimen A";
+	desc = "This... thing appeared while the station was under construction. It is undergoing analysis."
+	},
+/turf/open/floor/plating/airless,
+/area/station/science)
 "NH" = (
 /turf/closed/wall,
 /area/station/science/robotics/lab)
@@ -11282,6 +11385,7 @@
 /area/station/hallway/primary/central/fore)
 "RM" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/item/beacon,
 /turf/open/floor/iron,
 /area/station/commons/lounge)
 "RN" = (
@@ -11910,6 +12014,7 @@
 /area/station/security/brig)
 "TZ" = (
 /obj/effect/landmark/start/assistant,
+/obj/item/beacon,
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "Ua" = (
@@ -12431,7 +12536,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space/nearstation)
+/area/station/hallway/primary/central/aft)
 "VU" = (
 /obj/machinery/chem_master/condimaster{
 	desc = "Looks like a knock-off chem-master. Perhaps useful for separating liquids when mixing drinks precisely. Also dispenses condiments.";
@@ -12474,11 +12579,9 @@
 	},
 /area/station/security/prison/safe)
 "Wa" = (
-/obj/effect/spawner/structure/window/hollow/reinforced/middle{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/space)
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/turf/open/floor/plating/airless,
+/area/station/science)
 "Wb" = (
 /obj/machinery/door/window/brigdoor/right/directional/east{
 	name = "Primary AI Core Access";
@@ -12506,6 +12609,10 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/station/engineering/supermatter/room)
+"We" = (
+/obj/item/beacon,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay)
 "Wf" = (
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron,
@@ -12704,7 +12811,7 @@
 	name = "Auxiliary Airlock"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/station/hallway/primary/central/aft)
 "WN" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engine Room"
@@ -12719,6 +12826,7 @@
 	req_access = list("ordnance");
 	name = "Mass Driver Door"
 	},
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/plating,
 /area/station/science/ordnance)
 "WP" = (
@@ -13100,6 +13208,7 @@
 	dir = 1
 	},
 /obj/machinery/air_sensor/ordnance_burn_chamber,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "Yl" = (
@@ -13427,6 +13536,7 @@
 /obj/effect/turf_decal/tile/green/anticorner/contrasted{
 	dir = 1
 	},
+/obj/item/beacon,
 /turf/open/floor/iron/dark/corner,
 /area/station/security/prison/safe)
 "Zu" = (
@@ -13515,6 +13625,14 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/vault,
 /area/station/command/vault)
+"ZQ" = (
+/obj/item/gun/energy/taser,
+/obj/effect/decal/remains/human,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/shoes/sneakers/brown,
+/obj/item/clothing/under/color/darkblue,
+/turf/open/floor/plating,
+/area/station/command/heads_quarters/ce)
 "ZS" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -37593,7 +37711,7 @@ Oi
 vD
 IW
 OP
-Ty
+dP
 Ow
 uf
 nd
@@ -43533,9 +43651,9 @@ lw
 we
 ZK
 tC
-Wa
-Wa
-dP
+yK
+yK
+ZK
 aa
 aa
 aa
@@ -44006,7 +44124,7 @@ eh
 Oz
 lt
 kK
-sr
+hw
 Dy
 zj
 nF
@@ -44014,7 +44132,7 @@ AX
 qt
 zl
 bb
-Ts
+We
 Qb
 LN
 pQ
@@ -44047,9 +44165,9 @@ lw
 Nm
 ZK
 tC
-Wa
-Wa
-dP
+yK
+yK
+ZK
 aa
 aa
 aa
@@ -45809,7 +45927,7 @@ yM
 Ph
 oG
 Kp
-Vc
+dS
 Nw
 Vc
 lu
@@ -46295,7 +46413,7 @@ nx
 Yc
 nd
 yf
-Gc
+of
 Gc
 Pb
 Gc
@@ -47607,7 +47725,7 @@ NE
 NE
 NE
 UB
-UB
+kg
 UB
 UB
 UB
@@ -49153,7 +49271,7 @@ Yh
 GU
 tx
 Lz
-Yh
+gF
 Yh
 Yh
 jC
@@ -49646,11 +49764,11 @@ ro
 ro
 ro
 tH
-tH
-tH
-tH
-tH
-tH
+sd
+ZQ
+gj
+cW
+aJ
 OZ
 JH
 Ge
@@ -49902,8 +50020,8 @@ ro
 ro
 ro
 ro
-Im
-Im
+tH
+tH
 Im
 Im
 Im
@@ -49942,7 +50060,7 @@ Qe
 jK
 dV
 lC
-lC
+dJ
 Uu
 TA
 hP
@@ -50961,7 +51079,7 @@ Ei
 YZ
 PY
 TK
-Uj
+fR
 Uj
 Uj
 ck
@@ -52500,7 +52618,7 @@ AS
 AS
 AS
 NH
-aa
+nd
 Dw
 ai
 Dw
@@ -52754,8 +52872,8 @@ OO
 nd
 aa
 nd
-aa
-aa
+nd
+nd
 nd
 aa
 tb
@@ -53011,9 +53129,9 @@ OO
 aa
 aa
 nd
-aa
-aa
-IF
+Cy
+tI
+Cy
 nd
 Dw
 ai
@@ -53265,13 +53383,13 @@ OO
 wD
 xY
 OO
-aa
-aa
 nd
-aa
-aa
 nd
-aa
+nd
+Wa
+NG
+Wa
+nd
 Dw
 ai
 Dw
@@ -53524,11 +53642,11 @@ xY
 OO
 aa
 aa
-aa
-aa
-aa
 nd
-aa
+Cy
+tI
+Cy
+nd
 Dw
 ai
 Dw
@@ -53781,11 +53899,11 @@ xY
 fi
 fi
 fi
-aa
-aa
-aa
 nd
-aa
+nd
+nd
+nd
+nd
 Dw
 ai
 Dw
@@ -54530,7 +54648,7 @@ FM
 rl
 CL
 Qd
-Qd
+aD
 Qp
 Qd
 De
